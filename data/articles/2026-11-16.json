@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-16",
+  "slug": "why-do-we-have-leap-years",
+  "category": "Time and calendars",
+  "title": "Why do we have leap years?",
+  "hook": "Every four years February gets an extra day. Skip it, and in a few centuries Christmas would land in the middle of a South African winter.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "heading": "A year is not exactly 365 days",
+      "paragraphs": [
+        "A year is the time it takes Earth to travel once around the Sun, measured from one spring to the next. That trip takes about 365 days and 6 hours, not a neat 365 days.",
+        "Those six spare hours seem harmless, but they pile up. After four years they add up to roughly one whole day. If we ignored them, the calendar would slowly drift away from the seasons, about a month every 120 years."
+      ]
+    },
+    {
+      "heading": "Julius Caesar's quick fix",
+      "paragraphs": [
+        "By the time of Julius Caesar, the Roman calendar was a mess. Officials added extra days whenever they felt like it, sometimes for political reasons, and the months had wandered far from the seasons.",
+        "In 46 BC Caesar introduced a new calendar with 365 days and one extra day every fourth year. It was simple, and it worked well enough to be used across Europe for more than 1,500 years."
+      ]
+    },
+    {
+      "heading": "The fix was slightly too generous",
+      "paragraphs": [
+        "Caesar's calendar assumed a year is exactly 365 and a quarter days. In reality it is about 11 minutes shorter than that. Eleven minutes a year sounds like nothing, but it adds up to a full day roughly every 128 years.",
+        "By the 1500s the calendar had drifted about ten days ahead of the seasons. That mattered to the church, because the date of Easter depends on the spring equinox."
+      ]
+    },
+    {
+      "heading": "The day ten days disappeared",
+      "paragraphs": [
+        "In 1582 Pope Gregory XIII introduced the calendar most of the world uses today, called the Gregorian calendar. To catch up with the seasons, ten days were simply removed: in Catholic countries, Thursday 4 October 1582 was followed by Friday 15 October.",
+        "Not every country switched at once. Britain and its colonies waited until 1752, by which time they had to skip eleven days. Some people reportedly complained that the government had stolen days from their lives."
+      ]
+    },
+    {
+      "heading": "The clever rule we still use",
+      "paragraphs": [
+        "To stop the drift happening again, the new calendar added one small tweak. A year is a leap year if it can be divided by 4, except for century years like 1900, which are only leap years if they can also be divided by 400.",
+        "That is why 1900 was not a leap year, 2000 was, and 2100 will not be. Leaving out three leap days every 400 years keeps the calendar remarkably close to the real solar year.",
+        "And why does the extra day go in February? In the early Roman calendar, February was the last month of the year, so it was the natural place to add or remove days. The habit stuck."
+      ]
+    }
+  ],
+  "rememberIt": "Earth takes a quarter day too long each year, so every fourth February catches up.",
+  "recall": [
+    { "q": "Why do we need leap years at all?", "a": "A year is about 365 and a quarter days, so the spare quarter days are added up into one extra day every four years." },
+    { "q": "Why was 1900 not a leap year, even though 2000 was?", "a": "Century years are only leap years if they divide by 400. 2000 does, 1900 does not." },
+    { "q": "Why is the extra day added to February?", "a": "February was the last month of the early Roman year, so days were added or removed there." }
+  ],
+  "image": null,
+  "source": { "title": "Leap year", "url": "https://en.wikipedia.org/wiki/Leap_year" }
+}
