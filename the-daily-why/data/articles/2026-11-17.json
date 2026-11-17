@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-17",
+  "slug": "why-microwaves-heat-food-not-the-plate",
+  "category": "How things work",
+  "title": "Why does a microwave heat your food but not the plate?",
+  "hook": "Put a bowl of soup in the microwave for two minutes and the soup comes out steaming, while the plate underneath is barely warm. Same oven, same two minutes. So what is going on?",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "heading": "It started with a melted chocolate bar",
+      "paragraphs": [
+        "In the 1940s an American engineer named Percy Spencer was working on radar equipment. While standing near a part called a magnetron, which produces microwaves, he noticed that the chocolate bar in his pocket had melted.",
+        "Curious, he tried popcorn kernels next, and they popped. The microwave oven was born from an accident. The first ones were about the size of a fridge and cost as much as a car. It took a few decades before they shrank enough to sit on a kitchen counter."
+      ]
+    },
+    {
+      "heading": "Microwaves are a kind of light you can't see",
+      "paragraphs": [
+        "Microwaves belong to the same family of energy as radio waves and ordinary light. The difference is their wavelength: in a kitchen microwave each wave is about 12 cm long, far too long for your eyes to notice.",
+        "Inside the oven the waves bounce off the metal walls again and again, criss-crossing the box and passing into whatever you have put inside."
+      ]
+    },
+    {
+      "heading": "The secret ingredient is water",
+      "paragraphs": [
+        "Almost all food contains water. Each tiny water molecule has a slightly positive end and a slightly negative end, a bit like a miniature magnet.",
+        "Microwaves create an electric field that flips direction billions of times every second. The water molecules keep trying to turn and line up with it, so they twist back and forth nonstop, bumping into everything around them.",
+        "Rub your hands together quickly and they warm up. Food heats up for a similar reason: billions of jostling molecules turn movement into heat."
+      ]
+    },
+    {
+      "heading": "So why does the plate stay cooler?",
+      "paragraphs": [
+        "Most plates and glass bowls contain very little water, so the microwaves pass through them without much effect. The plate does warm up, but mainly because the hot food sitting on it passes its heat down into it.",
+        "That is why the middle of the plate, under the food, is usually warmer than the rim. Some ceramics do absorb a little energy themselves, which is why a few mugs get surprisingly hot."
+      ]
+    },
+    {
+      "heading": "Three myths, quickly busted",
+      "paragraphs": [
+        "\"Microwaves cook from the inside out.\" They don't. The waves only reach a few centimetres into food. The centre heats later, as warmth spreads inward from the outer layer. That is why big dishes come out hot at the edges and cold in the middle, and why the instructions tell you to stir or let food stand.",
+        "\"Microwaved food becomes radioactive.\" It doesn't. Microwaves don't carry enough energy to change atoms. The moment the oven switches off, the waves are gone, just like the light in a room when you flip the switch.",
+        "\"The door is just glass.\" Look closely and you will see a metal mesh full of tiny holes. The holes are much smaller than the 12 cm waves, so the microwaves can't squeeze through, but visible light, with its tiny wavelength, passes easily. You can watch your food without being cooked yourself.",
+        "One more everyday puzzle: frozen food heats unevenly because ice absorbs microwaves far less than liquid water. Once one spot melts, it soaks up energy quickly while the rest stays frozen. The defrost setting works in short bursts with pauses so the warmth has time to spread."
+      ]
+    }
+  ],
+  "rememberIt": "Microwaves shake the water, the water heats the food, and the food heats the plate.",
+  "recall": [
+    {
+      "q": "What do microwaves make move inside your food?",
+      "a": "Water molecules, which twist back and forth billions of times a second and create heat."
+    },
+    {
+      "q": "Why does the plate stay cooler than the food?",
+      "a": "It has very little water, so it mostly warms up from the hot food sitting on it."
+    },
+    {
+      "q": "Why can't microwaves escape through the glass door?",
+      "a": "The metal mesh has holes far smaller than the 12 cm waves, so they can't get through, but light can."
+    }
+  ],
+  "image": null,
+  "source": {
+    "title": "Microwave oven",
+    "url": "https://en.wikipedia.org/wiki/Microwave_oven"
+  },
+  "guess": {
+    "q": "What does a microwave actually heat up inside your food?",
+    "options": [
+      "The fat",
+      "The water",
+      "The salt"
+    ],
+    "answer": 1,
+    "explain": "Microwaves make the water molecules in food twist back and forth, and that movement turns into heat."
+  },
+  "bigNumber": {
+    "value": "12 cm",
+    "label": "The length of one microwave wave. Far too big to fit through the tiny holes in the oven door."
+  },
+  "mythFact": {
+    "myth": "Microwaves cook food from the inside out.",
+    "fact": "They only heat the outer few centimetres. The middle warms up later as the heat spreads inward."
+  },
+  "didYouKnow": "A fork in the microwave can throw sparks, because the waves build up electric charge on its thin, pointy prongs until it jumps through the air.",
+  "gallery": [],
+  "section": "general"
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-17",
+  "section": "philosophy",
+  "slug": "marcus-aurelius-the-emperor-who-wrote-notes-to-himself",
+  "category": "Ancient Rome · Stoicism",
+  "title": "Marcus Aurelius: the emperor who wrote notes to himself",
+  "hook": "He ruled the Roman Empire, one of the most powerful jobs in history. Yet he spent his evenings writing reminders to himself about staying calm, fair and humble. Almost 2,000 years later, people still read them.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "heading": "Who was he?",
+      "paragraphs": [
+        "Marcus Aurelius was born in Rome in 121 AD and ruled as emperor from 161 until his death in 180 AD. Even as a boy he loved philosophy, and his teachers noticed how seriously he took it.",
+        "He was adopted into the imperial family and trained for the top job for years. Historians often call him the last of the \"Five Good Emperors\", a run of rulers remembered for being fairly wise and stable."
+      ]
+    },
+    {
+      "heading": "A diary that was never meant to be read",
+      "paragraphs": [
+        "His famous book, Meditations, wasn't written for anyone else. It was a private notebook, written in Greek, and much of it was scribbled in army camps while he fought wars along the empire's northern frontier.",
+        "That's what makes it feel so human. In it, the most powerful man alive tells himself off, encourages himself, and reminds himself to be patient. It reads less like a lecture and more like someone talking themselves through a hard week."
+      ]
+    },
+    {
+      "heading": "The big idea: Stoicism",
+      "paragraphs": [
+        "Marcus followed Stoicism, a way of thinking that started in Athens around 300 BC. It got its name from the stoa, a painted porch where its founder, Zeno of Citium, used to teach.",
+        "The heart of it is simple: you can't control what happens to you, but you can control how you respond. He learnt a lot of this from the writings of Epictetus, a teacher who had once been enslaved.",
+        "Picture load shedding hitting just as you start cooking supper. You can't switch the power back on, so getting angry changes nothing. What you can choose is your next move: light the gas, order takeaway, or laugh about it. That choice is where Stoics thought your energy belongs."
+      ]
+    },
+    {
+      "heading": "Three ideas you can use today",
+      "paragraphs": [
+        "Expect difficult people. Marcus started some days by reminding himself that he would probably meet rude, ungrateful people. Instead of getting angry, he told himself they were acting out of not knowing better, and that he would not let them drag him down.",
+        "Use the obstacle. He wrote that what stands in your way can become the way forward. A setback is a chance to practise patience, courage or creativity.",
+        "Remember that everything passes. He often reminded himself how many famous people had been forgotten. It kept him humble, and it made small worries feel smaller."
+      ]
+    },
+    {
+      "heading": "A hard reign, and a long legacy",
+      "paragraphs": [
+        "His time as emperor wasn't peaceful. A terrible plague, now called the Antonine Plague, swept through the empire, and he spent years at war. He died in 180 AD while still on campaign.",
+        "His son Commodus took over and is remembered as a far worse ruler. Many historians see that moment as the start of Rome's long decline. Meanwhile, Meditations is still widely read today, by everyone from athletes to business leaders to people just trying to stay calm in traffic."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Marcus Aurelius was a Roman emperor. In which language did he write Meditations?",
+    "options": ["Latin", "Greek", "Egyptian"],
+    "answer": 1,
+    "explain": "He wrote it in Greek, the language of philosophy for educated Romans at the time."
+  },
+  "bigNumber": { "value": "19 years", "label": "How long he ruled the Roman Empire, from 161 to 180 AD, much of it at war." },
+  "mythFact": {
+    "myth": "Being stoic means hiding your feelings and not caring about anything.",
+    "fact": "Stoics did feel emotions. The goal was not to let them take control, and to answer life with reason and kindness."
+  },
+  "didYouKnow": "A bronze statue of Marcus Aurelius on horseback survived in Rome for centuries, partly because people in the Middle Ages thought it showed Constantine, the first Christian emperor.",
+  "rememberIt": "You can't control what happens, only how you respond to it.",
+  "recall": [
+    { "q": "Why does Meditations feel so personal?", "a": "It was a private notebook Marcus wrote for himself, not a book meant for readers." },
+    { "q": "What is the core idea of Stoicism?", "a": "You can't control what happens to you, only how you respond to it." },
+    { "q": "Why did Marcus remind himself how many famous people had been forgotten?", "a": "To stay humble and keep his own worries in perspective." }
+  ],
+  "image": null,
+  "gallery": [],
+  "source": { "title": "Marcus Aurelius", "url": "https://en.wikipedia.org/wiki/Marcus_Aurelius" }
+}

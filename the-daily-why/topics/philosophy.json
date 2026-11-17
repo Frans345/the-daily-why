@@ -1,0 +1,322 @@
+[
+ {
+  "title": "Socrates",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Plato",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Aristotle",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Pythagoras",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Heraclitus",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Diogenes",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Epicurus",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Zeno of Citium",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Zeno of Elea",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Thales of Miletus",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Democritus",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Hypatia",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Allegory of the cave",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Socratic method",
+  "category": "Ancient Greece"
+ },
+ {
+  "title": "Marcus Aurelius",
+  "category": "Ancient Rome"
+ },
+ {
+  "title": "Seneca the Younger",
+  "category": "Ancient Rome"
+ },
+ {
+  "title": "Epictetus",
+  "category": "Ancient Rome"
+ },
+ {
+  "title": "Cicero",
+  "category": "Ancient Rome"
+ },
+ {
+  "title": "Lucretius",
+  "category": "Ancient Rome"
+ },
+ {
+  "title": "Boethius",
+  "category": "Ancient Rome"
+ },
+ {
+  "title": "Confucius",
+  "category": "Ancient China"
+ },
+ {
+  "title": "Laozi",
+  "category": "Ancient China"
+ },
+ {
+  "title": "Mencius",
+  "category": "Ancient China"
+ },
+ {
+  "title": "Mozi",
+  "category": "Ancient China"
+ },
+ {
+  "title": "Zhuangzi",
+  "category": "Ancient China"
+ },
+ {
+  "title": "Sun Tzu",
+  "category": "Ancient China"
+ },
+ {
+  "title": "Gautama Buddha",
+  "category": "Ancient India"
+ },
+ {
+  "title": "Chanakya",
+  "category": "Ancient India"
+ },
+ {
+  "title": "Nagarjuna",
+  "category": "Ancient India"
+ },
+ {
+  "title": "Augustine of Hippo",
+  "category": "Medieval"
+ },
+ {
+  "title": "Thomas Aquinas",
+  "category": "Medieval"
+ },
+ {
+  "title": "William of Ockham",
+  "category": "Medieval"
+ },
+ {
+  "title": "Avicenna",
+  "category": "Medieval"
+ },
+ {
+  "title": "Averroes",
+  "category": "Medieval"
+ },
+ {
+  "title": "Ibn Khaldun",
+  "category": "Medieval"
+ },
+ {
+  "title": "Al-Farabi",
+  "category": "Medieval"
+ },
+ {
+  "title": "Maimonides",
+  "category": "Medieval"
+ },
+ {
+  "title": "Niccolò Machiavelli",
+  "category": "Renaissance"
+ },
+ {
+  "title": "Michel de Montaigne",
+  "category": "Renaissance"
+ },
+ {
+  "title": "Erasmus",
+  "category": "Renaissance"
+ },
+ {
+  "title": "Francis Bacon",
+  "category": "Renaissance"
+ },
+ {
+  "title": "Thomas More",
+  "category": "Renaissance"
+ },
+ {
+  "title": "René Descartes",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Blaise Pascal",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Baruch Spinoza",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Thomas Hobbes",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "John Locke",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Gottfried Wilhelm Leibniz",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "David Hume",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Voltaire",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Jean-Jacques Rousseau",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Immanuel Kant",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Adam Smith",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Mary Wollstonecraft",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Montesquieu",
+  "category": "Enlightenment"
+ },
+ {
+  "title": "Jeremy Bentham",
+  "category": "19th century"
+ },
+ {
+  "title": "John Stuart Mill",
+  "category": "19th century"
+ },
+ {
+  "title": "Arthur Schopenhauer",
+  "category": "19th century"
+ },
+ {
+  "title": "Søren Kierkegaard",
+  "category": "19th century"
+ },
+ {
+  "title": "Friedrich Nietzsche",
+  "category": "19th century"
+ },
+ {
+  "title": "Ralph Waldo Emerson",
+  "category": "19th century"
+ },
+ {
+  "title": "Henry David Thoreau",
+  "category": "19th century"
+ },
+ {
+  "title": "William James",
+  "category": "19th century"
+ },
+ {
+  "title": "Karl Marx",
+  "category": "19th century"
+ },
+ {
+  "title": "Bertrand Russell",
+  "category": "20th century"
+ },
+ {
+  "title": "Ludwig Wittgenstein",
+  "category": "20th century"
+ },
+ {
+  "title": "Jean-Paul Sartre",
+  "category": "20th century"
+ },
+ {
+  "title": "Simone de Beauvoir",
+  "category": "20th century"
+ },
+ {
+  "title": "Albert Camus",
+  "category": "20th century"
+ },
+ {
+  "title": "Hannah Arendt",
+  "category": "20th century"
+ },
+ {
+  "title": "Karl Popper",
+  "category": "20th century"
+ },
+ {
+  "title": "John Rawls",
+  "category": "20th century"
+ },
+ {
+  "title": "Simone Weil",
+  "category": "20th century"
+ },
+ {
+  "title": "Martin Buber",
+  "category": "20th century"
+ },
+ {
+  "title": "Iris Murdoch",
+  "category": "20th century"
+ },
+ {
+  "title": "Alan Turing",
+  "category": "20th century"
+ },
+ {
+  "title": "Ubuntu philosophy",
+  "category": "African philosophy"
+ },
+ {
+  "title": "Zera Yacob",
+  "category": "African philosophy"
+ },
+ {
+  "title": "Anton Wilhelm Amo",
+  "category": "African philosophy"
+ },
+ {
+  "title": "Kwame Anthony Appiah",
+  "category": "African philosophy"
+ }
+]
