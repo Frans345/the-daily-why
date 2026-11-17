@@ -1,0 +1,65 @@
+name: Daily article and deploy
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC = 05:00 South African time
+  workflow_dispatch:       # adds a "Run workflow" button in the Actions tab
+  push:
+    branches: [main]       # redeploy the site whenever you change a file
+
+permissions:
+  contents: write          # lets the job save the new article to the repo
+  pages: write             # lets the job publish to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: daily-why
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Write today's article
+        if: github.event_name != 'push'
+        run: node scripts/generate.mjs
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+
+      - name: Save the article to the repo
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "daily-why-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data topics
+          if git diff --staged --quiet; then
+            echo "No new article to save."
+          else
+            git commit -m "New topic for $(date -u -d '+2 hours' +%F)"
+            git push
+          fi
+
+      - name: Prepare the website files
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
