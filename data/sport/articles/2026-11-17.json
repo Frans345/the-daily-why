@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-17",
+  "section": "sport",
+  "slug": "the-day-one-rugby-match-helped-unite-a-country",
+  "category": "Rugby",
+  "title": "The day one rugby match helped unite a country",
+  "hook": "On 24 June 1995, a drop goal in extra time won South Africa the Rugby World Cup. But what happened before kick-off mattered even more than the score.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "heading": "A team that had been shut out",
+      "paragraphs": [
+        "For years, South Africa was banned from most international sport because of apartheid. That's why the Springboks missed the first two Rugby World Cups, in 1987 and 1991.",
+        "Then everything changed quickly. The country held its first democratic election in April 1994, and just a year later South Africa hosted the 1995 Rugby World Cup. It was the Springboks' first World Cup ever, and they were playing it at home."
+      ]
+    },
+    {
+      "heading": "Mandela's big gamble",
+      "paragraphs": [
+        "At the time, many black South Africans saw rugby as a white sport tied to the old government. Plenty of people cheered for whichever team was playing against the Springboks.",
+        "Some wanted to scrap the Springbok name and emblem altogether. President Nelson Mandela chose the opposite. He backed the team publicly and got behind the slogan \"One team, one country\". Think of a new coach who keeps the old captain on instead of clearing out the dressing room: it was a move to bring people together rather than pick a side."
+      ]
+    },
+    {
+      "heading": "The giant in black",
+      "paragraphs": [
+        "The team everyone feared was New Zealand. Their winger, Jonah Lomu, was huge and incredibly fast, and he ran straight through defenders as if they weren't there.",
+        "In the semi-final against England he scored four tries. Going into the final, many people thought the All Blacks simply couldn't be stopped."
+      ]
+    },
+    {
+      "heading": "The final at Ellis Park",
+      "paragraphs": [
+        "The final was played at Ellis Park in Johannesburg. Before kick-off, Mandela walked onto the field wearing a green Springbok jersey with the number 6, the number of captain Francois Pienaar. The mostly white crowd began chanting \"Nelson! Nelson!\".",
+        "The match itself was tense and tight. Neither team scored a single try; every point came from the boot. It was 9–9 at full time, so the game went to extra time. Both teams kicked a penalty to make it 12–12.",
+        "Then flyhalf Joel Stransky caught the ball in front of the posts and slotted a drop goal. South Africa won 15–12. Just as importantly, the Springbok defence had kept Lomu quiet all afternoon."
+      ]
+    },
+    {
+      "heading": "What happened after the whistle",
+      "paragraphs": [
+        "Mandela handed the Webb Ellis Cup to Pienaar. When a reporter asked about the 60,000 fans in the stadium, Pienaar replied that the team hadn't had just 60,000 supporters behind them, but 43 million South Africans.",
+        "The story later became the book Playing the Enemy by John Carlin, and the 2009 film Invictus, with Morgan Freeman as Mandela and Matt Damon as Pienaar. The Springboks have since won the World Cup again in 2007, 2019 and 2023. In 2019, Siya Kolisi became the first black captain to lift the trophy."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "How were all the points in the 1995 final scored?",
+    "options": ["Only tries", "Only kicks", "A mix of tries and kicks"],
+    "answer": 1,
+    "explain": "Not one try was scored. Every point came from penalties and drop goals, including Joel Stransky's winner in extra time."
+  },
+  "bigNumber": { "value": "15–12", "label": "The final score after extra time, against the mighty All Blacks." },
+  "mythFact": {
+    "myth": "The Springboks have played in every Rugby World Cup.",
+    "fact": "They missed the first two, in 1987 and 1991, because of the sports boycott during apartheid."
+  },
+  "didYouKnow": "A drop goal is worth three points. The player drops the ball and kicks it just as it bounces off the ground, sending it between the posts.",
+  "rememberIt": "One jersey, one drop goal: one team, one country.",
+  "recall": [
+    { "q": "Why did South Africa miss the first two Rugby World Cups?", "a": "The country was banned from most international sport because of apartheid." },
+    { "q": "What did Mandela wear to the final, and why did it matter?", "a": "A Springbok jersey with captain Pienaar's number 6, showing he supported a team many saw as a symbol of the old South Africa." },
+    { "q": "How did South Africa win the final?", "a": "With a drop goal by Joel Stransky in extra time, making it 15–12." }
+  ],
+  "image": null,
+  "gallery": [],
+  "source": { "title": "1995 Rugby World Cup final", "url": "https://en.wikipedia.org/wiki/1995_Rugby_World_Cup_final" }
+}

@@ -1,12 +1,14 @@
 // The Daily Why — daily article generator
 // Runs in GitHub Actions every morning (Node 20+, no packages needed).
 //
-// 1. Picks a random unused everyday topic from topics/topics.json
+// Writes THREE articles every morning: general knowledge, sport and philosophy.
+// For each section it:
+// 1. Picks a random unused topic from that section's list in topics/
 // 2. Pulls the facts and a freely licensed image from Wikipedia / Wikimedia Commons
 // 3. Asks a free AI (Groq) to turn it into a 5-minute, easy-to-remember article
 // 4. Checks the result and saves it to data/articles/<date>.json + data/index.json
 
-import { readFile, writeFile, access } from "node:fs/promises";
+import { readFile, writeFile, access, mkdir } from "node:fs/promises";
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
@@ -55,57 +57,91 @@ async function getSource(title) {
   };
 }
 
-// Only use images hosted on Wikimedia Commons (freely licensed), with credit + licence.
-async function getImage(fileName, alt) {
-  if (!fileName) return null;
-  const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({
-    action: "query", format: "json", formatversion: "2",
-    prop: "imageinfo", iiprop: "url|extmetadata", iiurlwidth: "1400",
-    titles: "File:" + fileName
+// Collect up to 4 freely licensed photos used in the Wikipedia article (lead photo first).
+const BAD_IMAGE = /(logo|icon|flag|symbol|seal|coat[_ ]of|signature|commons-|wiki|edit-|question|portal|padlock|disambig|stub|ambox|crystal|nuvola)/i;
+
+async function getPictures(title, leadName) {
+  const url = "https://en.wikipedia.org/w/api.php?" + new URLSearchParams({
+    action: "query", format: "json", formatversion: "2", redirects: "1",
+    titles: title, generator: "images", gimlimit: "40",
+    prop: "imageinfo", iiprop: "url|extmetadata|size|mime", iiurlwidth: "1400"
   });
   try {
     const data = await wikiJson(url);
-    const page = data?.query?.pages?.[0];
-    const info = page?.imageinfo?.[0];
-    if (!info || page.missing) return null;
-    const meta = info.extmetadata || {};
-    const license = stripHtml(meta.LicenseShortName?.value);
-    if (!license) return null;
-    return {
-      url: info.thumburl || info.url,
-      thumb: info.thumburl ? info.thumburl.replace(/\/\d+px-/, "/300px-") : info.url,
-      alt,
-      credit: stripHtml(meta.Artist?.value).slice(0, 120) || "Wikimedia Commons",
-      license,
-      sourceUrl: info.descriptionurl
-    };
+    const pages = data?.query?.pages || [];
+    const lead = (leadName || "").replace(/ /g, "_");
+    const pics = pages.map((p) => {
+      const ii = p.imageinfo?.[0];
+      if (!ii || !/image\/(jpeg|png|webp)/.test(ii.mime || "") || ii.width < 500 || ii.height < 300 || BAD_IMAGE.test(p.title)) return null;
+      const meta = ii.extmetadata || {};
+      const license = stripHtml(meta.LicenseShortName?.value);
+      if (!license) return null;   // only freely licensed Commons files carry this
+      const name = p.title.replace(/^File:/, "");
+      return {
+        isLead: name.replace(/ /g, "_") === lead,
+        url: ii.thumburl || ii.url,
+        thumb: ii.thumburl ? ii.thumburl.replace(/\/\d+px-/, "/400px-") : ii.url,
+        alt: stripHtml(meta.ObjectName?.value) || name.replace(/\.\w+$/, "").replace(/_/g, " "),
+        credit: stripHtml(meta.Artist?.value).slice(0, 120) || "Wikimedia Commons",
+        license,
+        sourceUrl: ii.descriptionurl
+      };
+    }).filter(Boolean);
+    pics.sort((a, b) => b.isLead - a.isLead);
+    return pics.slice(0, 4);
   } catch {
-    return null;
+    return [];
   }
 }
 
 // ---------- AI ----------
 
-const SYSTEM_PROMPT = `You write one article a day for "The Daily Why", a general-knowledge website for ordinary people of all ages.
+const GOALS = {
+  general: `GOAL
+Help readers know more about the everyday world in a way that sticks. One everyday topic, about a 5-minute read, not in-depth. After reading, someone should be able to explain it to a friend the next day.
+Tell it like a story: what you notice, how it works, then a surprising twist or a bit of history.`,
 
-GOAL
-Help readers know more about the everyday world in a way that sticks. One topic, about a 5-minute read, not in-depth. After reading, someone should be able to explain the topic to a friend the next day.
+  sport: `GOAL
+Tell one great story from the world of sport, or explain the rules of a sport in a way that finally makes sense. About a 5-minute read, not in-depth, written for someone who is not a sports expert.
+- For an EVENT (a match, final, race or record): set the scene, build the tension, describe the key moment, then explain why it still matters.
+- For a RULE or part of the game: start with a moment where the rule decides a match, explain it with a simple everyday comparison, then add a surprising bit of history.
+- For a PERSON or TEAM: focus on one or two defining moments and what made them special, not a list of statistics.
+Never cover American sports (American football, baseball, basketball, ice hockey). No betting or gambling content.`,
+
+  philosophy: `GOAL
+Introduce one philosopher (or one big philosophical idea) to a curious beginner. About a 5-minute read, not in-depth, no academic language.
+Cover, in this order: who they were and when and where they lived; one or two key moments from their life; their main beliefs, explained simply with everyday examples (a South African example where it fits naturally); how their ideas still show up today.
+- Present beliefs fairly and neutrally, as "they believed" or "they argued", never as the one right answer.
+- For religious or political thinkers, explain the ideas without taking sides or making it a debate.
+- Only quote the philosopher if the quote is in the source text, and keep it under 15 words.`
+};
+
+function buildPrompt(section) {
+  return `You write one article a day for "The Daily Why", a learning website for ordinary people of all ages.
+
+${GOALS[section]}
 
 ACCURACY
-- Use ONLY facts found in the SOURCE TEXT. Never invent numbers, dates, names or quotes.
+- Use ONLY facts found in the SOURCE TEXT. Never invent numbers, dates, names, scores or quotes.
 - If you are not sure a fact is in the source, leave it out.
 - Busting a common myth is welcome, but only if the source supports it.
 - Prefer rounded, memorable numbers ("about 12 cm") over false precision.
 
 STRUCTURE
-- title: a short, curious question or statement, max about 10 words.
+- title: a short, curious title, max about 10 words.
 - hook: 1-2 sentences that make the reader curious. Never start with "Have you ever wondered".
-- sections: 4 or 5 sections. Each has a plain "heading" and 1-3 short "paragraphs". Tell it like a story: what you notice, how it works, then a surprising twist or a bit of history.
+- sections: 4 or 5 sections. Each has a plain "heading" and 1-3 short "paragraphs".
 - Include at least one comparison to something familiar from daily life.
 - rememberIt: one line, max about 15 words, that sums up the whole topic and is easy to repeat.
 - recall: exactly 3 objects {"q","a"}. Short questions that check understanding, not tiny details. Answers are one sentence.
+- guess: a fun multiple-choice question asked BEFORE the reader learns the answer (shown after section 1). {"q": "", "options": ["", "", ""], "answer": <index 0-2 of the correct option>, "explain": "one or two sentences"}. Make the wrong options believable.
+- bigNumber: one striking number from the source (a score, a year, a distance, a record) with a short explanation. {"value": "e.g. 15–12", "label": "max about 20 words"}.
+- mythFact: a common misunderstanding and the truth. {"myth": "", "fact": ""}. Only if the source supports it, otherwise null.
+- didYouKnow: one extra surprising fact from the source that is NOT already in the sections. One or two sentences.
 
 STYLE
+- Write like a friendly, curious person chatting to one reader over coffee. Use "you" and "we". Light, warm humour is welcome.
+- Use everyday examples a South African reader would recognise when they fit naturally (a braai, load shedding, a taxi ride), but never force them.
 - 700 to 1000 words in total.
 - Plain English, short sentences, a 13-year-old should understand it. Explain any jargon in passing.
 - Warm and curious, never smug or lecturing. No emojis. No clickbait. No exclamation marks.
@@ -113,13 +149,15 @@ STYLE
 
 SAFETY
 - Content must suit a general audience of any age: nothing sexual, graphic, gory, hateful, frightening or politically one-sided.
+- Mention deaths, wars or injuries only briefly and without detail, when the story needs it.
 - If the topic cannot be written safely, return {"skip": true}.
 
 OUTPUT
 Return ONLY a JSON object with exactly these keys:
-{"title": "", "hook": "", "sections": [{"heading": "", "paragraphs": [""]}], "rememberIt": "", "recall": [{"q": "", "a": ""}]}`;
+{"title": "", "hook": "", "sections": [{"heading": "", "paragraphs": [""]}], "guess": {"q": "", "options": ["", "", ""], "answer": 0, "explain": ""}, "bigNumber": {"value": "", "label": ""}, "mythFact": {"myth": "", "fact": ""}, "didYouKnow": "", "rememberIt": "", "recall": [{"q": "", "a": ""}]}`;
+}
 
-async function askAI(topic, source) {
+async function askAI(section, topic, source) {
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: { "Authorization": `Bearer ${GROQ_API_KEY}`, "Content-Type": "application/json" },
@@ -129,8 +167,8 @@ async function askAI(topic, source) {
       max_tokens: 3000,
       response_format: { type: "json_object" },
       messages: [
-        { role: "system", content: SYSTEM_PROMPT },
-        { role: "user", content: `TOPIC: ${source.title}\nCATEGORY: ${topic.category}\n\nSOURCE TEXT (from Wikipedia):\n${source.text}` }
+        { role: "system", content: buildPrompt(section) },
+        { role: "user", content: `SECTION: ${section}\nTOPIC: ${source.title}\nCATEGORY: ${topic.category}\n\nSOURCE TEXT (from Wikipedia):\n${source.text}` }
       ]
     })
   });
@@ -150,6 +188,10 @@ function check(article) {
   if (!article.title || !article.hook || !article.rememberIt) problems.push("missing title, hook or rememberIt");
   if (!Array.isArray(article.sections) || article.sections.length < 4 || article.sections.length > 6) problems.push("needs 4-5 sections");
   if (!Array.isArray(article.recall) || article.recall.length !== 3 || article.recall.some((r) => !r.q || !r.a)) problems.push("needs exactly 3 recall questions");
+  const g = article.guess;
+  if (!g || !g.q || !Array.isArray(g.options) || g.options.length !== 3 || ![0, 1, 2].includes(Number(g.answer))) problems.push("needs a guess question with 3 options");
+  if (!article.bigNumber?.value || !article.bigNumber?.label) problems.push("needs a bigNumber");
+  if (!article.didYouKnow) problems.push("needs a didYouKnow");
 
   const allText = [article.title, article.hook, article.rememberIt,
     ...(article.sections || []).flatMap((s) => [s.heading, ...(s.paragraphs || [])]),
@@ -162,32 +204,35 @@ function check(article) {
 
 // ---------- main ----------
 
-async function main() {
-  const articlePath = `data/articles/${DATE}.json`;
+const SECTIONS = [
+  { key: "general",    dir: "data",            topics: "topics/topics.json",     used: "topics/used.json" },
+  { key: "sport",      dir: "data/sport",      topics: "topics/sport.json",      used: "topics/used-sport.json" },
+  { key: "philosophy", dir: "data/philosophy", topics: "topics/philosophy.json", used: "topics/used-philosophy.json" }
+];
+
+async function writeSection(sec) {
+  const articlePath = `${sec.dir}/articles/${DATE}.json`;
   if (await exists(articlePath)) {
-    console.log(`Article for ${DATE} already exists. Nothing to do.`);
-    return;
+    console.log(`[${sec.key}] Article for ${DATE} already exists. Nothing to do.`);
+    return true;
   }
-  if (!GROQ_API_KEY) throw new Error("GROQ_API_KEY is missing. Add it under Settings > Secrets and variables > Actions.");
 
-  const topics = await readJson("topics/topics.json", []);
-  let used = await readJson("topics/used.json", []);
+  const topics = await readJson(sec.topics, []);
+  let used = await readJson(sec.used, []);
   let pool = topics.filter((t) => !used.includes(t.title));
-  if (!pool.length) { console.log("All topics used. Starting the list again."); used = []; pool = topics; }
-
-  // Shuffle so the order is truly random.
+  if (!pool.length) { console.log(`[${sec.key}] All topics used. Starting the list again.`); used = []; pool = topics; }
   pool = pool.map((t) => [Math.random(), t]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
 
   for (const topic of pool.slice(0, MAX_TOPIC_TRIES)) {
-    console.log(`\nTrying topic: ${topic.title}`);
+    console.log(`\n[${sec.key}] Trying topic: ${topic.title}`);
     let source;
     try { source = await getSource(topic.title); }
     catch (e) { console.log(`  Skipped: ${e.message}`); used.push(topic.title); continue; }
 
     for (let attempt = 1; attempt <= MAX_AI_TRIES; attempt++) {
       let draft;
-      try { draft = await askAI(topic, source); }
-      catch (e) { console.log(`  AI attempt ${attempt} failed: ${e.message}`); await sleep(4000); continue; }
+      try { draft = await askAI(sec.key, topic, source); }
+      catch (e) { console.log(`  AI attempt ${attempt} failed: ${e.message}`); await sleep(5000); continue; }
 
       const problems = check(draft);
       if (problems.length) {
@@ -197,40 +242,63 @@ async function main() {
       }
 
       const words = JSON.stringify(draft.sections).split(/\s+/).length;
-      const image = await getImage(source.imageName, source.title);
+      const pictures = await getPictures(source.title, source.imageName);
+      const clean = (p) => p && { url: p.url, alt: p.alt, credit: p.credit, license: p.license, sourceUrl: p.sourceUrl };
+      const image = pictures[0] || null;
       const slug = draft.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 70);
 
       const article = {
         date: DATE,
+        section: sec.key,
         slug,
         category: topic.category,
         title: draft.title.trim(),
         hook: draft.hook.trim(),
         readMinutes: Math.max(3, Math.min(7, Math.round(words / 190))),
         sections: draft.sections.slice(0, 5).map((s) => ({ heading: String(s.heading).trim(), paragraphs: (s.paragraphs || []).map((p) => String(p).trim()).filter(Boolean) })),
+        guess: { q: String(draft.guess.q).trim(), options: draft.guess.options.map((o) => String(o).trim()), answer: Number(draft.guess.answer), explain: String(draft.guess.explain || "").trim() },
+        bigNumber: { value: String(draft.bigNumber.value).trim(), label: String(draft.bigNumber.label).trim() },
+        mythFact: draft.mythFact && draft.mythFact.myth && draft.mythFact.fact ? { myth: String(draft.mythFact.myth).trim(), fact: String(draft.mythFact.fact).trim() } : null,
+        didYouKnow: String(draft.didYouKnow).trim(),
         rememberIt: draft.rememberIt.trim(),
         recall: draft.recall.slice(0, 3).map((r) => ({ q: String(r.q).trim(), a: String(r.a).trim() })),
-        image: image ? { url: image.url, alt: image.alt, credit: image.credit, license: image.license, sourceUrl: image.sourceUrl } : null,
+        image: clean(image),
+        gallery: pictures.slice(1, 3).map(clean),
         source: { title: source.title, url: source.url }
       };
 
+      await mkdir(`${sec.dir}/articles`, { recursive: true });
       await writeJson(articlePath, article);
 
-      const index = await readJson("data/index.json", []);
+      const index = await readJson(`${sec.dir}/index.json`, []);
       index.unshift({ date: DATE, slug, title: article.title, category: article.category, hook: article.hook, thumb: image ? image.thumb : null });
-      await writeJson("data/index.json", index);
+      await writeJson(`${sec.dir}/index.json`, index);
 
       used.push(topic.title);
-      await writeJson("topics/used.json", used);
-
-      console.log(`\nSaved ${articlePath}: "${article.title}"`);
-      return;
+      await writeJson(sec.used, used);
+      console.log(`[${sec.key}] Saved ${articlePath}: "${article.title}"`);
+      return true;
     }
     console.log(`  Giving up on "${topic.title}", trying another topic.`);
   }
 
-  await writeJson("topics/used.json", used);
-  throw new Error("Could not create an article today. Check the log above for the reason.");
+  await writeJson(sec.used, used);
+  console.log(`[${sec.key}] Could not create an article today.`);
+  return false;
+}
+
+async function main() {
+  if (!GROQ_API_KEY) throw new Error("GROQ_API_KEY is missing. Add it under Settings > Secrets and variables > Actions.");
+  const only = process.env.SECTION;   // optional: run just one section, e.g. SECTION=sport
+  const results = {};
+  for (const sec of SECTIONS) {
+    if (only && sec.key !== only) continue;
+    results[sec.key] = await writeSection(sec);
+    await sleep(3000);   // be gentle with the free AI tier
+  }
+  console.log("\nSummary:", Object.entries(results).map(([k, ok]) => `${k}: ${ok ? "ok" : "FAILED"}`).join(", "));
+  // Only fail the whole job if nothing at all could be written.
+  if (!Object.values(results).some(Boolean)) throw new Error("No articles could be created today. Check the log above.");
 }
 
 main().catch((e) => { console.error("\nERROR:", e.message); process.exit(1); });

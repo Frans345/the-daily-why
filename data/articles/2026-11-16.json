@@ -45,10 +45,43 @@
   ],
   "rememberIt": "Earth takes a quarter day too long each year, so every fourth February catches up.",
   "recall": [
-    { "q": "Why do we need leap years at all?", "a": "A year is about 365 and a quarter days, so the spare quarter days are added up into one extra day every four years." },
-    { "q": "Why was 1900 not a leap year, even though 2000 was?", "a": "Century years are only leap years if they divide by 400. 2000 does, 1900 does not." },
-    { "q": "Why is the extra day added to February?", "a": "February was the last month of the early Roman year, so days were added or removed there." }
+    {
+      "q": "Why do we need leap years at all?",
+      "a": "A year is about 365 and a quarter days, so the spare quarter days are added up into one extra day every four years."
+    },
+    {
+      "q": "Why was 1900 not a leap year, even though 2000 was?",
+      "a": "Century years are only leap years if they divide by 400. 2000 does, 1900 does not."
+    },
+    {
+      "q": "Why is the extra day added to February?",
+      "a": "February was the last month of the early Roman year, so days were added or removed there."
+    }
   ],
   "image": null,
-  "source": { "title": "Leap year", "url": "https://en.wikipedia.org/wiki/Leap_year" }
+  "source": {
+    "title": "Leap year",
+    "url": "https://en.wikipedia.org/wiki/Leap_year"
+  },
+  "guess": {
+    "q": "How much longer than 365 days does one trip around the Sun take?",
+    "options": [
+      "About 6 minutes",
+      "About 6 hours",
+      "About 6 days"
+    ],
+    "answer": 1,
+    "explain": "It's roughly 365 days and 6 hours. Four lots of 6 hours make one extra day, which is why we add a leap day every four years."
+  },
+  "bigNumber": {
+    "value": "10 days",
+    "label": "Vanished from the calendar overnight in October 1582, to put the dates back in line with the seasons."
+  },
+  "mythFact": {
+    "myth": "Every year you can divide by 4 is a leap year.",
+    "fact": "Century years only count if they also divide by 400. So 2000 was a leap year, but 2100 won't be."
+  },
+  "didYouKnow": "Someone born on 29 February is sometimes called a leapling. In most years they celebrate on 28 February or 1 March.",
+  "gallery": [],
+  "section": "general"
 }

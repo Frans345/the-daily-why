@@ -47,10 +47,43 @@
   ],
   "rememberIt": "Microwaves shake the water, the water heats the food, and the food heats the plate.",
   "recall": [
-    { "q": "What do microwaves make move inside your food?", "a": "Water molecules, which twist back and forth billions of times a second and create heat." },
-    { "q": "Why does the plate stay cooler than the food?", "a": "It has very little water, so it mostly warms up from the hot food sitting on it." },
-    { "q": "Why can't microwaves escape through the glass door?", "a": "The metal mesh has holes far smaller than the 12 cm waves, so they can't get through, but light can." }
+    {
+      "q": "What do microwaves make move inside your food?",
+      "a": "Water molecules, which twist back and forth billions of times a second and create heat."
+    },
+    {
+      "q": "Why does the plate stay cooler than the food?",
+      "a": "It has very little water, so it mostly warms up from the hot food sitting on it."
+    },
+    {
+      "q": "Why can't microwaves escape through the glass door?",
+      "a": "The metal mesh has holes far smaller than the 12 cm waves, so they can't get through, but light can."
+    }
   ],
   "image": null,
-  "source": { "title": "Microwave oven", "url": "https://en.wikipedia.org/wiki/Microwave_oven" }
+  "source": {
+    "title": "Microwave oven",
+    "url": "https://en.wikipedia.org/wiki/Microwave_oven"
+  },
+  "guess": {
+    "q": "What does a microwave actually heat up inside your food?",
+    "options": [
+      "The fat",
+      "The water",
+      "The salt"
+    ],
+    "answer": 1,
+    "explain": "Microwaves make the water molecules in food twist back and forth, and that movement turns into heat."
+  },
+  "bigNumber": {
+    "value": "12 cm",
+    "label": "The length of one microwave wave. Far too big to fit through the tiny holes in the oven door."
+  },
+  "mythFact": {
+    "myth": "Microwaves cook food from the inside out.",
+    "fact": "They only heat the outer few centimetres. The middle warms up later as the heat spreads inward."
+  },
+  "didYouKnow": "A fork in the microwave can throw sparks, because the waves build up electric charge on its thin, pointy prongs until it jumps through the air.",
+  "gallery": [],
+  "section": "general"
 }
