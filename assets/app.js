@@ -205,7 +205,7 @@
       100: "100 days. Legendary."
     };
     const extra = doneCount === 3 ? " All three topics done today. Clean sweep." : doneCount === 2 ? " Two out of three today." : "";
-    return (milestones[n] || "Day " + n + ". Streak safe. See you tomorrow at 6.") + extra;
+    return (milestones[n] || "Day " + n + ". Streak safe. See you tomorrow at 06:00.") + extra;
   }
 
   async function streakCardHtml() {
@@ -291,7 +291,13 @@
   }
 
   // For articles saved without pictures: fetch photos from the Wikipedia article (live site only).
-  async function wikiPictures(title) {
+  let currentView = 0;
+  const pictureCache = {};
+  function wikiPictures(title) {
+    if (!pictureCache[title]) pictureCache[title] = fetchWikiPictures(title).catch((e) => { delete pictureCache[title]; throw e; });
+    return pictureCache[title];
+  }
+  async function fetchWikiPictures(title) {
     const base = "https://en.wikipedia.org/w/api.php?format=json&formatversion=2&origin=*&redirects=1&";
     const q = (p) => fetch(base + new URLSearchParams(p)).then((r) => r.json());
     const [lead, files] = await Promise.all([
@@ -365,16 +371,20 @@
   }
 
   /* ---------- views ---------- */
+  let navTicket = 0;   // the newest navigation wins; slower, older ones are dropped
+
   async function showArticle(section, date, isToday) {
+    const ticket = ++navTicket;
     setSection(section);
     const S = SECTIONS[section];
     const index = await getIndex(section);
     renderTabs(section);
     renderChip();
 
+    if (ticket !== navTicket) return;
     if (!index.length) {
       app.innerHTML = '<div class="page fade-in">' + (isToday ? '<div class="greet"><h1>' + esc(greeting()) + '</h1><p>' + esc(S.tagline(prettyDate(siteDay()))) + '</p></div>' + await streakCardHtml() : "") +
-        '<p class="empty" style="margin:2rem 0">The first ' + esc(S.label.toLowerCase()) + ' topic is on its way. It lands tomorrow at 6:00.</p></div>';
+        '<p class="empty" style="margin:2rem 0">The first ' + esc(S.label.toLowerCase()) + ' topic is on its way. It lands tomorrow at 06:00.</p></div>';
       return;
     }
     if (!date) date = index[0].date;
@@ -418,10 +428,12 @@
       '<div class="reveal-ans">' + esc(r.a) + '</div></div>').join("");
 
     const hero = a.image && a.image.url ? imgTag(a.image.url, a.image.alt || a.title) : placeholder(section, a.category);
+    const streakHtml = isToday ? await streakCardHtml() : "";
+    if (ticket !== navTicket) return;
 
     app.innerHTML =
       '<div class="page fade-in" style="' + catStyle(section, a.category) + '">' +
-        (isToday ? '<div class="greet"><h1>' + esc(greeting()) + '</h1><p>' + esc(S.tagline(prettyDate(a.date))) + '</p></div>' + nameCardHtml() + await streakCardHtml() : "") +
+        (isToday ? '<div class="greet"><h1>' + esc(greeting()) + '</h1><p>' + esc(S.tagline(prettyDate(a.date))) + '</p></div>' + nameCardHtml() + streakHtml : "") +
         '<article>' +
           '<header class="hero">' +
             '<div class="hero-media" id="hero-media">' + hero + chip(section, a.category) + '</div>' +
@@ -457,19 +469,30 @@
 
     wireArticle(section, a);
 
+    // Photos are fetched in the background. Each page view gets its own number, and the photos are
+    // only placed if you're still on the same page when they arrive (fixes photos landing in the wrong tab).
+    const viewId = ++currentView;
+    const stillHere = () => viewId === currentView && app.dataset.view === section + ":" + a.date;
+    app.dataset.view = section + ":" + a.date;
+
     if (!PREVIEW && a.source && a.source.title && (!a.image || !a.image.url || !gallery.length)) {
-      wikiPictures(a.source.title).then((pics) => {
-        if (!pics.length) return;
+      wikiPictures(a.source.title).then((found) => {
+        if (!stillHere() || !found.length) return;
+        const pics = found.slice();
         if (!a.image || !a.image.url) {
           const first = pics.shift();
-          const ph = document.querySelector("#hero-media .placeholder");
+          const ph = app.querySelector("#hero-media .placeholder");
           if (ph) {
             const im = new Image(); im.alt = first.alt; im.decoding = "async";
-            im.onload = () => { ph.replaceWith(im); const c = document.getElementById("hero-credit"); if (c) c.innerHTML = creditHtml(first); };
+            im.onload = () => {
+              if (!stillHere() || !ph.isConnected) return;
+              ph.replaceWith(im);
+              const c = app.querySelector("#hero-credit"); if (c) c.innerHTML = creditHtml(first);
+            };
             im.src = first.url;
           }
         }
-        if (!gallery.length) document.querySelectorAll("[data-photo-slot]").forEach((slot, i) => { if (pics[i]) slot.outerHTML = photoHtml(pics[i], i); });
+        if (!gallery.length) app.querySelectorAll("[data-photo-slot]").forEach((slot, i) => { if (pics[i]) slot.outerHTML = photoHtml(pics[i], i); });
       }).catch(() => { /* keep placeholders */ });
     }
   }
@@ -540,6 +563,8 @@
   }
 
   async function showArchive(filter) {
+    const ticket = ++navTicket;
+    currentView++; app.dataset.view = "archive";
     const active = filter && SECTIONS[filter] ? filter : "all";
     setSection(active === "all" ? currentSection : active);
     renderTabs(currentSection, true);
@@ -556,6 +581,7 @@
       .map(([k, label, ic, color]) => '<a class="filter" href="#archive' + (k === "all" ? "" : "-" + k) + '"' + (color ? ' style="--f:' + color + '"' : "") +
         (k === active ? ' aria-current="page"' : "") + '>' + icon(ic) + esc(label) + '</a>').join("");
 
+    if (ticket !== navTicket) return;
     const title = active === "all" ? "Everything you've learned" : SECTIONS[active].archiveTitle + " archive";
     app.innerHTML =
       '<section class="page archive fade-in" style="max-width:62rem">' +

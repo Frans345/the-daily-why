@@ -11,7 +11,10 @@
 import { readFile, writeFile, access, mkdir } from "node:fs/promises";
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
-const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+// Groq retires models from time to time, so we try a list in order and use the first one that works.
+// You can put your own choice first by adding a repository variable called GROQ_MODEL on GitHub.
+const MODELS = [process.env.GROQ_MODEL, "openai/gpt-oss-120b", "qwen/qwen3.6-27b", "openai/gpt-oss-20b"].filter(Boolean);
+let workingModel = null;
 const USER_AGENT = "TheDailyWhy/1.0 (https://github.com/Frans345/the-daily-why)";
 const MAX_TOPIC_TRIES = 5;
 const MAX_AI_TRIES = 3;
@@ -157,25 +160,52 @@ Return ONLY a JSON object with exactly these keys:
 {"title": "", "hook": "", "sections": [{"heading": "", "paragraphs": [""]}], "guess": {"q": "", "options": ["", "", ""], "answer": 0, "explain": ""}, "bigNumber": {"value": "", "label": ""}, "mythFact": {"myth": "", "fact": ""}, "didYouKnow": "", "rememberIt": "", "recall": [{"q": "", "a": ""}]}`;
 }
 
-async function askAI(section, topic, source) {
-  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+async function callGroq(model, section, topic, source) {
+  const body = {
+    model,
+    temperature: 0.6,
+    max_tokens: 8000,
+    response_format: { type: "json_object" },
+    messages: [
+      { role: "system", content: buildPrompt(section) },
+      { role: "user", content: `SECTION: ${section}\nTOPIC: ${source.title}\nCATEGORY: ${topic.category}\n\nSOURCE TEXT (from Wikipedia):\n${source.text}` }
+    ]
+  };
+  if (model.startsWith("openai/gpt-oss")) body.reasoning_effort = "low";   // keeps answers quick and within limits
+  return fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: { "Authorization": `Bearer ${GROQ_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: GROQ_MODEL,
-      temperature: 0.6,
-      max_tokens: 3000,
-      response_format: { type: "json_object" },
-      messages: [
-        { role: "system", content: buildPrompt(section) },
-        { role: "user", content: `SECTION: ${section}\nTOPIC: ${source.title}\nCATEGORY: ${topic.category}\n\nSOURCE TEXT (from Wikipedia):\n${source.text}` }
-      ]
-    })
+    body: JSON.stringify(body)
   });
-  if (res.status === 429) throw new Error("Groq rate limit reached (free tier). Try again later.");
-  if (!res.ok) throw new Error(`Groq request failed (${res.status}): ${(await res.text()).slice(0, 300)}`);
-  const data = await res.json();
-  return JSON.parse(data.choices[0].message.content);
+}
+
+async function askAI(section, topic, source) {
+  const candidates = workingModel ? [workingModel] : MODELS;
+  let lastError = "no models to try";
+  for (const model of candidates) {
+    const res = await callGroq(model, section, topic, source);
+    if (res.status === 429) throw new Error("Groq rate limit reached (free tier). Try again later.");
+    if (res.status === 401) throw new Error("Groq rejected the API key. Check the GROQ_API_KEY secret on GitHub.");
+    if (!res.ok) {
+      const text = (await res.text()).slice(0, 300);
+      // Model retired or not available on this account: try the next one.
+      if (res.status === 404 || /model_not_found|decommissioned|does not exist|not supported/i.test(text)) {
+        console.log(`  Model "${model}" is not available (${res.status}). Trying the next one.`);
+        lastError = text;
+        continue;
+      }
+      throw new Error(`Groq request failed (${res.status}) with ${model}: ${text}`);
+    }
+    const data = await res.json();
+    if (!workingModel) { workingModel = model; console.log(`  Using AI model: ${model}`); }
+    let content = data.choices?.[0]?.message?.content || "";
+    // Some models add their "thinking" or code fences around the JSON. Keep only the JSON object.
+    content = content.replace(/<think>[\s\S]*?<\/think>/gi, "");
+    const start = content.indexOf("{"), end = content.lastIndexOf("}");
+    if (start === -1 || end <= start) throw new Error("The AI did not return JSON");
+    return JSON.parse(content.slice(start, end + 1));
+  }
+  throw new Error(`None of the AI models worked. Last error: ${lastError}`);
 }
 
 // ---------- checks ----------
