@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-18",
+  "section": "general",
+  "slug": "why-a-minimum-wage-isn-t-just-a-number",
+  "category": "Money and the economy",
+  "title": "Why a Minimum Wage Isn’t Just a Number",
+  "hook": "When you see a price tag on a coffee, you don’t think about labor costs. Yet that hidden floor on wages shapes everything from a braai stall to a tech startup.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "What a Minimum Wage Actually Is",
+      "paragraphs": [
+        "A minimum wage is simply the lowest amount an employer may legally pay a worker. Think of it as a price floor for labour – the government says you can’t sell your time for less than a certain amount, just as a supermarket won’t sell apples below a set price.",
+        "Most countries have some form of this rule, but the exact number can differ wildly. In the United States, the federal floor is $7.25 an hour, while Washington state pushes that up to $16.28. In other places, like parts of Europe, the floor is set by collective bargaining rather than law, meaning unions negotiate it on behalf of workers."
+      ]
+    },
+    {
+      "heading": "Guess Before You Read",
+      "paragraphs": [
+        "Before we dive deeper, try to guess which ancient civilization first recorded a wage floor."
+      ]
+    },
+    {
+      "heading": "A Long, Winding History",
+      "paragraphs": [
+        "The idea of a wage floor isn’t modern at all. The earliest known record comes from ancient Mesopotamia under King Hammurabi, where tablets listed set wages for builders and farmers. Later, ancient Egypt paid workers in grain rations, a kind of minimum that guaranteed they could buy bread.",
+        "In medieval England, the story flips – King Edward III imposed a *maximum* wage after the Black Plague created a labour shortage. Over the next two centuries, the same officials who capped wages gradually began to set *minimum* levels, culminating in King James I’s 1604 act that fixed a floor for textile workers. Fast‑forward to the 1890s, and New Zealand becomes the first modern nation to legislate a compulsory minimum wage, followed closely by Australia and the United Kingdom."
+      ]
+    },
+    {
+      "heading": "Why It Matters Today",
+      "paragraphs": [
+        "Supporters argue that a floor lifts families out of poverty, reduces inequality and even boosts morale at work. Imagine a taxi driver who can finally afford a decent dinner after a long shift – that extra income can change daily life.",
+        "Critics, however, point to the classic supply‑and‑demand model: if you force a price above what some employers are willing to pay, you create a surplus of labour, i.e., unemployment, especially for low‑skill workers. Yet economists note that in “monopsony” markets – where a single large employer dominates – a minimum wage can actually increase both wages and jobs because the employer can no longer suppress pay."
+      ]
+    },
+    {
+      "heading": "How Governments Set the Number",
+      "paragraphs": [
+        "There are three common ways to decide the floor. Some places legislate a fixed amount that is adjusted every few years for inflation. Others use a formula tied to economic indicators like the consumer price index. A third method lets wage boards, made up of employers, employees and government reps, negotiate the rate – a system used in many European nations.",
+        "These choices reflect local cost‑of‑living pressures. In South Africa, for example, the national minimum wage of roughly R23.19 per hour aims to balance the high cost of basic food with the need to keep businesses afloat. In contrast, a small town in a low‑cost region might set a lower floor, just as a city taxi service might pay drivers more because the cost of fuel and parking is higher there."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which ancient civilization first recorded a wage floor?",
+    "options": [
+      "Ancient Egypt",
+      "Mesopotamia under Hammurabi",
+      "Ancient Greece"
+    ],
+    "answer": 1,
+    "explain": "Tablets from Hammurabi’s Code list set wages for workers, making Mesopotamia the earliest known source."
+  },
+  "bigNumber": {
+    "value": "90 percent",
+    "label": "More than 90 % of countries now have some form of minimum‑wage legislation or collective bargaining."
+  },
+  "mythFact": {
+    "myth": "A minimum wage always causes massive unemployment.",
+    "fact": "While basic theory predicts job loss, real‑world evidence shows mixed results and even job gains in markets with few employers."
+  },
+  "didYouKnow": "The first modern national minimum wage laws were passed in New Zealand in 1894, making it a pioneer in labour protection.",
+  "rememberIt": "A minimum wage is a legal price floor for labour that aims to protect workers and shape the economy.",
+  "recall": [
+    {
+      "q": "What is the main economic purpose of a minimum wage?",
+      "a": "To set a legal floor so workers cannot be paid below a certain amount."
+    },
+    {
+      "q": "Which country first introduced a modern national minimum wage law?",
+      "a": "New Zealand in 1894."
+    },
+    {
+      "q": "How can a minimum wage help in a monopsony market?",
+      "a": "It can raise both wages and employment by limiting the employer’s power to set low pay."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Fight_for_%2415_on_4-15_%2817161520871%29.jpg/1920px-Fight_for_%2415_on_4-15_%2817161520871%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Fight for $15 on 4-15 (17161520871)",
+    "credit": "The All-Nite Images from NY, NY, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fight_for_$15_on_4-15_(17161520871).jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/CBO_Projected_Effects_of_Minimum_Wage_Increases_v1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "CBO Projected Effects of Minimum Wage Increases v1",
+      "credit": "Congressional Budget Office",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CBO_Projected_Effects_of_Minimum_Wage_Increases_v1.png"
+    }
+  ],
+  "source": {
+    "title": "Minimum wage",
+    "url": "https://en.wikipedia.org/wiki/Minimum_wage"
+  }
+}

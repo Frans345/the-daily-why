@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-18",
+  "section": "sport",
+  "slug": "why-test-cricket-is-the-ultimate-marathon-of-sport",
+  "category": "Cricket",
+  "title": "Why Test Cricket Is the Ultimate Marathon of Sport",
+  "hook": "Imagine a game that can stretch over five days, demanding patience, strategy and stamina like a long road trip across the Karoo.",
+  "readMinutes": 5,
+  "sections": [
+    {
+      "heading": "A Match That Can Last Five Days",
+      "paragraphs": [
+        "When you hear \"Test cricket\" the first thing that jumps out is its length. Two nations, dressed in white, meet on a green oval and agree to play up to four innings over a maximum of five days. Each day is scheduled for six hours of play – roughly the same time you’d spend on a long braai with friends, only the fire never goes out. The goal is simple: score more runs than the opponent and dismiss them twice. If time runs out before a result is reached, the game ends in a draw, a result that can feel as anticlimactic as a load‑shedding outage right before the evening news.",
+        "The endurance factor is what gives Test cricket its reputation as the sport’s \"ultimate test\". Batsmen must weather long periods at the crease, sometimes staying in for over ten hours across multiple sessions. Bowlers, meanwhile, have to maintain pace and accuracy while their bodies are taxed by repeated spells. The mental battle is just as fierce – teams constantly adjust tactics based on the state of the pitch, the weather, and the fatigue of players. It’s a chess match played out on a 22‑yard strip, with each move potentially altering the outcome days later."
+      ]
+    },
+    {
+      "heading": "How the First Tests Came to Be",
+      "paragraphs": [
+        "The phrase \"test match\" was first used in 1861‑62, but not to describe the sport we know today. It meant the English side was testing itself against each Australian colony. It wasn’t until the late 1800s that the term settled into its modern meaning. The inaugural match, now recognised as a Test, was played at the Melbourne Cricket Ground in March 1877 between a Combined Australian XI and James Lillywhite’s English professionals. Australia won by 45 runs, and England took the second match, establishing a rivalry that still fuels the game.",
+        "A South Australian journalist, Clarence P. Moody, later compiled the first definitive list of Test matches in his 1894 book. His work gave legitimacy to early games that had been played before the format was officially recognised. By the turn of the century, only England, Australia and South Africa were competing, and the sport’s governing body – the Imperial Cricket Conference – was formed in 1909 to regulate these contests. The early years set the template for the traditions, etiquette and statistical reverence that surround Test cricket today."
+      ]
+    },
+    {
+      "heading": "Why a Draw Can Be as Thrilling as a Win",
+      "paragraphs": [
+        "Unlike limited‑overs formats, a Test can end without a winner. A draw occurs when the allotted time expires before either side can force a result. This may sound dull, but the drama often builds as teams fight to either save a match or snatch a win in the final session. Think of it like a taxi ride that seems to be stuck in traffic; the tension rises as you wonder whether you’ll arrive on time or simply watch the city pass by.",
+        "One classic example is the 2005 Ashes fifth Test at The Oval, where England needed just 332 runs to win. After a fierce chase, they fell short by two runs, but the match was hailed as one of the greatest ever because the result hinged on a single wicket taken in the final over. Even though the series ended in a draw, the suspense kept fans glued to their radios and televisions, proving that a Test’s narrative can be as compelling as any thriller film."
+      ]
+    },
+    {
+      "heading": "Day/Night Tests and the Pink Ball Revolution",
+      "paragraphs": [
+        "For many years, Test cricket was played only in daylight with a red ball. As viewership slipped in the late 2000s, administrators experimented with new formats. The breakthrough came in 2012 when the ICC approved day/night Tests, and the first such match was staged between Australia and New Zealand at Adelaide Oval in November 2015. To make the ball visible under floodlights, a pink ball was introduced, behaving slightly differently – it swings more early on but can become softer later.",
+        "The pink ball added a fresh tactical layer. Captains now decide whether to bowl first and exploit the ball’s early swing, or chase under lights when the ball is less lively. This change has attracted younger audiences who can watch after work, much like a weekend braai that starts in the late afternoon and continues into the evening. While purists initially balked, day/night Tests have become a regular feature, showing the sport’s ability to evolve without losing its core identity."
+      ]
+    },
+    {
+      "heading": "The World Test Championship – A Modern Quest for Glory",
+      "paragraphs": [
+        "In 2019 the ICC launched the World Test Championship (WTC), a league that crowns a single champion after a two‑year cycle. Teams earn points for each series, and the top two face off in a final at Lord’s. The WTC gives a clear narrative arc to what was once a collection of isolated series, much like a season of a TV drama where each episode builds toward a climax.",
+        "The inaugural final in 2021 saw New Zealand defeat India, delivering the first ever WTC champion. The tournament has sparked debates about scheduling and points allocation, but it also provides a tangible prize that can motivate teams to play positively. For fans, it offers a reason to follow the sport beyond individual series, turning the marathon of Test cricket into a championship chase that feels as rewarding as winning a long‑distance cycling race."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which country hosted the very first officially recognised Test match?",
+    "options": [
+      "England",
+      "Australia",
+      "South Africa"
+    ],
+    "answer": 1,
+    "explain": "The inaugural Test was played at the Melbourne Cricket Ground in Australia in March 1877."
+  },
+  "bigNumber": {
+    "value": "5 days",
+    "label": "Maximum length of a Test match, longer than most sporting events."
+  },
+  "mythFact": {
+    "myth": "A Test match always ends with a win or loss.",
+    "fact": "Many Tests finish as draws when time runs out before a result is achieved."
+  },
+  "didYouKnow": "The term \"test match\" was first used in 1861‑62, but only applied to England‑Australia games in 1892.",
+  "rememberIt": "Test cricket is a five‑day marathon that tests skill, stamina and strategy.",
+  "recall": [
+    {
+      "q": "How many innings can each team play in a Test match?",
+      "a": "Up to two innings per team."
+    },
+    {
+      "q": "What colour ball is used in day/night Tests?",
+      "a": "A pink ball."
+    },
+    {
+      "q": "When did the ICC launch the World Test Championship?",
+      "a": "In 2019."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/England_vs_South_Africa.jpg/1920px-England_vs_South_Africa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "England vs South Africa",
+    "credit": "Louis Rossouw from Cape Town, South Africa",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_vs_South_Africa.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/StateLibQld_1_133529_Athlone_Castle_%28ship%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "StateLibQld 1 133529 Athlone Castle (ship)",
+      "credit": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_133529_Athlone_Castle_(ship).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Reggie_Schwarz_c1905.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Reggie Schwarz c1905",
+      "credit": "George Beldam",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reggie_Schwarz_c1905.jpg"
+    }
+  ],
+  "source": {
+    "title": "Test cricket",
+    "url": "https://en.wikipedia.org/wiki/Test_cricket"
+  }
+}

@@ -1,4 +1,26 @@
 [
-  { "date": "2026-11-17", "slug": "why-microwaves-heat-food-not-the-plate", "title": "Why does a microwave heat your food but not the plate?", "category": "How things work", "hook": "Put a bowl of soup in the microwave for two minutes and the soup comes out steaming, while the plate underneath is barely warm.", "thumb": null },
-  { "date": "2026-11-16", "slug": "why-do-we-have-leap-years", "title": "Why do we have leap years?", "category": "Time and calendars", "hook": "Every four years February gets an extra day.", "thumb": null }
+  {
+    "date": "2026-11-18",
+    "slug": "why-a-minimum-wage-isn-t-just-a-number",
+    "title": "Why a Minimum Wage Isn’t Just a Number",
+    "category": "Money and the economy",
+    "hook": "When you see a price tag on a coffee, you don’t think about labor costs. Yet that hidden floor on wages shapes everything from a braai stall to a tech startup.",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Fight_for_%2415_on_4-15_%2817161520871%29.jpg/400px-Fight_for_%2415_on_4-15_%2817161520871%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "date": "2026-11-17",
+    "slug": "why-microwaves-heat-food-not-the-plate",
+    "title": "Why does a microwave heat your food but not the plate?",
+    "category": "How things work",
+    "hook": "Put a bowl of soup in the microwave for two minutes and the soup comes out steaming, while the plate underneath is barely warm.",
+    "thumb": null
+  },
+  {
+    "date": "2026-11-16",
+    "slug": "why-do-we-have-leap-years",
+    "title": "Why do we have leap years?",
+    "category": "Time and calendars",
+    "hook": "Every four years February gets an extra day.",
+    "thumb": null
+  }
 ]
