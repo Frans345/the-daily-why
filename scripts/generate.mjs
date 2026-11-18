@@ -50,7 +50,7 @@ async function getSource(title) {
 
   // Keep the useful start of the article; drop reference-style sections.
   let text = page.extract.split(/\n(?:See also|References|Notes|Further reading|External links)\n/)[0];
-  text = text.slice(0, 12000);
+  text = text.slice(0, 7000);
 
   return {
     title: page.title,
@@ -145,7 +145,7 @@ STRUCTURE
 STYLE
 - Write like a friendly, curious person chatting to one reader over coffee. Use "you" and "we". Light, warm humour is welcome.
 - Use everyday examples a South African reader would recognise when they fit naturally (a braai, load shedding, a taxi ride), but never force them.
-- 700 to 1000 words in total.
+- LENGTH MATTERS: 800 to 950 words in total. Each section needs 2-3 full paragraphs of 3-5 sentences. Short answers are rejected.
 - Plain English, short sentences, a 13-year-old should understand it. Explain any jargon in passing.
 - Warm and curious, never smug or lecturing. No emojis. No clickbait. No exclamation marks.
 - Avoid: "delve", "in today's world", "it's not X, it's Y", "fascinating", "In conclusion".
@@ -160,15 +160,15 @@ Return ONLY a JSON object with exactly these keys:
 {"title": "", "hook": "", "sections": [{"heading": "", "paragraphs": [""]}], "guess": {"q": "", "options": ["", "", ""], "answer": 0, "explain": ""}, "bigNumber": {"value": "", "label": ""}, "mythFact": {"myth": "", "fact": ""}, "didYouKnow": "", "rememberIt": "", "recall": [{"q": "", "a": ""}]}`;
 }
 
-async function callGroq(model, section, topic, source) {
+async function callGroq(model, section, topic, source, feedback) {
   const body = {
     model,
     temperature: 0.6,
-    max_tokens: 8000,
+    max_tokens: 4500,
     response_format: { type: "json_object" },
     messages: [
       { role: "system", content: buildPrompt(section) },
-      { role: "user", content: `SECTION: ${section}\nTOPIC: ${source.title}\nCATEGORY: ${topic.category}\n\nSOURCE TEXT (from Wikipedia):\n${source.text}` }
+      { role: "user", content: `SECTION: ${section}\nTOPIC: ${source.title}\nCATEGORY: ${topic.category}\n\nSOURCE TEXT (from Wikipedia):\n${source.text}${feedback ? `\n\nIMPORTANT: your previous attempt was rejected because: ${feedback}. Fix this. Write 4-5 sections with 2-3 full paragraphs each (3-5 sentences per paragraph), about 800-950 words in total.` : ""}` }
     ]
   };
   if (model.startsWith("openai/gpt-oss")) body.reasoning_effort = "low";   // keeps answers quick and within limits
@@ -179,12 +179,22 @@ async function callGroq(model, section, topic, source) {
   });
 }
 
-async function askAI(section, topic, source) {
+async function askAI(section, topic, source, feedback) {
   const candidates = workingModel ? [workingModel] : MODELS;
   let lastError = "no models to try";
   for (const model of candidates) {
-    const res = await callGroq(model, section, topic, source);
-    if (res.status === 429) throw new Error("Groq rate limit reached (free tier). Try again later.");
+    // The free tier allows a limited number of tokens per minute. When we hit it, wait and try again
+    // instead of giving up (this does not use up an attempt).
+    let res;
+    for (let wait = 1; wait <= 6; wait++) {
+      res = await callGroq(model, section, topic, source, feedback);
+      if (res.status !== 429) break;
+      const retryAfter = Number(res.headers.get("retry-after")) || 0;
+      const seconds = Math.min(90, Math.max(retryAfter, 20 * wait));
+      console.log(`  Free-tier limit reached. Waiting ${seconds}s before trying again...`);
+      await sleep(seconds * 1000);
+    }
+    if (res.status === 429) throw new Error("Groq rate limit reached (free tier) even after waiting.");
     if (res.status === 401) throw new Error("Groq rejected the API key. Check the GROQ_API_KEY secret on GitHub.");
     if (!res.ok) {
       const text = (await res.text()).slice(0, 300);
@@ -212,7 +222,7 @@ async function askAI(section, topic, source) {
 
 const BLOCKLIST = /\b(sex|sexual|porn|nude|naked|rape|suicide|self-harm|gore|torture|murder|kill(?:ed|ing)? (?:him|her|them)|terroris[mt]|nazi|drug dealer|cocaine|heroin)\b/i;
 
-function check(article) {
+function check(article, minWords = 600) {
   const problems = [];
   if (article.skip) return ["AI skipped this topic as unsuitable"];
   if (!article.title || !article.hook || !article.rememberIt) problems.push("missing title, hook or rememberIt");
@@ -227,7 +237,7 @@ function check(article) {
     ...(article.sections || []).flatMap((s) => [s.heading, ...(s.paragraphs || [])]),
     ...(article.recall || []).flatMap((r) => [r.q, r.a])].join(" ");
   const words = allText.split(/\s+/).filter(Boolean).length;
-  if (words < 550 || words > 1300) problems.push(`length is ${words} words (want about 700-1000)`);
+  if (words < minWords || words > 1400) problems.push(`it was ${words} words long, but it needs about 800-950 words`);
   if (BLOCKLIST.test(allText)) problems.push("contains a blocked word");
   return problems;
 }
@@ -259,15 +269,17 @@ async function writeSection(sec) {
     try { source = await getSource(topic.title); }
     catch (e) { console.log(`  Skipped: ${e.message}`); used.push(topic.title); continue; }
 
+    let feedback = "";
     for (let attempt = 1; attempt <= MAX_AI_TRIES; attempt++) {
       let draft;
-      try { draft = await askAI(sec.key, topic, source); }
+      try { draft = await askAI(sec.key, topic, source, feedback); }
       catch (e) { console.log(`  AI attempt ${attempt} failed: ${e.message}`); await sleep(5000); continue; }
 
-      const problems = check(draft);
+      const problems = check(draft, attempt === MAX_AI_TRIES ? 420 : 600);
       if (problems.length) {
         console.log(`  Attempt ${attempt} rejected: ${problems.join("; ")}`);
         if (draft.skip) break;
+        feedback = problems.join("; ");
         continue;
       }
 
@@ -324,7 +336,7 @@ async function main() {
   for (const sec of SECTIONS) {
     if (only && sec.key !== only) continue;
     results[sec.key] = await writeSection(sec);
-    await sleep(3000);   // be gentle with the free AI tier
+    await sleep(15000);   // give the free AI tier's per-minute limit time to reset
   }
   console.log("\nSummary:", Object.entries(results).map(([k, ok]) => `${k}: ${ok ? "ok" : "FAILED"}`).join(", "));
   // Only fail the whole job if nothing at all could be written.
