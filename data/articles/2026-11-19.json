@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-19",
+  "section": "general",
+  "slug": "how-rugby-union-got-its-shape",
+  "category": "History behind everyday things",
+  "title": "How Rugby Union Got Its Shape",
+  "hook": "You might think rugby is just a modern sport, but its rules and rivalries grew out of schoolyard fights and class battles.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "From Schoolyard Scrums to Written Rules",
+      "paragraphs": [
+        "In the early 1800s, kids at Rugby School were already tossing an oval ball around, but there were no set rules. Some schools let you hack opponents’ shins, others banned it. It was a chaotic mix of “run with the ball” and “kick it like a soccer ball.”",
+        "The turning point came in 1845 when pupils at Rugby drafted the first written rules. Suddenly the chaos turned into a game you could actually explain to a friend. Those rules still echo today – the oval ball, the H‑shaped posts, and the idea that you can run while holding the ball.",
+        "A few years later, the Cambridge Rules of 1848 tried to bring together the different school versions, but the real clash happened when the Football Association (FA) was formed in 1863 and banned running with the ball. Blackheath Club walked out, preferring the Rugby style, and the split between “association football” (soccer) and “rugby football” was sealed."
+      ]
+    },
+    {
+      "heading": "A Schism Over Pay, Not Play",
+      "paragraphs": [
+        "Rugby stayed an amateur pastime for over a century, meaning players weren’t paid. In 1895, clubs in northern England demanded compensation for lost wages when they missed work to play. The Rugby Football Union (RFU) refused, and the northern clubs broke away to form rugby league.",
+        "The split wasn’t about the rules – both codes still involved tries and tackles – but about class and money. The new league tweaked a few rules to make the game faster, while the RFU kept the original code, later renamed rugby union to distinguish it from league.",
+        "It wasn’t until 1995 that the union finally embraced professionalism, allowing players to be paid openly. That change turned rugby union into the global, commercial sport we watch on TV today."
+      ]
+    },
+    {
+      "heading": "From Empire to World Stage",
+      "paragraphs": [
+        "Rugby spread alongside the British Empire. Soldiers, traders, and missionaries carried the game to South Africa, New Zealand, Australia, and France. By the early 20th century, those far‑flung colonies were not just playing – they were beating the home nations.",
+        "The first international match was a modest affair in 1871: Scotland versus England in Edinburgh. Fast forward to 1987, and the Rugby World Cup was born, now held every four years and watched by millions. The annual Six Nations in Europe and The Rugby Championship in the Southern Hemisphere keep the rivalry alive each season.",
+        "Women joined the story too. The inaugural Women’s Rugby World Cup took place in 1991, with the United States winning the title. Since then, women’s competitions have grown alongside the men’s game, adding another layer to rugby’s global reach."
+      ]
+    },
+    {
+      "heading": "Rugby in Everyday Life",
+      "paragraphs": [
+        "In South Africa, a weekend can be as much about the Currie Cup as it is about a braai. The same oval ball that rolls across a dusty farm field also flies over a stadium packed with 80,000 fans. Whether you’re watching a match on a load‑shedding night or playing a quick touch game in the backyard, the same basic rules apply.",
+        "Rugby’s appeal cuts across gender, age, and size. You’ll see a 10‑year‑old girl sprinting for a try next to a retired farmer who still remembers the first time he heard the crowd roar at Ellis Park. The sport’s inclusive nature is reflected in the 10 million players worldwide today.",
+        "Even the simplest thing – the shape of the ball – ties back to history. Early balls were made from inflated pig bladders, which gave them a lopsided shape. Modern synthetic balls keep that unpredictable bounce, reminding us that the game’s roots are still a little messy."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which year did rugby union officially become a professional sport?",
+    "options": [
+      "1895",
+      "1995",
+      "2003"
+    ],
+    "answer": 1,
+    "explain": "The sport remained amateur until the mid‑1990s; the governing body lifted payment bans in 1995."
+  },
+  "bigNumber": {
+    "value": "10 million",
+    "label": "More than ten million people play rugby union worldwide today."
+  },
+  "mythFact": {
+    "myth": "Rugby has always been a professional sport.",
+    "fact": "Rugby union remained strictly amateur until 1995, when player payments were finally allowed."
+  },
+  "didYouKnow": "The first rugby sevens tournament, the Melrose Sevens, was held in 1883 and is still played every year.",
+  "rememberIt": "Rugby union grew from school rules, split over pay, and spread worldwide with the empire.",
+  "recall": [
+    {
+      "q": "What year were the first written rugby rules created?",
+      "a": "1845."
+    },
+    {
+      "q": "Which club left the Football Association in protest of the new rules?",
+      "a": "Blackheath Club."
+    },
+    {
+      "q": "How many players were registered worldwide in 2023?",
+      "a": "About 8.4 million."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg/1920px-2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "2014 Women's Six Nations Championship - France Italy (51)",
+    "credit": "Caroline Léna Becker",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_Women%27s_Six_Nations_Championship_-_France_Italy_(51).jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Women%27s_Rugby_Mark.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Women's Rugby Mark",
+      "credit": "Photo by user \"kelseye\" on www.flickr.com. Uploader was User:Felix Portier",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women%27s_Rugby_Mark.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Walers_Japan_Rugby_World_Cup_2007_09_20_supporters1.jpg/1920px-Walers_Japan_Rugby_World_Cup_2007_09_20_supporters1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Walers Japan Rugby World Cup 2007 09 20 supporters1",
+      "credit": "realname",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walers_Japan_Rugby_World_Cup_2007_09_20_supporters1.jpg"
+    }
+  ],
+  "source": {
+    "title": "Rugby union",
+    "url": "https://en.wikipedia.org/wiki/Rugby_union"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-19",
+  "section": "sport",
+  "slug": "how-a-new-zealand-yacht-stole-the-cup",
+  "category": "Olympics and more",
+  "title": "How a New Zealand Yacht Stole the Cup",
+  "hook": "When the 2024 America's Cup sailed into Barcelona, a quiet rivalry finally tipped the scales in favour of the defending champions.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "Setting the Stage",
+      "paragraphs": [
+        "The America's Cup is no ordinary regatta. It pits a single defender against a lone challenger, each representing a yacht club that has spent millions on cutting‑edge boats and elite crews. In October 2024 the showdown was between the Royal New Zealand Yacht Squadron, fresh off two consecutive victories, and the Royal Yacht Squadron’s INEOS Britannia, the latest challenger to earn the right after a grueling selection series.",
+        "Barcelona’s waters were calm, but the atmosphere was anything but. Fans gathered on the waterfront like they would at a braai, waving flags and sipping coffee, while the two sleek AC75 foiling catamarans glimmered in the sun. The race format was a best‑of‑13 series – the first to seven wins takes the cup – a structure that rewards consistency as much as raw speed."
+      ]
+    },
+    {
+      "heading": "The Decisive Moment",
+      "paragraphs": [
+        "After nine races the score read 7–2 in favour of New Zealand. The decisive eighth win came on a gusty afternoon when INEOS Britannia’s boat lost grip on its foils, wobbling like a taxi on a pothole‑filled street. New Zealand’s skipper, Peter Burling, seized the moment, steering his vessel to the windward side and pulling ahead by a margin that, even after a photo‑finish review, left the challenger trailing by over 30 metres.",
+        "That gap mattered because the Cup’s Deed of Gift – the legal document that governs every challenge – states a match is decided by the first yacht to cross the finish line. No extra points, no subjective judging. The clear visual of New Zealand’s boat cutting through the water sealed the victory, ending the series with a 7–2 scoreline."
+      ]
+    },
+    {
+      "heading": "Why It Still Matters",
+      "paragraphs": [
+        "The win marked the third straight defence for the Royal New Zealand Yacht Squadron, a rarity in a competition where the trophy has changed hands only 12 times in its 170‑year history. More than prestige, each defence cements a nation’s reputation for innovation in yacht design, sailing skill, and, frankly, fundraising muscle – modern teams routinely spend over US$100 million, with the 2013 winner reportedly blowing US$300 million on its campaign.",
+        "For New Zealand, the triumph reinforces a legacy that began in 1995 when the country first won the Cup, and it keeps the trophy home in the Southern Hemisphere. For the challenger, the loss is a reminder that even the most sophisticated foiling catamaran can be out‑maneuvered when the wind shifts, just as a well‑timed braai can be ruined by an unexpected load‑shedding outage."
+      ]
+    },
+    {
+      "heading": "A Glimpse into the Cup’s Past",
+      "paragraphs": [
+        "The America’s Cup is the oldest international sporting competition still running, first contested in 1851 when the yacht America beat 15 British boats around the Isle of Wight. That victory gave the New York Yacht Club a 132‑year hold on the trophy – the longest winning streak in any sport – until Australia II finally broke the spell in 1983.",
+        "Since then the Cup has evolved through several boat classes: the massive J‑Class of the 1930s, the sleek 12‑metre yachts of the post‑war era, and the high‑tech foiling catamarans of the 21st century. Each change reflects a push for faster, lighter, and more daring designs, turning the competition into a rolling laboratory for naval architecture."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which country’s yacht club defended the America’s Cup in 2024?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "United Kingdom"
+    ],
+    "answer": 1,
+    "explain": "The Royal New Zealand Yacht Squadron won the 2024 match 7–2 over the challenger INEOS Britannia."
+  },
+  "bigNumber": {
+    "value": "132 years",
+    "label": "The New York Yacht Club defended the Cup for 132 consecutive years, the longest streak in sport."
+  },
+  "mythFact": {
+    "myth": "The America’s Cup trophy belongs to the winning yacht itself.",
+    "fact": "The Deed of Gift states the cup is property of the winning yacht club, not the individual boat."
+  },
+  "didYouKnow": "The original trophy was a bottomless silver ewer made in 1848 and is affectionately called the “Auld Mug”.",
+  "rememberIt": "The America’s Cup is a duel of clubs, where cutting‑edge design meets centuries‑old tradition.",
+  "recall": [
+    {
+      "q": "How many races did the 2024 defender win to clinch the Cup?",
+      "a": "They won seven races, finishing the series 7–2."
+    },
+    {
+      "q": "What class of boat is used in the current America’s Cup format?",
+      "a": "The AC75 foiling catamaran."
+    },
+    {
+      "q": "Which club held the Cup for the longest continuous period?",
+      "a": "The New York Yacht Club, for 132 years."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/The_America%27s_Cup.jpg/1920px-The_America%27s_Cup.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "The America's Cup",
+    "credit": "Wikimedia Commons",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_America%27s_Cup.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Blue_Marble%2C_AS17-148-22727.jpg/1920px-The_Blue_Marble%2C_AS17-148-22727.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "The Blue Marble, AS17-148-22727",
+      "credit": "Harrison Schmitt / Apollo 17",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg"
+    }
+  ],
+  "source": {
+    "title": "America's Cup",
+    "url": "https://en.wikipedia.org/wiki/America%27s_Cup"
+  }
+}
