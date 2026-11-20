@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-20",
+  "section": "sport",
+  "slug": "why-referees-show-yellow-and-red-cards",
+  "category": "Football",
+  "title": "Why Referees Show Yellow and Red Cards",
+  "hook": "Ever wondered why a referee lifts a bright card above his head instead of shouting? The story behind those cards is a blend of traffic lights, a World Cup clash, and a simple way to keep the game fair.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "The moment the cards were born",
+      "paragraphs": [
+        "It was the 1966 World Cup quarter‑final at Wembley. England had just beaten Argentina, but the post‑match report said referee Rudolf Kreitlein had warned Bobby and Jack Charlton and sent off Antonio Rattín without anyone really seeing the decisions. England manager Alf Ramsey was furious and asked FIFA for clarification. That confusion sparked the idea in English referee Ken Aston’s mind: a visual, language‑neutral signal that could be understood by players, fans, and even a taxi driver on a load‑shedding night.",
+        "Aston borrowed the colour logic of traffic lights – yellow meaning ‘caution, you may proceed’, red meaning ‘stop completely’. He proposed a yellow card for a warning and a red card for an expulsion. The experiment was tried at the 1970 World Cup in Mexico, and the cards stuck faster than a braai grill on a windy day."
+      ]
+    },
+    {
+      "heading": "How a yellow card works in football",
+      "paragraphs": [
+        "When a referee spots a foul that merits a caution – say a reckless tackle or a dissenting shout – he lifts a bright yellow rectangle and points at the offender. The player’s name goes into the referee’s notebook, which is why a caution is also called a ‘booking’. The player stays on the pitch, but a second yellow in the same match automatically turns into a red, meaning the player must leave the field and cannot be replaced.",
+        "The rule also applies to team officials. Since 2019, a head coach can be shown a yellow for stepping onto the touchline to argue, and a second yellow will see him sent off too. Accumulating yellows over a tournament can lead to a one‑match suspension, a system that makes players think twice before committing a repeat offence."
+      ]
+    },
+    {
+      "heading": "Why the colour matters – a simple comparison",
+      "paragraphs": [
+        "Imagine you’re at a busy intersection. A yellow traffic light tells you to slow down and be ready; a red light tells you to stop completely. The same logic works on the pitch. A yellow card is a ‘slow down’ – you’re warned, you can keep playing but you must be careful. A red card is a ‘stop’ – you must leave the field, and your team plays with one fewer person, just like a lane closure on a highway slows traffic for everyone.",
+        "This visual cue cuts through language barriers. Whether the crowd is chanting in Afrikaans, Zulu, or English, everyone sees the same bright rectangle and instantly knows what’s happened. That’s why the system spread to sports as different as badminton, bandy, and even canoe polo."
+      ]
+    },
+    {
+      "heading": "Beyond football – the card’s global family",
+      "paragraphs": [
+        "In athletics, a yellow card is a personal warning for a false start; a second warning leads to a red and disqualification. In Australian rules football, a yellow means a player sits out for a quarter of play, while a red means a full dismissal. Badminton uses a single yellow warning before moving to harsher penalties, and bandy gives a team a yellow for technical fouls, with a later white card for a five‑minute penalty.",
+        "Each sport adapts the basic idea to its own rhythm, but the core principle stays the same: a clear, colour‑coded signal that tells everyone what’s at stake without a word spoken."
+      ]
+    },
+    {
+      "heading": "Why the cards still matter today",
+      "paragraphs": [
+        "Even in the age of VAR (Video Assistant Referee) and instant replay, the simple act of holding up a card remains the quickest way to communicate a decision. It prevents misunderstandings that once led to post‑match disputes, and it keeps the flow of the game smooth – no need for a long explanation that would stall a match as much as a power cut during load shedding.",
+        "The card system also adds a strategic layer. Coaches sometimes ‘clean’ a yellow by deliberately getting a second booking in a low‑stakes game, resetting their tally for the next round – a tactic that, while legal, is frowned upon as unsporting. The very existence of the card forces teams to balance aggression with discipline, shaping the tactics we love to watch."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which traffic‑light colour inspired the referee’s yellow card?",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "answer": 1,
+    "explain": "Ken Aston used the colour logic of traffic lights, where yellow means ‘caution, you may proceed if safe’."
+  },
+  "bigNumber": {
+    "value": "1970",
+    "label": "The year the first yellow and red cards were used at a World Cup in Mexico."
+  },
+  "mythFact": {
+    "myth": "A yellow card means a player is automatically sent off.",
+    "fact": "A yellow is only a warning; a player is only dismissed after a second yellow or a direct red."
+  },
+  "didYouKnow": "Ken Aston, the inventor of the card system, was also a traffic engineer, which is why he borrowed the traffic‑light colour scheme.",
+  "rememberIt": "Yellow warns, red stops – the referee’s cards are the sport’s traffic lights.",
+  "recall": [
+    {
+      "q": "What happens after a player receives two yellow cards in the same match?",
+      "a": "The player is shown a red card and must leave the field immediately."
+    },
+    {
+      "q": "Which sport uses a yellow card to give a team a five‑minute penalty after a second technical foul?",
+      "a": "Bandy."
+    },
+    {
+      "q": "When were yellow and red cards first used in a World Cup?",
+      "a": "At the 1970 FIFA World Cup in Mexico."
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Qatar_-_Japan%2C_AFC_Asian_Cup_2019_38.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Qatar - Japan, AFC Asian Cup 2019 38",
+    "credit": "Mehdi Bolourian",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qatar_-_Japan,_AFC_Asian_Cup_2019_38.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Venezuela_v_Korea_Challenge_RFF_team_t120624.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Venezuela v Korea Challenge RFF team t120624",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venezuela_v_Korea_Challenge_RFF_team_t120624.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ronaldo_yellow_card.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Ronaldo yellow card",
+      "credit": "Екатерина Лаут",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ronaldo_yellow_card.jpg"
+    }
+  ],
+  "source": {
+    "title": "Penalty card",
+    "url": "https://en.wikipedia.org/wiki/Penalty_card"
+  }
+}

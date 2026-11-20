@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-20",
+  "section": "philosophy",
+  "slug": "why-simpler-can-be-smarter-william-of-ockham",
+  "category": "Medieval",
+  "title": "Why Simpler Can Be Smarter: William of Ockham",
+  "hook": "Imagine a medieval monk who argued that the world doesn’t need extra explanations – just the ones we can see.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "A Franciscan from Surrey",
+      "paragraphs": [
+        "William of Ockham was born around 1287 in the little village of Ockham, Surrey, in England. He entered the Franciscan Order as a teenager, a community devoted to poverty and preaching. By his early twenties he was studying at the Franciscan schools in London and later at the University of Oxford, where he completed the requirements for a master’s degree in theology but never took the official teaching post.",
+        "In the early 1320s Ockham began lecturing on Peter Lombard’s *Sentences*, the standard textbook for medieval theologians. These lectures were recorded as disputed questions and later circulated among scholars. While he never became a regent master, his reputation grew because of the sheer volume of his work – commentaries on Aristotle’s logic and physics, a summary of logic, and many theological treatises."
+      ]
+    },
+    {
+      "heading": "A Guess Before the Story Unfolds",
+      "paragraphs": [
+        "Before you read on, try this: Which event forced Ockham to leave Avignon and eventually be excommunicated?",
+        "A) A dispute over the ownership of church lands\nB) A summons to defend his *Sentences* commentary\nC) A secret meeting with the Holy Roman Emperor"
+      ]
+    },
+    {
+      "heading": "Clash with the Papacy",
+      "paragraphs": [
+        "In 1324 the Pope in Avignon, John XXII, ordered a committee to examine Ockham’s *Sentences* for suspect passages. The investigation never reached a verdict, but it marked the start of a bitter conflict. The real flashpoint was the Franciscan debate over apostolic poverty – whether Christ and his apostles owned anything at all. Pope John declared that even consumables transferred ownership when used, a view the Franciscans rejected.",
+        "Ockham, together with the Minister General Michael of Cesena and a few fellow friars, slipped out of Avignon on 26 May 1328 and sought refuge with Emperor Louis IV in Munich. The Pope responded by excommunicating the whole group on 6 June 1328. From Munich Ockham spent the rest of his life writing political tracts urging the deposition of John XXII and his successors, while his academic output largely ceased."
+      ]
+    },
+    {
+      "heading": "The Razor That Cuts Through Complexity",
+      "paragraphs": [
+        "Ockham is best remembered for a methodological principle that bears his name: Occam’s razor. In plain language, he argued that we should not multiply entities beyond necessity – the simplest explanation that fits the facts is preferable. For example, if a braai smoke drifts into your house, you first assume the fire is still on, not that a secret dragon is hiding in the coals.",
+        "Philosophically, Ockham was a nominalist. He denied that universal concepts like “human” exist independently of the particular things that exemplify them. Instead, words and mental concepts are just “terms” that stand for groups of similar individuals. This stance opposed the earlier realist view that universals have a real, abstract existence."
+      ]
+    },
+    {
+      "heading": "Faith, Reason, and the Limits of Science",
+      "paragraphs": [
+        "Ockham held that theology is not a science. He believed that divine truths are accessed through faith, not through logical deduction. In his view, God’s creation and salvation plan are not bound by human‑made necessary laws, so reason alone cannot uncover all theological mysteries.",
+        "At the same time, Ockham embraced empirical science. He distinguished between knowledge derived from experience and logical proof, laying groundwork for later thinkers who would separate natural philosophy from theology."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which event forced Ockham to leave Avignon and eventually be excommunicated?",
+    "options": [
+      "A dispute over the ownership of church lands",
+      "A summons to defend his Sentences commentary",
+      "A secret meeting with the Holy Roman Emperor"
+    ],
+    "answer": 2,
+    "explain": "The correct answer is the secret meeting with the Holy Roman Emperor, as Ockham fled to Munich under Louis IV’s protection, leading to his excommunication."
+  },
+  "bigNumber": {
+    "value": "1328",
+    "label": "Year Ockham fled Avignon and was later excommunicated"
+  },
+  "mythFact": {
+    "myth": "Occam invented the razor.",
+    "fact": "He formulated a principle of simplicity; the razor itself is a metaphor."
+  },
+  "didYouKnow": "Ockham was called the Venerabilis Inceptor because he qualified to begin teaching but never took the official master’s post.",
+  "rememberIt": "Simpler explanations win when they fit the facts.",
+  "recall": [
+    {
+      "q": "Where was William of Ockham born?",
+      "a": "In Ockham, Surrey, England."
+    },
+    {
+      "q": "What philosophical stance did Ockham take on universals?",
+      "a": "He argued that universals are just names or concepts, not independent entities."
+    },
+    {
+      "q": "What principle is Ockham most famous for?",
+      "a": "Occam’s razor, the idea that we should not multiply entities beyond necessity."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/1920px-St-thomas-aquinasFXD.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Saint Thomas Aquinas title QS:P1476,en:\"Saint Thomas Aquinas \"label QS:Len,\"Saint Thomas Aquinas \"label QS:Lde,\"Altar von San Domenico in Ascoli, Polyptychon, linke äußere Aufsatztafel: Hl. Thomas von Aquin\"",
+    "credit": "Carlo Crivelli",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Saint_Augustine_by_Philippe_de_Champaigne_%283x4_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Saint Augustine Alternative title: Saint Augustin",
+      "credit": "Philippe de Champaigne",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne_(3x4_cropped).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gentile_da_Fabriano_052.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Marienkrönung, Giebelgemälde, rechte innere Tafel, Szene: Hl. Thomas von Aquin",
+      "credit": "Gentile da Fabriano",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gentile_da_Fabriano_052.jpg"
+    }
+  ],
+  "source": {
+    "title": "William of Ockham",
+    "url": "https://en.wikipedia.org/wiki/William_of_Ockham"
+  }
+}

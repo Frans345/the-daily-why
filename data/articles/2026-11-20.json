@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-20",
+  "section": "general",
+  "slug": "the-man-who-gave-hearts-a-second-chance",
+  "category": "People and society",
+  "title": "The Man Who Gave Hearts a Second Chance",
+  "hook": "Imagine waking up after a surgery to hear your own voice for the first time in weeks. That was the reality for the first patient to receive a human heart transplant, and the story behind it is as human as the organ itself.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "heading": "A Bold Idea in a Small Town",
+      "paragraphs": [
+        "Christiaan Barnard grew up in the dusty town of Beaufort West, far from the bustling labs of Europe or America. His father was a Dutch Reformed minister and his mother taught the family that anything worth doing required determination. After finishing high school in 1940, Barnard headed to the University of Cape Town, where he earned his medical degree in 1945 and later a Master of Medicine in 1953. Early in his career he worked as a GP in the rural town of Ceres, a place where a doctor often had to be part‑time surgeon, midwife and counsellor all at once.",
+        "Even as a young doctor Barnard was not afraid to experiment. While studying intestinal atresia – a deadly blockage in newborns’ guts – he spent months tying off blood vessels in a pregnant dog’s fetus to reproduce the condition. After 43 attempts he succeeded, then cured the puppies by removing the poorly supplied segment of intestine. The technique saved ten babies in Cape Town and was later adopted in Britain and the United States. This early success showed Barnard that solving a problem sometimes meant looking at it from a completely new angle."
+      ]
+    },
+    {
+      "heading": "Cross‑Continental Training",
+      "paragraphs": [
+        "In 1955 Barnard travelled to the United States on a scholarship, landing in Minneapolis where he first worked with gastrointestinal surgeon Owen Wangensteen. By chance he wandered into the lab of open‑heart pioneer Walt Lillehei and soon found himself helping run a heart‑lung machine – a device that takes over the work of the heart and lungs during surgery. It was here that Barnard met future transplant pioneers Norman Shumway and Gil Campbell, who showed him how a dog’s lung could oxygenate blood, a trick that made long heart operations possible.",
+        "Barnard’s two years in Minnesota were a crash course in cutting‑edge cardiac surgery. He watched Lillehei perform operations where blood was literally run backwards through veins to give the surgeon a clear view of the aortic valve. Those daring experiments sparked Barnard’s imagination: if a heart could be stopped, opened, and repaired, perhaps it could also be swapped. When he returned to South Africa in 1958, he took charge of the experimental surgery unit at Groote Schuur Hospital, ready to turn theory into practice."
+      ]
+    },
+    {
+      "heading": "The First Human Heart Transplant",
+      "paragraphs": [
+        "On 3 December 1967 the world held its breath. A 54‑year‑old farmer, Louis Washkansky, lay on an operating table after a car crash had left his heart beyond repair. Across town, a 22‑year‑old woman named Denise Darvall had died in a similar accident, and her healthy heart was quickly harvested. Barnard and his team removed Washkansky’s failing organ and sutured Darvall’s donor heart into his chest, a procedure that took just a few hours but required a team of more than thirty people.",
+        "The operation succeeded beyond anyone’s expectations. Within minutes Washkansky opened his eyes, spoke to his wife, and even joked about the experience. Barnard had told the couple there was an 80 % chance of success – a figure later criticised as overly optimistic – yet Washkansky survived only 18 days, succumbing to pneumonia caused by the powerful anti‑rejection drugs that had suppressed his immune system. Still, the moment proved that a human heart could be moved from one body to another, opening a door that surgeons worldwide would rush through."
+      ]
+    },
+    {
+      "heading": "Beyond the First Success",
+      "paragraphs": [
+        "Barnard did not stop after the historic first. In early 1968 he performed his second transplant on Philip Blaiberg, a man who lived for a year and a half after the operation and even returned home. Those early patients demonstrated both the promise and the limits of transplantation – the heart could function, but the drugs needed to stop rejection were a double‑edged sword.",
+        "Later in his career Barnard faced personal challenges. Rheumatoid arthritis forced him to retire from surgery in 1983, and a foray into anti‑aging skin creams in the mid‑1980s damaged his reputation when the product Glycel was withdrawn by the U.S. Food and Drug Administration. Yet he continued to give back, founding the Christiaan Barnard Foundation to help under‑privileged children worldwide. He died in 2001 after an asthma attack, leaving a legacy that still shapes cardiac care."
+      ]
+    },
+    {
+      "heading": "Why It Matters Today",
+      "paragraphs": [
+        "Modern heart transplants are now routine, with patients often living decades after surgery thanks to better immunosuppressants and organ‑matching techniques. The procedure that once seemed science‑fiction is now as familiar as a routine car service – you schedule a check‑up, the surgeon matches donor and recipient, and a team works like a well‑rehearsed orchestra. Barnard’s willingness to push boundaries, learn abroad, and return home to apply his knowledge mirrors the path many South African innovators take: study overseas, bring skills back, and improve local healthcare.",
+        "The story also reminds us that medical breakthroughs are rarely clean victories. Barnard’s 80 % success claim, his later commercial misstep, and the early patients’ short lives show that progress comes with risk, criticism, and humility. Yet without that daring first step, the countless lives saved by heart transplants today would never have been possible."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What was the main reason Louis Washkansky died only 18 days after his historic transplant?",
+    "options": [
+      "The donor heart was rejected",
+      "He suffered a second heart attack",
+      "Pneumonia caused by anti‑rejection drugs"
+    ],
+    "answer": 2,
+    "explain": "The drugs that prevented his immune system from attacking the new heart also weakened his lungs, leading to pneumonia."
+  },
+  "bigNumber": {
+    "value": "18 days",
+    "label": "The short lifespan of the first transplant patient after surgery"
+  },
+  "mythFact": {
+    "myth": "Barnard said the transplant had an 80 % chance of success.",
+    "fact": "The 80 % figure was later criticised as misleading; the patient survived only 18 days."
+  },
+  "didYouKnow": "Barnard’s early work on intestinal atresia saved ten babies in Cape Town and was later adopted by surgeons in Britain and the United States.",
+  "rememberIt": "A daring operation in 1967 proved a human heart could be moved from one body to another.",
+  "recall": [
+    {
+      "q": "Where did Christiaan Barnard first learn to run a heart‑lung machine?",
+      "a": "At the University of Minnesota, working with Walt Lillehei."
+    },
+    {
+      "q": "What condition did Barnard’s early experiments on dogs help treat?",
+      "a": "Intestinal atresia in newborn babies."
+    },
+    {
+      "q": "How long did the second transplant patient, Philip Blaiberg, live after his operation?",
+      "a": "About a year and a half."
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Heart_transplant_pioneer_Barnard_here_on_Visit_%28FL61733185%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Heart transplant pioneer Barnard here on Visit",
+    "credit": "IPPA photographer",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heart_transplant_pioneer_Barnard_here_on_Visit_(FL61733185).jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Netcare_Christiaan_Barnard_Memorial_Hospital.jpg/1920px-Netcare_Christiaan_Barnard_Memorial_Hospital.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Netcare Christiaan Barnard Memorial Hospital",
+      "credit": "Axxter99",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Netcare_Christiaan_Barnard_Memorial_Hospital.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Christiaan_Barnard_1968.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Christiaan Barnard 1968",
+      "credit": "Unknown (Mondadori Publishers)",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christiaan_Barnard_1968.jpg"
+    }
+  ],
+  "source": {
+    "title": "Christiaan Barnard",
+    "url": "https://en.wikipedia.org/wiki/Christiaan_Barnard"
+  }
+}
