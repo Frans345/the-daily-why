@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-21",
+  "section": "general",
+  "slug": "why-your-phone-talks-without-wires",
+  "category": "How things work",
+  "title": "Why Your Phone Talks Without Wires",
+  "hook": "Ever wonder how a music player can stream to a speaker across the room without a cord? Let’s untangle the invisible thread that lets devices chat in a few metres of space.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "The Basics of Bluetooth",
+      "paragraphs": [
+        "Bluetooth is a short‑range wireless technology that lets gadgets exchange data without any cables. It works in the unlicensed 2.4 GHz ISM band – the same slice of spectrum your Wi‑Fi router and microwave use – but it only pumps out about 2.5 milliwatts of power. That tiny output limits its reach to roughly 10 metres, about the length of a typical living‑room sofa or a small garden braai area.",
+        "The standard creates what’s called a personal area network, or PAN, linking phones, headphones, speakers, car stereos and even TVs together. Think of it as a tiny, private party line: each device has a unique address, and they take turns speaking so the conversation stays clear. In everyday life you’ll notice Bluetooth when you pair a phone with wireless earbuds, stream a playlist to a speaker, or send a photo from a tablet to a laptop."
+      ]
+    },
+    {
+      "heading": "How Devices Find Each Other",
+      "paragraphs": [
+        "When you turn Bluetooth on, your device starts broadcasting a short “hello” signal, known as advertising. Nearby devices listening on the same frequency catch this ping and display it as an available connection – much like a shop window displaying a sale sign. If you tap “pair”, the two gadgets exchange a secret code, called a link key, which encrypts the data they later share. This handshake is quick; most phones complete it in a few seconds, faster than you can finish a cup of coffee.",
+        "The process uses a technique called frequency hopping. Instead of staying on one channel, Bluetooth jumps 1,600 times per second across the 2.4 GHz band. This rapid hopping avoids interference from other devices, keeps the connection stable, and makes eavesdropping harder. It’s similar to a taxi driver constantly changing lanes to dodge traffic, ensuring a smooth ride for the passengers inside."
+      ]
+    },
+    {
+      "heading": "A Name With a Royal Twist",
+      "paragraphs": [
+        "The quirky name “Bluetooth” isn’t about teeth at all. In 1997, Intel’s Jim Kardach suggested it while reading a novel about the 10th‑century Danish king Harald Bluetooth. Harald earned his nickname because he allegedly had a dead tooth that looked blue, but more importantly he united warring Danish tribes into one kingdom. Kardach thought the technology was doing something similar – uniting different communication protocols under one short‑range standard – so the moniker stuck.",
+        "Before the name became permanent, the group considered alternatives like “RadioWire” or the generic “PAN”. A quick trademark search showed “RadioWire” was already taken, and “PAN” was buried under millions of web hits. Bluetooth, originally a placeholder, turned out to be catchy enough that no one bothered to change it. The logo you see on every device is a bind rune combining the runes for “H” and “B”, Harald’s initials, a nod to the king’s historic unification."
+      ]
+    },
+    {
+      "heading": "From Labs to Everyday Life",
+      "paragraphs": [
+        "The story began in 1989 at Ericsson’s labs in Lund, Sweden, where engineers Nils Rydbeck, Tord Wingren, Jaap Haartsen and Sven Mattisson set out to create a wireless headset. By 1997 they had a working prototype, and the following year the Bluetooth Special Interest Group (SIG) was formed with five founding members: Ericsson, Intel, Nokia, Toshiba and IBM. The first commercial device – a hands‑free headset – debuted at COMDEX in 1999, winning a “Best of Show” award and proving the concept could work outside the lab.",
+        "The technology spread quickly. In 2001 the Ericsson R520m became the first Bluetooth‑enabled phone sold to the public, and IBM’s ThinkPad A30 was the first laptop with built‑in Bluetooth. Since then, the ecosystem has exploded: as of 2021, about 4.7 billion Bluetooth chips are shipped each year, enough to outfit every smartphone, smartwatch, car stereo and many household gadgets. Even space has felt the buzz – a Bluetooth test in orbit in 2024 showed the tech can help link Internet‑of‑Things devices beyond Earth’s atmosphere."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What everyday object’s name inspired the Bluetooth brand?",
+    "options": [
+      "A blue‑toothed shark",
+      "A Danish king",
+      "A type of wireless mouse"
+    ],
+    "answer": 1,
+    "explain": "The name comes from King Harald Bluetooth, who united Danish tribes, mirroring how the technology unites devices."
+  },
+  "bigNumber": {
+    "value": "4.7 billion",
+    "label": "Bluetooth chips shipped each year as of 2021, enough for nearly every electronic device on the planet."
+  },
+  "mythFact": {
+    "myth": "Bluetooth always uses a lot of battery power.",
+    "fact": "Because it transmits at only 2.5 milliwatts, Bluetooth is designed for low‑energy use, extending device battery life."
+  },
+  "didYouKnow": "Bluetooth was first demonstrated in space in 2024, showing its potential for connecting IoT devices on satellites.",
+  "rememberIt": "Bluetooth lets gadgets talk quietly across a room, just like a short‑range secret handshake.",
+  "recall": [
+    {
+      "q": "What frequency band does Bluetooth operate in?",
+      "a": "The 2.4 GHz ISM band."
+    },
+    {
+      "q": "How far can a typical Bluetooth connection reach?",
+      "a": "About 10 metres (33 feet)."
+    },
+    {
+      "q": "Which king’s name inspired the Bluetooth logo?",
+      "a": "King Harald Bluetooth of Denmark."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Plantronics_Voyager_Legend.JPG/1920px-Plantronics_Voyager_Legend.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Plantronics Voyager Legend",
+    "credit": "CIA MAN275",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plantronics_Voyager_Legend.JPG"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/TP-Link_Archer_T2UB_Nano_dongle_plugged_in_to_a_computer.jpg/1920px-TP-Link_Archer_T2UB_Nano_dongle_plugged_in_to_a_computer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "TP-Link Archer T2UB Nano dongle plugged in to a computer",
+      "credit": "Paowee",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TP-Link_Archer_T2UB_Nano_dongle_plugged_in_to_a_computer.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/JBL_GO2_Bluetooth_speaker_00_10_27_681000.jpeg/1920px-JBL_GO2_Bluetooth_speaker_00_10_27_681000.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "JBL GO2 Bluetooth speaker 00 10 27 681000",
+      "credit": "Pittigrilli",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JBL_GO2_Bluetooth_speaker_00_10_27_681000.jpeg"
+    }
+  ],
+  "source": {
+    "title": "Bluetooth",
+    "url": "https://en.wikipedia.org/wiki/Bluetooth"
+  }
+}
