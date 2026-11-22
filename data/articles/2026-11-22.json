@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-22",
+  "section": "general",
+  "slug": "why-we-call-each-other-by-different-names",
+  "category": "Language and words",
+  "title": "Why We Call Each Other By Different Names",
+  "hook": "Ever wonder why your friend is called “Liz” while her passport says “Elizabeth”? The story of nicknames is richer than a quick shortcut.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "What a Nickname Really Is",
+      "paragraphs": [
+        "A nickname – sometimes called a sobriquet or, informally, a moniker – is an informal substitute for a person’s, place’s or thing’s proper name. It isn’t the same as a pseudonym, pen name or stage name, even though the ideas can overlap. The key difference is that a nickname usually grows out of everyday conversation, not a formal decision to hide or reinvent an identity.",
+        "Nicknames can be descriptive, based on a characteristic, or they can simply be a shorter version of a proper name. Think of “Lefty” for someone who always writes with the left hand, or “Liz” for an Elizabeth who wants a quicker way to sign a text. They can also be affectionate, playful, or even a little teasing, depending on who’s using them and why."
+      ]
+    },
+    {
+      "heading": "How Nicknames Form",
+      "paragraphs": [
+        "Most nicknames fall into a few easy categories. The first is the diminutive – a shortened or altered form of the original name. Margaret becomes Greta, William turns into Bill, and Daniel James can be reduced to DJ. These shortcuts are often chosen by the person themselves because they’re faster to write or say, especially in a world of quick texts and busy lives.",
+        "Other nicknames arise from physical traits, personality quirks, or ironic twists. A tall person might be called “Shorty,” while a very thin friend could earn the nickname “Skinny.” In many cultures, the nickname reflects a person’s origin – a Scotsman might be called “Jock,” an Irishman “Paddy,” and a Welshman “Taffy.” These labels can be endearing or teasing, but they always point to something people notice about the individual."
+      ]
+    },
+    {
+      "heading": "Nicknames Across the World",
+      "paragraphs": [
+        "English speakers usually place nicknames in quotation marks between a person’s first and last name – think Dwight David \"Ike\" Eisenhower. Other languages have their own conventions. German also uses quotes, while Italian writes the nickname after the full name followed by “detto” (called), as in Salvatore Schillaci detto Totò. In Portuguese, you’ll see “vulgo” or parentheses, like Edson Arantes do Nascimento (Pelé). Even the way a nickname is punctuated can hint at the speaker’s cultural background.",
+        "Some societies give nicknames a ceremonial weight. In Viking times, receiving a nickname could involve a formal ceremony called nafnfestr, where gifts were exchanged and a new social bond was forged. In Bengal, people often have a “daknam” used by family and friends, alongside a formal “bhalonam.” These practices show that nicknames are not just casual tags; they can be a bridge between personal identity and community."
+      ]
+    },
+    {
+      "heading": "A Surprising History of the Word",
+      "paragraphs": [
+        "The word “nickname” itself has a quirky origin. In the early 1300s, people used the compound “ekename,” meaning “additional name.” By the 15th century, the phrase “an ekename” was re‑bracketed – people started hearing it as “a nekename,” which eventually settled into the modern spelling “nickname.” The meaning has stayed remarkably stable: an extra name used for convenience, affection or distinction.",
+        "Even though the spelling shifted, the idea of adding a name to a person’s identity has been around for centuries. Anglo‑Saxon England recorded many nicknames, and the same practice appears in Old Norse, Chinese, and many other cultures. The persistence of nicknames tells us that humans love to personalize language, to make it fit the way we see each other."
+      ]
+    },
+    {
+      "heading": "Why We Keep Using Them",
+      "paragraphs": [
+        "Nicknames survive because they serve practical and emotional purposes. Shortening a long name saves time – writing “Liz” instead of “Elizabeth” is like using a shortcut on a map; you get to the destination faster. At the same time, a nickname can convey affection or belonging, like a secret handshake in word form.",
+        "Sometimes nicknames can be misleading, but that’s part of their charm. Calling a big fellow “Tiny” is an ironic nod that signals a shared joke. In workplaces, a nickname like “Nobby” for someone named Clark can become a badge of camaraderie, turning a simple label into a small piece of group identity."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which of these is NOT a common way nicknames are formed?",
+    "options": [
+      "Dropping letters from the original name",
+      "Adding a completely unrelated foreign word",
+      "Using a characteristic like left‑handedness"
+    ],
+    "answer": 1,
+    "explain": "Most nicknames come from shortening, dropping letters, or describing a trait; adding an unrelated foreign word is rare."
+  },
+  "bigNumber": {
+    "value": "1303",
+    "label": "The year the earliest form ‘ekename’ appears in written records."
+  },
+  "mythFact": {
+    "myth": "All nicknames are just shortened versions of real names.",
+    "fact": "Nicknames can also be ironic, descriptive, or based on origin, not just shortened names."
+  },
+  "didYouKnow": "In the United Kingdom, certain surnames traditionally come with fixed nicknames, like ‘Nobby’ for Clark and ‘Dusty’ for Miller.",
+  "rememberIt": "Nicknames are extra names that make language quicker, friendlier, or more personal.",
+  "recall": [
+    {
+      "q": "What medieval word gave rise to the modern term ‘nickname’?",
+      "a": "It came from the Old English ‘ekename’, meaning ‘additional name’."
+    },
+    {
+      "q": "Name one way English writes a nickname in a full name.",
+      "a": "It places the nickname in quotation marks between the first and last names."
+    },
+    {
+      "q": "Give an example of an ironic nickname.",
+      "a": "Calling a large person ‘Tiny’ is an ironic nickname."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Nicknames_of_the_states%2C_1884.jpg/1920px-Nicknames_of_the_states%2C_1884.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Nicknames of the states, 1884",
+    "credit": "Mackwitz, St. Louis",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicknames_of_the_states,_1884.jpg"
+  },
+  "gallery": [],
+  "source": {
+    "title": "Nickname",
+    "url": "https://en.wikipedia.org/wiki/Nickname"
+  }
+}

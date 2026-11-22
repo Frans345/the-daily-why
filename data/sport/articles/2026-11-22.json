@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-22",
+  "section": "sport",
+  "slug": "why-the-short-service-line-matters-in-badminton",
+  "category": "Olympics and more",
+  "title": "Why the Short Service Line Matters in Badminton",
+  "hook": "Ever watched a badminton rally end in a flash because the shuttle landed just a few inches too far? That tiny line decides the fate of the point.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "The Moment the Shuttle Misses the Mark",
+      "paragraphs": [
+        "Picture a high‑stakes Olympic final. The score is tied, the crowd is hushed, and the server launches a blistering serve. The shuttle rockets over the net, but as it descends it lands just beyond the short service line. The umpire raises a white flag – a fault. In that split second, the whole match swings to the opponent.",
+        "That tiny rectangle, only 1.98 metres from the net, is the short service line. It exists to keep serves within a reasonable distance, ensuring the receiver has a fair chance to return. Without it, servers could smash from the back of the court, turning the game into a one‑sided cannon fire."
+      ]
+    },
+    {
+      "heading": "How the Rule Works – A Simple Analogy",
+      "paragraphs": [
+        "Think of the short service line like the curb on a road. When you park, you must stop before the curb; go over it and you risk a ticket. In badminton, the shuttle must ‘park’ inside the service box. If it crosses the curb (the short line), it’s a fault.",
+        "The rule is clear: the server must hit the shuttle so it lands beyond the short line but inside the long service line (for doubles) or the back boundary (for singles). Both server and receiver must stay within their own service courts until the shuttle is struck. Any foot touching the line counts as a fault, just as a car wheel touching the curb would be illegal."
+      ]
+    },
+    {
+      "heading": "A Bit of History Behind the Line",
+      "paragraphs": [
+        "When badminton first emerged among British officers in India, there was no standard court. Early matches used any open space, and serves were often taken from the back of the hall. In 1887 J. H. E. Hart introduced the first formal regulations, and the short service line was added to bring order to the game.",
+        "The line has survived more than a century of rule revisions. Its purpose stayed the same: to keep the sport fast, fair, and skill‑driven. Today the International Badminton Federation (now BWF) still enforces it exactly as Hart intended."
+      ]
+    },
+    {
+      "heading": "Why It Still Matters on the Olympic Stage",
+      "paragraphs": [
+        "At the Olympics, the difference between gold and silver can be a single millimetre. A serve that lands just inside the short line gives the receiver time to set up a powerful return; a serve that lands just outside hands the point to the server without a rally. This tiny margin creates drama that viewers love and players respect.",
+        "The rule also showcases the athleticism of top players. They must combine speed, precision, and timing to land the shuttle in a 1.98‑metre‑deep box while delivering a serve that can reach speeds of over 300 km/h. It’s a test of both power and finesse."
+      ]
+    },
+    {
+      "heading": "Common Misunderstanding and the Truth",
+      "paragraphs": [
+        "Many newcomers think the short service line only applies to singles. In reality, both singles and doubles use it; the only extra line in doubles is the long service line at the back. Forgetting this can lead to easy faults, especially for players transitioning between formats.",
+        "Another myth is that a foot on the line is allowed. Badminton follows the ‘no‑touch’ rule: any part of the foot touching the line before the serve is a fault, just like stepping on a line in a taxi lane during rush hour."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What happens if a serve lands before the short service line?",
+    "options": [
+      "The point is replayed",
+      "It counts as a fault",
+      "The receiver gets a free point"
+    ],
+    "answer": 1,
+    "explain": "Landing before the short line is a service fault, so the server loses the rally."
+  },
+  "bigNumber": {
+    "value": "1.98 m",
+    "label": "Distance of the short service line from the net, about the length of a standard school desk."
+  },
+  "mythFact": {
+    "myth": "Only doubles uses the short service line.",
+    "fact": "Both singles and doubles must serve past the short service line."
+  },
+  "didYouKnow": "The shuttlecock can travel faster than a speeding car, reaching over 300 km/h, yet it slows down quickly because its feathered design creates huge air drag.",
+  "rememberIt": "The short service line keeps serves fair and the rally alive.",
+  "recall": [
+    {
+      "q": "What is the minimum distance a serve must travel past the net?",
+      "a": "At least 1.98 metres, the short service line."
+    },
+    {
+      "q": "Who first introduced the short service line into badminton rules?",
+      "a": "J. H. E. Hart in 1887."
+    },
+    {
+      "q": "Can a player's foot touch the service line during a serve?",
+      "a": "No, any foot touching the line is a fault."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Olympics_2012_Mixed_Doubles_Final.jpg/1920px-Olympics_2012_Mixed_Doubles_Final.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Olympics 2012 Mixed Doubles Final",
+    "credit": "Peter",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olympics_2012_Mixed_Doubles_Final.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%80%8E%E3%83%8F%E3%82%BB%E3%82%AC%E3%83%AF%E3%80%8F%E5%BA%97%E5%86%85_%285536402584%29.jpg/1920px-%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%80%8E%E3%83%8F%E3%82%BB%E3%82%AC%E3%83%AF%E3%80%8F%E5%BA%97%E5%86%85_%285536402584%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "スポーツショップ『ハセガワ』店内 (5536402584)",
+      "credit": "ict.wa4",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E3%80%8E%E3%83%8F%E3%82%BB%E3%82%AC%E3%83%AF%E3%80%8F%E5%BA%97%E5%86%85_(5536402584).jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_07.jpg/1920px-Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_07.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Yonex IFB 2013 - Eightfinal - Kim Ki-jung - Kim So-young — Praveen Jordan - Vita Marissa 07",
+      "credit": "Pierre-Yves Beaudouin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yonex_IFB_2013_-_Eightfinal_-_Kim_Ki-jung_-_Kim_So-young_%E2%80%94_Praveen_Jordan_-_Vita_Marissa_07.jpg"
+    }
+  ],
+  "source": {
+    "title": "Badminton",
+    "url": "https://en.wikipedia.org/wiki/Badminton"
+  }
+}
