@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-23",
+  "section": "sport",
+  "slug": "how-the-pumas-joined-the-southern-powerhouses",
+  "category": "Rugby",
+  "title": "How the Pumas Joined the Southern Powerhouses",
+  "hook": "When Argentina stepped onto the field in 2012, the Rugby Championship became more than a three‑team rivalry – it turned into a true continental showdown.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "A Competition Born to Match Europe’s Best",
+      "paragraphs": [
+        "The Rugby Championship started as the Tri Nations in 1996, a bold attempt by New Zealand, Australia and South Africa to create a Southern‑Hemisphere equivalent of Europe’s Five Nations. The inaugural series was a clean sweep for the All Blacks, who won all four games and set the tone for a competition dominated by the three traditional powerhouses. By the time the last Tri Nations ended in 2011, New Zealand had ten titles, while the Springboks and Wallabies each held three.",
+        "The tournament is run by SANZAAR – a partnership of the four national unions. Their first ten‑year deal was worth £360 million, showing how seriously the unions took the idea of a regular, high‑profile contest. It wasn’t just about bragging rights; it was about giving fans a consistent, world‑class spectacle each year."
+      ]
+    },
+    {
+      "heading": "Why Argentina’s Inclusion Was Inevitable",
+      "paragraphs": [
+        "Argentina’s rise on the world stage was hard to ignore. Their third‑place finish at the 2007 Rugby World Cup proved they could compete with the best, and former Pumas captain Agustín Pichot began lobbying for a regular competition. In September 2009 the decision was announced: from 2012 the Pumas would join the ranks, expanding the Tri Nations into the Rugby Championship.",
+        "Adding a fourth nation solved a logistical headache too. South Africa had long complained about the travel grind – they had to tour for a month while Australia and New Zealand shuffled in and out in a week. With Argentina in the mix, each team faced a more balanced travel schedule, turning a three‑team marathon into a fairer round‑robin."
+      ]
+    },
+    {
+      "heading": "The First Rugby Championship – New Zealand’s Clean Sweep",
+      "paragraphs": [
+        "The inaugural Rugby Championship in 2012 was a statement of intent. The All Blacks won all six of their matches, echoing their dominance from the Tri Nations era. Their flawless run set a high bar for the newcomers and reminded everyone why New Zealand is often called the sport’s gold standard.",
+        "For Argentina, the experience was priceless. Facing the world’s elite week after week accelerated their growth, and the Pumas soon began pulling off surprise results – a sign that the expansion was more than symbolic, it was competitive."
+      ]
+    },
+    {
+      "heading": "What the Expansion Means for Fans",
+      "paragraphs": [
+        "South African fans remember the 2006 triple round‑robin as a grueling slog, with the Boks on the road for weeks on end. The addition of Argentina spread the travel load, making each away trip feel a bit like a long taxi ride rather than a marathon bus journey. It also gave supporters more variety – a braai with friends now includes Argentine tango chants alongside the usual haka and the Springbok war cry.",
+        "Beyond logistics, the tournament’s flavor changed. Argentine flair, with their powerful forwards and creative backline, added a new dimension to the tactical battles. Matches that once felt like a two‑team duel now have four storylines, keeping viewers on the edge of their seats from the first whistle to the last."
+      ]
+    },
+    {
+      "heading": "The Championship Today – A True Southern Showdown",
+      "paragraphs": [
+        "Now the Rugby Championship is the premier annual contest in the Southern Hemisphere, featuring the world’s top four nations. Every year the teams play each other twice, and the battle for the title is as fierce as any final in world sport. The competition’s history of dominance, surprise upsets and evolving formats shows that rugby is a living, breathing game, constantly reshaped by the nations that love it.",
+        "For us fans, the Championship is more than points on a table; it’s a cultural event that brings together the spirit of a continent. Whether you’re cheering from a stadium in Pretoria, a backyard in Auckland, a park in Buenos Aires, or a living room in Sydney, the drama of the Rugby Championship feels like a shared national conversation."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which nation was the first to join the original Tri Nations, turning it into a four‑team Rugby Championship?",
+    "options": [
+      "Argentina",
+      "Japan",
+      "France"
+    ],
+    "answer": 0,
+    "explain": "Argentina’s strong World Cup showing in 2007 earned them a spot in the expanded competition starting in 2012."
+  },
+  "bigNumber": {
+    "value": "6",
+    "label": "New Zealand won all six matches in the inaugural Rugby Championship, a perfect record."
+  },
+  "mythFact": {
+    "myth": "The Rugby Championship has always been a four‑team tournament.",
+    "fact": "It began as the three‑nation Tri Nations in 1996 and only added Argentina in 2012."
+  },
+  "didYouKnow": "On 5 December 2020, before the Argentina‑Australia match, the Australian national anthem was sung for the first time in the Eora indigenous language.",
+  "rememberIt": "The Rugby Championship grew from a three‑team Tri Nations to a four‑nation contest, adding Argentina in 2012.",
+  "recall": [
+    {
+      "q": "What year did the Tri Nations become the Rugby Championship?",
+      "a": "2012"
+    },
+    {
+      "q": "Which team won the very first Rugby Championship?",
+      "a": "New Zealand"
+    },
+    {
+      "q": "Why was Argentina’s inclusion important for travel schedules?",
+      "a": "It balanced the amount of time each team spent touring abroad."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/New_Zealand_vs_South_Africa_2006_Tri_Nations_Line_Out.JPG/1920px-New_Zealand_vs_South_Africa_2006_Tri_Nations_Line_Out.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "New Zealand vs South Africa 2006 Tri Nations Line Out",
+    "credit": "Hamedog at English Wikipedia",
+    "license": "Attribution",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Zealand_vs_South_Africa_2006_Tri_Nations_Line_Out.JPG"
+  },
+  "gallery": [],
+  "source": {
+    "title": "The Rugby Championship",
+    "url": "https://en.wikipedia.org/wiki/The_Rugby_Championship"
+  }
+}

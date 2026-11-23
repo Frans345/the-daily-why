@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-23",
+  "section": "philosophy",
+  "slug": "albert-camus-and-the-absurd-life",
+  "category": "20th century",
+  "title": "Albert Camus and the Absurd Life",
+  "hook": "Imagine a writer who grew up on the dusty streets of Algiers, fought in the French Resistance, and later asked why life feels both meaningless and precious at the same time.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "heading": "A Kid from Algiers",
+      "paragraphs": [
+        "Albert Camus was born on 7 November 1913 in a working‑class neighbourhood of Mondovi, a small town in French Algeria. His mother, Catherine, was deaf and could not read, and his father died in the First World War when Albert was barely a year old. Growing up without many possessions, Camus learned early how fragile comfort can be – a reality that later coloured his writing.",
+        "Despite the poverty, a local teacher named Louis Germain saw his talent and helped him win a scholarship to a prestigious lycée near Algiers in 1924. The scholarship opened the doors to books, philosophy classes, and a love of football, where he played as a goalkeeper for the Racing Universitaire d'Alger junior team. The teamwork and clear rules of the sport appealed to him, even as he later noted that the simple morality of a game could not answer the complex moral questions posed by the state or the church."
+      ]
+    },
+    {
+      "heading": "From Tuberculosis to the Resistance",
+      "paragraphs": [
+        "At 17 Camus was diagnosed with tuberculosis, a disease that forced him to leave his family home and live with his uncle, a butcher in Algiers. While convalescing, he turned to philosophy, guided by his teacher Jean Grenier. He read the ancient Greeks, Nietzsche and Schopenhauer, and began to shape a view of the world that rejected easy answers.",
+        "When the Germans invaded France in 1940, Camus fled to Paris and soon joined the French Resistance. He became editor‑in‑chief of the underground newspaper Combat, using his pen to fight oppression. After the war he travelled the globe giving lectures, and in 1957 he received the Nobel Prize in Literature at age 44 – the second‑youngest ever and the first laureate born in Africa."
+      ]
+    },
+    {
+      "heading": "The Philosophy of the Absurd",
+      "paragraphs": [
+        "Camus is best known for the idea of the \"absurd\" – the clash between our natural desire for meaning and a universe that offers none. He illustrated this with the story of Meursault in The Stranger, a man who lives day by day, indifferent to social expectations, and who finally confronts the absurd when he faces death. Think of waiting for load‑shedding to end: you know the lights will eventually come back, but the timing is unknowable, and you must keep living while the darkness persists.",
+        "In his essay The Myth of Sisyphus, Camus compares human life to the mythic hero who is condemned to roll a stone up a hill forever, only to watch it roll back down. Rather than seeing this as a punishment, Camus suggests we can find freedom by embracing the struggle itself – like a braai master who enjoys the ritual of grilling, even if the meat never turns out perfectly. He argued that acknowledging the absurd allows us to live with honesty, compassion, and a rebellious joy."
+      ]
+    },
+    {
+      "heading": "Politics, Ethics, and the Algerian Question",
+      "paragraphs": [
+        "Camus was politically active but never fit neatly into any party. In the 1930s he briefly joined the French Communist Party, hoping it would help alleviate the gap between European settlers and native Algerians, yet he left when he saw the party turning into a tool of Stalinist control. He later aligned with anarcho‑syndicalist ideas, favoring worker self‑management over authoritarian rule.",
+        "During the Algerian War (1954‑1962) Camus took a neutral stance, calling for a multicultural, pluralistic Algeria where both French and Arab citizens could coexist. This position alienated him from both the French right, which demanded a hard line, and the Algerian nationalists, who saw his call for compromise as betrayal. His insistence on human dignity over ideological purity made him a controversial figure, but also a moralist who warned against any totalitarian impulse."
+      ]
+    },
+    {
+      "heading": "Why Camus Still Matters",
+      "paragraphs": [
+        "Camus' ideas echo in everyday conversations about meaning. When someone says, \"Life is pointless,\" a Camus‑inspired reply might be, \"Maybe, but we can still choose to enjoy the ride.\" His notion of the absurd helps people cope with uncertainty, whether it’s a sudden power cut or a global pandemic – we cannot control the larger forces, but we can decide how to respond.",
+        "In literature and film, the absurdist lens appears in stories where characters confront indifferent worlds, from South African playwrights exploring post‑apartheid identity to modern TV series that highlight the randomness of fate. Even philosophers who label themselves existentialists often cite Camus as a key influence, despite his own rejection of the term. In short, his call to live fully, with awareness of life's limits, remains a guiding compass for many who feel the world is both beautiful and baffling."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which of Camus' works famously introduces the character Meursault?",
+    "options": [
+      "The Plague",
+      "The Stranger",
+      "The Fall"
+    ],
+    "answer": 1,
+    "explain": "Meursault is the detached protagonist of The Stranger, illustrating Camus' absurdist ideas."
+  },
+  "bigNumber": {
+    "value": "44",
+    "label": "Camus was 44 when he won the Nobel Prize, making him the second‑youngest laureate ever."
+  },
+  "mythFact": {
+    "myth": "Camus was an existentialist.",
+    "fact": "He rejected the label, preferring the term 'absurdist' to describe his philosophy."
+  },
+  "didYouKnow": "Camus played goalkeeper for a junior football team before tuberculosis ended his sporting ambitions, and later used football as a metaphor for human morality.",
+  "rememberIt": "The absurd is the gap between our search for meaning and a silent universe.",
+  "recall": [
+    {
+      "q": "Where was Albert Camus born?",
+      "a": "In Mondovi, French Algeria."
+    },
+    {
+      "q": "What political stance did Camus take during the Algerian War?",
+      "a": "He advocated a neutral, multicultural Algeria."
+    },
+    {
+      "q": "What is the central image in Camus' essay The Myth of Sisyphus?",
+      "a": "A man endlessly rolling a stone up a hill."
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Albert Camus, gagnant de prix Nobel, portrait en buste, posé au bureau, faisant face à gauche, cigarette de tabagisme",
+    "credit": "Photograph by United Press International",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Tipaza_st%C3%A8le_Albert_Camus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Tipaza stèle Albert Camus",
+      "credit": "Dalbera / J.P. Dalbéra from Nice, France",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tipaza_st%C3%A8le_Albert_Camus.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/R%C3%BAa_Albert_Camus.001_-_La_Coru%C3%B1a.jpg/1920px-R%C3%BAa_Albert_Camus.001_-_La_Coru%C3%B1a.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Rúa Albert Camus.001 - La Coruña",
+      "credit": "Drow male",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C3%BAa_Albert_Camus.001_-_La_Coru%C3%B1a.jpg"
+    }
+  ],
+  "source": {
+    "title": "Albert Camus",
+    "url": "https://en.wikipedia.org/wiki/Albert_Camus"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-23",
+  "section": "general",
+  "slug": "why-machu-picchu-still-feels-like-a-secret",
+  "category": "Places and the world",
+  "title": "Why Machu Picchu Still Feels Like a Secret",
+  "hook": "Imagine climbing a mountain ridge and stumbling onto a stone city that looks like it was built for a king, yet no one ever wrote its name down. That’s the everyday mystery of Machu Picchu.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "heading": "A City on a Ridge",
+      "paragraphs": [
+        "When you first see Machu Picchu from the train, it looks like a tiny village perched on a narrow saddle between two peaks. The main ridge sits at about 2,430 metres – roughly the height of a 40‑storey building – and the whole complex stretches only a few hundred metres across. From that height you can see the Urubamba River carving a deep canyon below, a landscape that feels as remote as the South African Drakensberg but far more steeped in stone.",
+        "The Incas built the citadel using a technique called dry‑stone masonry, where each block fits snugly with its neighbours without mortar. Think of it like a giant jigsaw puzzle made of granite; the pieces are so precisely cut that you can’t slip a sheet of paper between them. This method gave the walls a timeless durability, allowing them to survive earthquakes that would crumble modern brickwork."
+      ]
+    },
+    {
+      "heading": "Who Built It and Why?",
+      "paragraphs": [
+        "Most scholars agree the site was constructed in the mid‑15th century, around 1450, as a royal estate for the Inca emperor Pachacuti. Radiocarbon dates from human remains place occupation between c. 1420 and 1530, meaning the city was used for roughly 80 years before being abandoned, likely as the Spanish conquest spread across the empire. Unlike a typical city, Machu Picchu was never a capital; it was more like a summer house for the emperor, complete with temples, terraces, and living quarters for his staff.",
+        "The name we all know – Machu Picchu – actually means “old mountain” in Quechua (machu = old, picchu = peak). Recent research suggests the Incas themselves may have called the place “Huayna Picchu”, meaning “young mountain”, after the smaller peak that looms behind the main complex. The “old mountain” label probably stuck after American explorer Hiram Bingham publicised the ruins in 1911, and the name has been used ever since."
+      ]
+    },
+    {
+      "heading": "Life Inside the Stone Walls",
+      "paragraphs": [
+        "During its heyday about 750 people lived at the citadel, most of them yanaconas – permanent support staff who tended the emperor’s needs. Their daily routine would have resembled a modern hotel crew: preparing food on terraced farms, maintaining the water channels, and looking after the llamas and alpacas that were brought up from higher altitudes for meat and wool. Archaeologists have found animal bones far from their natural range, confirming that the Incas deliberately moved livestock up to 2,400 metres for the estate.",
+        "Skeletal analysis shows the residents were a melting pot of the empire. DNA points to ancestry from the Andes, the coast, Ecuador and the Amazon, meaning the workforce was as diverse as a Johannesburg market on Saturday. Their diets were a mix of maize, potatoes, legumes and occasional fish – less fish than in coastal towns, more corn than in high‑altitude villages. Interestingly, the bones show fewer signs of arthritis and fractures than typical Inca sites, suggesting the work here was less physically brutal than the heavy labour (Mit’a) many commoners endured."
+      ]
+    },
+    {
+      "heading": "From Hidden Village to World Wonder",
+      "paragraphs": [
+        "Even though local people knew of the ruins, the site remained largely invisible to the outside world until Agustín Lizárraga guided Hiram Bingham to the summit in 1911. Bingham’s books turned the “Lost City of the Incas” into a global headline, and within a few decades Machu Picchu earned UNESCO World Heritage status (1983) and a spot among the New Seven Wonders (2007). Today more than 1.5 million tourists walk its stone paths each year – a number that rivals the annual visitors to Table Mountain.",
+        "The surge in tourism has sparked a modern dilemma: how to protect a fragile 15th‑century site while sharing its beauty with the world. The Peruvian government limits daily visitor numbers and enforces strict pathways, much like a park ranger would control foot traffic on a popular hiking trail to prevent erosion. The balance between preservation and access is an ongoing conversation, echoing debates we hear about protecting our own natural treasures."
+      ]
+    },
+    {
+      "heading": "A Surprise in the Stones",
+      "paragraphs": [
+        "One of the most intriguing features is the Intihuatana stone, a ritual pillar that aligns with the sun at the solstices. Some visitors think it’s a sundial, but researchers believe it served as an astronomical observatory, helping the Incas track the seasons for agricultural planning. Its precise angle matches the sunrise on the winter solstice, a clever reminder that even in the high Andes, the empire’s calendar was tied to the sky.",
+        "Even more surprising is that the original Inca name of the site may never be known. The 2021 study in *Ñawpa Pacha* argues that “Huayna Picchu” was the true name, yet the label “Machu Picchu” has become so entrenched that it now appears on every map, souvenir, and travel brochure. It’s a reminder that history is often written by the discoverers, not the original builders."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What was the primary purpose of Machu Picchu when it was first built?",
+    "options": [
+      "A royal palace and seasonal retreat",
+      "A military fortress to defend against the Spanish",
+      "A major trade hub for the Inca empire"
+    ],
+    "answer": 0,
+    "explain": "Archaeologists agree the citadel functioned as a royal estate for Emperor Pachacuti, not a defensive or commercial centre."
+  },
+  "bigNumber": {
+    "value": "1.5 million",
+    "label": "Annual visitors in 2025, making it Peru’s most visited international tourist spot"
+  },
+  "mythFact": {
+    "myth": "Machu Picchu was a lost city hidden for centuries until the Spanish found it.",
+    "fact": "Local people knew of the ruins long before Bingham; the site was abandoned centuries earlier, not lost."
+  },
+  "didYouKnow": "The Intihuatana stone aligns precisely with the sunrise on the winter solstice, showing the Incas’ sophisticated astronomy.",
+  "rememberIt": "Machu Picchu is a 15th‑century royal retreat, not a lost city, perched on an ancient stone puzzle.",
+  "recall": [
+    {
+      "q": "At what altitude does Machu Picchu sit?",
+      "a": "About 2,430 metres (7,970 feet) above sea level."
+    },
+    {
+      "q": "How many people are estimated to have lived there during its occupation?",
+      "a": "Roughly 750 residents, mostly support staff and specialists."
+    },
+    {
+      "q": "Which explorer brought Machu Picchu to worldwide attention in 1911?",
+      "a": "American historian Hiram Bingham III."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/1920px-Machu_Picchu%2C_2023_%28012%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Machu Picchu, 2023 (012)",
+    "credit": "Draceane",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Terra.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Terra",
+      "credit": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terra.png"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/South_America_laea_relief_location_map.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "South America laea relief location map",
+      "credit": "Uwe Dedering",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_America_laea_relief_location_map.jpg"
+    }
+  ],
+  "source": {
+    "title": "Machu Picchu",
+    "url": "https://en.wikipedia.org/wiki/Machu_Picchu"
+  }
+}
