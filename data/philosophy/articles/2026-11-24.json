@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-24",
+  "section": "philosophy",
+  "slug": "what-michel-de-montaigne-can-teach-us-about-knowing-nothing",
+  "category": "Renaissance",
+  "title": "What Michel de Montaigne Can Teach Us About Knowing Nothing",
+  "hook": "Imagine a writer who made a habit of asking himself, “What do I know?” and turned that simple question into a lifelong experiment.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "heading": "A French Gentleman of the Renaissance",
+      "paragraphs": [
+        "Michel de Montaigne was born on 28 February 1533 on his family’s estate near Bordeaux, in the Aquitaine region of France. His family was wealthy – his great‑grandfather had bought the Château de Montaigne in 1477 after making a fortune as a herring merchant – and they moved in the circles of local magistrates and royal officials. Montaigne grew up in a house where Latin was spoken at every meal, because his father believed that learning a language directly from daily conversation would make it stick better than textbooks.",
+        "His education was rigorous and unusual. By the age of thirteen he had mastered the entire curriculum of the College of Guienne, the most prestigious boarding school in Bordeaux, under the famed Latin scholar George Buchanan. After finishing school in 1546 he entered the legal profession, eventually becoming a councillor of the Parlement in Bordeaux – a high‑ranking court that dealt with serious criminal and civil cases. In the 1560s he also spent time at the royal court of Charles IX, even accompanying the king during the siege of Rouen in 1562."
+      ]
+    },
+    {
+      "heading": "A Friendship That Shaped an Essay",
+      "paragraphs": [
+        "While serving at the Bordeaux Parlement, Montaigne met Étienne de La Boétie, a poet‑politician three years his senior. Their bond was so intense that Montaigne later wrote, “Our souls mingled and blended… once every three centuries.” La Boétie’s short life – he died of plague or tuberculosis in 1563 – left Montaigne grieving, but also gave him a living example of the fragile, unpredictable nature of human affairs.",
+        "The loss pushed Montaigne toward a new project: a collection of personal reflections he called the Essais, or “Attempts.” He began writing in 1572, using his own life as the raw material. The essays are full of anecdotes – a story about a childhood game, a description of a sudden fever, a conversation with a friend – all woven together with philosophical questions. In this way Montaigne turned private experience into a laboratory for testing ideas about knowledge, virtue, and the human condition."
+      ]
+    },
+    {
+      "heading": "Skeptical Curiosity – “What Do I Know?”",
+      "paragraphs": [
+        "Montaigne is most famous for his skeptical stance, summed up in the French phrase “Que sais‑je ?” – “What do I know?” He argued that human beings are limited, that our senses can deceive us, and that certainty is rare. To illustrate, he compared the mind to a ship navigating foggy waters: you can steer, but you never see the whole coastline. This image helps us understand why Montaigne preferred humility over dogma; he believed we should keep questioning rather than assuming we have the final answer.",
+        "In everyday terms, think of a South African load‑shedding schedule. You never know exactly when the power will cut off, so you learn to adapt, keep a flashlight handy, and avoid assuming the lights will stay on. Montaigne’s advice is similar: accept uncertainty, stay prepared, and let curiosity guide you rather than insisting you already possess the truth."
+      ]
+    },
+    {
+      "heading": "The Essay as a Way of Living",
+      "paragraphs": [
+        "Before Montaigne, most serious writing was either poetry, history, or theological treatise. He invented the essay – a short, informal piece that blends personal story with philosophical reflection. The form allowed him to digress, to wander from a discussion of friendship to a memory of a childhood illness, without losing coherence. This freedom made the Essais feel like a conversation with a friend over a braai, where topics drift naturally.",
+        "Montaigne’s style also broke with the expectations of his time. Critics thought his self‑focused writing was indulgent, yet he insisted that examining one’s own life was the best way to understand humanity at large. By saying “I am myself the matter of my book,” he turned autobiography into a tool for universal insight, a practice that still resonates with modern vloggers and diary‑keepers."
+      ]
+    },
+    {
+      "heading": "Montaigne’s Echo in Today’s World",
+      "paragraphs": [
+        "The influence of Montaigne stretches far beyond the 16th century. His skeptical method inspired later philosophers such as René Descartes, who famously began with “I think, therefore I am,” a direct response to Montaigne’s doubt. Writers like Ralph Waldo Emerson and Virginia Woolf modeled their reflective prose on his essays, and contemporary journalists still use the personal‑essay format to explore complex issues.",
+        "Even in everyday South African life, Montaigne’s ideas appear. When a commuter on a minibus taxi wonders whether the traffic jam will ever end, the answer is not a fixed schedule but a willingness to endure, to observe, and to keep asking questions. In education, teachers who let students write personal reflections are echoing Montaigne’s belief that learning begins with looking inward."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which of these statements best matches Montaigne’s famous skeptical motto?",
+    "options": [
+      "Knowledge is a treasure chest waiting to be opened.",
+      "What do I know?",
+      "Truth is written in stone."
+    ],
+    "answer": 1,
+    "explain": "Montaigne’s motto is the simple, open‑ended question that invites continual inquiry."
+  },
+  "bigNumber": {
+    "value": "13",
+    "label": "Montaigne had mastered the full school curriculum by age thirteen."
+  },
+  "mythFact": {
+    "myth": "Montaigne’s essays were written for fame and literary glory.",
+    "fact": "He wrote them as a personal experiment, using his own life as material."
+  },
+  "didYouKnow": "Montaigne’s father hired a musician to wake him each morning, believing music would sharpen his mind.",
+  "rememberIt": "Montaigne taught us that honest doubt is the start of true understanding.",
+  "recall": [
+    {
+      "q": "Where was Michel de Montaigne born?",
+      "a": "On his family estate near Bordeaux in Aquitaine."
+    },
+    {
+      "q": "What literary form did Montaigne popularise?",
+      "a": "The essay."
+    },
+    {
+      "q": "What simple question summarizes Montaigne’s skeptical outlook?",
+      "a": "“What do I know?”"
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Portrait of Michel de Montaigne, circa unknown",
+    "credit": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Michel_de_Montaigne,_circa_unknown.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/William_Strang%2C_Montaigne_and_his_cat.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "William Strang, Montaigne and his cat",
+      "credit": "William Strang",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Strang,_Montaigne_and_his_cat.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/St_Michel_de_Montaigne_Tour03.jpg/1920px-St_Michel_de_Montaigne_Tour03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "St Michel de Montaigne Tour03",
+      "credit": "Henry SALOMÉ",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Michel_de_Montaigne_Tour03.jpg"
+    }
+  ],
+  "source": {
+    "title": "Michel de Montaigne",
+    "url": "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+  }
+}

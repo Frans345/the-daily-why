@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-24",
+  "section": "sport",
+  "slug": "why-squash-finally-gets-its-olympic-moment",
+  "category": "Olympics and more",
+  "title": "Why Squash Finally Gets Its Olympic Moment",
+  "hook": "Imagine a game where a tiny rubber ball can turn a quiet court into a battlefield of speed and strategy, and now it’s heading for the 2028 Los Angeles Olympics.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "From Prison Walls to Harrow Halls",
+      "paragraphs": [
+        "Squash didn’t start in a fancy sports club – it began in the cramped, stone‑lined prisons of 19th‑century London where inmates played a rough version of rackets. Around 1830 a group of boys at Harrow School discovered that a punctured ball, which “squashed” on impact, added a whole new layer of unpredictability. They turned the game into a fast‑paced indoor chase, carving out tiny courts beside water pipes and buttresses.",
+        "Those early courts were so tight that players had to shorten their rackets and learn to live with a ball that barely bounced when cold. The sport spread quickly through elite schools, and by 1864 Harrow even built four outdoor courts that could survive the English rain. The humble beginnings explain why today’s squash court feels like a modern version of a schoolyard playground turned high‑tech arena."
+      ]
+    },
+    {
+      "heading": "How the Game Works – The Tin, the Front Wall and the ‘Out’ Line",
+      "paragraphs": [
+        "Picture a small kitchen where you have to hit a rubber ball against the wall without letting it hit the countertop. In squash the “countertop” is called the tin – a half‑meter metal strip at the bottom of the front wall. If the ball hits the tin, the point is lost, just like spilling soup on the floor would end a cooking contest.",
+        "The court is divided by a front line, a half‑court line and service boxes, creating three “boxes” that dictate where you can serve and where you must aim your returns. The top of the front wall has an out line; any ball that flies above it is out of bounds. These simple markings turn a plain room into a tactical battlefield, forcing players to think three moves ahead, much like planning a route through a busy taxi rank."
+      ]
+    },
+    {
+      "heading": "The Ball – A Tiny Rubber Chameleon",
+      "paragraphs": [
+        "A squash ball is only about 40 mm in diameter and weighs roughly 24 grams – about the size of a large marble. It comes in four colour‑coded versions, each with a different bounce level. The competition standard is the double‑yellow‑dot ball introduced in 2000; it’s the least bouncy, demanding the highest skill to keep it alive.",
+        "Because the ball must be warmed up by repeated hits, a cold ball behaves like a dead mouse – it barely rebounds. Players spend the first few minutes “jogging” the ball, much like you would warm up a car engine before a long drive. The colour dots act like a traffic light for the game: blue for beginners, red for progressing players, single yellow for regular competition, and double yellow for the pros."
+      ]
+    },
+    {
+      "heading": "From Niche Sport to Olympic Stage",
+      "paragraphs": [
+        "World Squash is recognized by the International Olympic Committee, and after years of lobbying the sport earned a spot in the 2028 Summer Games in Los Angeles. This is more than a badge of honour; it means funding, global exposure and a new generation of South African kids who can watch a local hero chase a yellow‑dot ball on TV and think, “I could do that too.”",
+        "The Professional Squash Association already runs a global tour, but Olympic inclusion will bring squash into school curricula and community centres, just as the 1996 rugby sevens boom followed its first World Cup. The move also pressures manufacturers to keep equipment affordable, ensuring that a modestly priced racket and a ball can fit into a family’s budget, much like a braai set that lasts for years."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which historic vessel famously featured a squash court for its first‑class passengers?",
+    "options": [
+      "The RMS Lusitania",
+      "The RMS Titanic",
+      "The RMS Queen Mary"
+    ],
+    "answer": 1,
+    "explain": "In 1912 the RMS Titanic had a first‑class squash court on G‑Deck, offering a rare luxury for its wealthy travelers."
+  },
+  "bigNumber": {
+    "value": "20 million",
+    "label": "People who play squash regularly worldwide, spread across more than 185 countries."
+  },
+  "mythFact": {
+    "myth": "Squash is just a casual gym activity with no real competition.",
+    "fact": "Squash has a professional tour, world championships, and will debut at the 2028 Olympics."
+  },
+  "didYouKnow": "The first squash court in North America was built at St. Paul’s School in Concord, New Hampshire, back in 1884.",
+  "rememberIt": "Squash’s tiny ball, tin wall, and fast rallies are why it finally belongs on the Olympic stage.",
+  "recall": [
+    {
+      "q": "What is the name of the metal strip at the bottom of the front wall that makes a ball out?",
+      "a": "It is called the tin."
+    },
+    {
+      "q": "Which colour‑dot ball is used in professional competition?",
+      "a": "The double‑yellow‑dot ball."
+    },
+    {
+      "q": "In which year will squash appear in the Olympic Games?",
+      "a": "Squash will debut at the 2028 Summer Olympics."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Semifinal_Squash_SM_2021.jpg/1920px-Semifinal_Squash_SM_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Semifinal Squash SM 2021",
+    "credit": "User5757",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Semifinal_Squash_SM_2021.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/World_map_for_the_World_Squash_Federation.png/1920px-World_map_for_the_World_Squash_Federation.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "World map for the World Squash Federation",
+      "credit": "Felipe Menegaz",
+      "license": "GFDL",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_map_for_the_World_Squash_Federation.png"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/US_Open_Squash_Championship_2011_Drexel_University.jpg/1920px-US_Open_Squash_Championship_2011_Drexel_University.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "US Open Squash Championship 2011 Drexel University",
+      "credit": "Ameykhanolkar",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Open_Squash_Championship_2011_Drexel_University.jpg"
+    }
+  ],
+  "source": {
+    "title": "Squash (sport)",
+    "url": "https://en.wikipedia.org/wiki/Squash_(sport)"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-24",
+  "section": "general",
+  "slug": "why-every-country-needs-a-central-bank",
+  "category": "Money and the economy",
+  "title": "Why Every Country Needs a Central Bank",
+  "hook": "Ever wondered who decides how much cash you get in your wallet and why interest rates rise and fall?",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "What a Central Bank Actually Does",
+      "paragraphs": [
+        "A central bank is the nation’s financial referee. It sets the rules for the money supply, decides how cheap or expensive borrowing should be, and makes sure the banking system stays stable. Unlike your local bank, which takes deposits and gives out loans, the central bank has a monopoly on creating new money – it can print notes or add digital reserves to the system.",
+        "Think of it like the thermostat in your home. When the room gets too cold, the thermostat turns the heat up; when it gets too hot, it cools things down. The central bank does the same with the economy, turning up the money supply to spur growth or cooling it down to tame inflation. This balancing act is called monetary policy, and it influences everything from the price of a loaf of bread to the interest you pay on a car loan."
+      ]
+    },
+    {
+      "heading": "How Independence Keeps the System Fair",
+      "paragraphs": [
+        "Most modern central banks are set up to operate independently of day‑to‑day politics. That means the government can’t simply order the bank to print money whenever it wants to fund a big project. Independence helps prevent reckless spending that could cause runaway inflation, like the hyperinflation South Africa experienced in the 1980s.",
+        "But independence isn’t absolute. Governments still appoint the bank’s governor and can set broad goals, such as keeping unemployment low. The bank must answer to parliament, and its decisions are often debated in the media. This dance between autonomy and accountability keeps the system transparent while protecting the economy from short‑term political whims."
+      ]
+    },
+    {
+      "heading": "A Short History of the Idea",
+      "paragraphs": [
+        "The first institution that looked like a central bank was Stockholms Banco, founded in 1657, which issued the earliest banknotes. Its successor, the Sveriges Riksbank, still operates today and is often called the world’s oldest central bank. The Bank of England, created in 1694, followed soon after and became the model for many later banks.",
+        "In the 19th century, the term “central bank” was still vague, referring to the head office of a large commercial bank. It wasn’t until the early 1900s, after World War I, that central banks were formally defined as the bodies that control a country’s money supply. By the mid‑20th century, most developed nations had set up their own central banks, and the wave of new banks continued after World War II, especially in newly independent states."
+      ]
+    },
+    {
+      "heading": "Names, Not All the Same",
+      "paragraphs": [
+        "You’ll hear many names: Reserve Bank, National Bank, Monetary Authority, even State Bank. In South Africa, the Reserve Bank was founded in 1921 and still carries that historic title. In the United States, the Federal Reserve – often just “the Fed” – was created in 1913 and acts as the country’s central bank.",
+        "The variety of names can be confusing because some commercial banks use similar titles without actually being central banks. For example, the State Bank of India is a huge commercial bank, not a monetary authority. The key is the function: if the institution controls the monetary base and oversees other banks, it’s a central bank, regardless of its name."
+      ]
+    },
+    {
+      "heading": "Why It Matters to You",
+      "paragraphs": [
+        "When the central bank lowers interest rates, banks can borrow cheaper, and they pass those savings on to you – lower mortgage payments, cheaper credit cards, and more affordable loans for small businesses. Conversely, when it raises rates to curb inflation, you might notice higher loan costs but also steadier prices for everyday goods.",
+        "The central bank also acts as a safety net. During a crisis, like the 2008 financial crash or a sudden power‑cut induced bank run, it can provide emergency liquidity to keep banks open. Without that backstop, a single panic could cascade into a full‑blown economic collapse, affecting everything from your grocery bill to your job security."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which of these institutions actually creates new money for a country?",
+    "options": [
+      "Your local commercial bank",
+      "The central bank",
+      "The national treasury"
+    ],
+    "answer": 1,
+    "explain": "Only the central bank has the legal authority to increase the monetary base, either by printing cash or adding digital reserves."
+  },
+  "bigNumber": {
+    "value": "1657",
+    "label": "Year Stockholms Banco, often called the first central bank, was founded."
+  },
+  "mythFact": {
+    "myth": "All banks called ‘Reserve Bank’ are commercial banks.",
+    "fact": "Reserve banks are central banks that manage a country’s money supply, not ordinary commercial banks."
+  },
+  "didYouKnow": "The term “central bank” first appeared in the early 1800s, but it originally meant the head office of a multi‑branch bank, not the monetary authority we think of today.",
+  "rememberIt": "A central bank controls the money supply and keeps the banking system stable.",
+  "recall": [
+    {
+      "q": "What is the main tool a central bank uses to influence the economy?",
+      "a": "Adjusting interest rates."
+    },
+    {
+      "q": "Why is central bank independence important?",
+      "a": "It helps prevent political pressure from causing reckless money printing."
+    },
+    {
+      "q": "Name one of the oldest continuously operating central banks.",
+      "a": "The Sveriges Riksbank of Sweden."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Government-Vedder-Highsmith-detail-1.jpeg/1920px-Government-Vedder-Highsmith-detail-1.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Government-Vedder-Highsmith-detail-1",
+    "credit": "Artist is Elihu Vedder (1836–1923). Photographed 2007 by Carol Highsmith (1946–), who explicitly placed the photograph i",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Government-Vedder-Highsmith-detail-1.jpeg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Walter_Bagehot_NPG_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Walter Bagehot NPG cropped",
+      "credit": "Norman Hirst (1862–1956), after Unknown artist",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walter_Bagehot_NPG_cropped.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_02.jpg/1920px-Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Tower and building of Reserve Bank of India, Mumbai 02",
+      "credit": "Pinakpani",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tower_and_building_of_Reserve_Bank_of_India,_Mumbai_02.jpg"
+    }
+  ],
+  "source": {
+    "title": "Central bank",
+    "url": "https://en.wikipedia.org/wiki/Central_bank"
+  }
+}
