@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-25",
+  "section": "general",
+  "slug": "why-your-needle-always-points-north",
+  "category": "How things work",
+  "title": "Why Your Needle Always Points North",
+  "hook": "The next time you watch a compass needle swing, you’ll see more than a simple metal stick – you’ll see Earth’s invisible forces at work.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "The Needle’s Secret Dance",
+      "paragraphs": [
+        "A compass is essentially a tiny magnet on a low‑friction pivot. When you hold it level, the magnet’s north pole feels a pull toward the Earth’s magnetic north, while the south pole is drawn the opposite way. This pull is a tiny torque, a twisting force that makes the needle spin until it lines up with the planet’s magnetic field.",
+        "The pivot point is often a jewel bearing or a polished steel pin, allowing the needle to glide almost without resistance. In a good compass the needle settles in a few seconds, after any wobble dies out. The liquid‑filled designs you see in modern compasses add a thin layer of oil or kerosene, which damps the motion, so the needle stops almost instantly – perfect for a quick bearing on a hiking trail."
+      ]
+    },
+    {
+      "heading": "From Magnetic North to True North",
+      "paragraphs": [
+        "Most maps use true north – the direction of the geographic North Pole – not the magnetic direction your needle points to. The angle between true north and magnetic north is called magnetic declination, and it varies from place to place. In Cape Town the declination is about 20° east, meaning the needle points 20° to the right of true north.",
+        "Maps usually list the local declination so you can add or subtract it and get a true bearing. Some compasses even have a tiny screw that lets you set the declination, so the numbers on the dial read true north directly. Without this correction you could end up a few kilometres off course on a long trek."
+      ]
+    },
+    {
+      "heading": "A Tool That Traveled Through Time",
+      "paragraphs": [
+        "The compass began not as a navigator’s aid but as a divination device in ancient China. Early geomancers used a “south‑pointing spoon” that rested on a smooth bronze plate; the spoon’s handle always aligned north‑south, helping them predict auspicious directions. By the 11th century the Song dynasty turned this idea into a practical iron needle, magnetized by striking it with lodestone.",
+        "The technology spread westward slowly. Western Europe recorded its first compass use around 1190, and the Islamic world adopted it in the 13th century. By the 1300s dry compasses – needles on a card without liquid – were common in Europe. The liquid‑filled version, which we still use today, arrived in the early 20th century, offering steadier readings for sailors and soldiers alike."
+      ]
+    },
+    {
+      "heading": "Design Tricks for Everyday Use",
+      "paragraphs": [
+        "Modern compasses do more than just point north. The capsule often contains phosphorescent paint or tiny tritium vials, letting you read the needle at night – handy on a night‑time braai run. The baseplate may have a protractor, a direction‑of‑travel arrow, and even a ruler for measuring distances on a map, turning a simple tool into a mini‑surveying station.",
+        "Some models include an adjustable declination knob, a gimbal‑mounted needle that works in both hemispheres, and a built‑in sighting mirror for precise bearings on distant landmarks. Because the liquid inside is incompressible, many compasses work underwater, which is why divers still keep a magnetic compass as a backup to their digital devices."
+      ]
+    },
+    {
+      "heading": "Why Compasses Still Matter",
+      "paragraphs": [
+        "You might think GPS has made the magnetic compass obsolete, but satellites can fail or lose signal under dense canopy, heavy cloud, or in a tunnel. In those moments a magnetic compass, with no batteries and no need for satellites, becomes a reliable lifeline. It also teaches a fundamental skill: understanding direction, angles, and the Earth’s magnetic personality.",
+        "Even in the age of smartphones, many outdoor enthusiasts carry a compass as a safety net. Knowing how to read a bearing, adjust for declination, and plot a course on a topographic map can turn a confusing trek into a confident adventure. So the next time you hear that soft click of a needle settling, remember you’re holding a piece of ancient science that still guides us today."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What does the liquid inside a modern compass mainly do?",
+    "options": [
+      "It makes the needle heavier",
+      "It dampens the needle’s swing",
+      "It powers the compass electronically"
+    ],
+    "answer": 1,
+    "explain": "The liquid slows the needle’s movement, allowing it to settle quickly and stay stable."
+  },
+  "bigNumber": {
+    "value": "1190",
+    "label": "Year when the first compass use was recorded in Western Europe"
+  },
+  "mythFact": {
+    "myth": "A compass points to the geographic North Pole.",
+    "fact": "A magnetic compass points to magnetic north, which can differ from true north by many degrees."
+  },
+  "didYouKnow": "The word ‘magnet’ likely comes from the region of Magnesia in ancient Anatolia, where naturally magnetized lodestones were first found.",
+  "rememberIt": "A compass needle follows Earth’s magnetic field, not the true North Pole.",
+  "recall": [
+    {
+      "q": "What is magnetic declination?",
+      "a": "The angle between magnetic north and true north at a specific location."
+    },
+    {
+      "q": "Why do modern compasses contain liquid?",
+      "a": "To dampen the needle’s motion so it settles faster and stays steady."
+    },
+    {
+      "q": "When did the first navigational compasses appear in China?",
+      "a": "Around the year 1088 during the Song dynasty."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/2016_Busola.JPG/1920px-2016_Busola.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "2016 Busola",
+    "credit": "Jacek Halicki",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016_Busola.JPG"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%D7%9E%D7%A6%D7%A4%D7%9F.jpg/1920px-%D7%9E%D7%A6%D7%A4%D7%9F.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "מצפן",
+      "credit": "Yannay Levi",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D7%9E%D7%A6%D7%A4%D7%9F.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Walkers_compass_arp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Walkers compass arp",
+      "credit": "Arpingstone",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walkers_compass_arp.jpg"
+    }
+  ],
+  "source": {
+    "title": "Compass",
+    "url": "https://en.wikipedia.org/wiki/Compass"
+  }
+}

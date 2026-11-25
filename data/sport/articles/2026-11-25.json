@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-25",
+  "section": "sport",
+  "slug": "how-a-mock-obituary-sparked-cricket-s-greatest-rivalry",
+  "category": "Cricket",
+  "title": "How a Mock Obituary Sparked Cricket’s Greatest Rivalry",
+  "hook": "When a tongue‑in‑cheek newspaper notice declared English cricket dead, nobody could have guessed it would ignite a contest that still grips fans half a world away.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "The Shock at The Oval",
+      "paragraphs": [
+        "On 29 August 1882, England needed just ten runs to win the final Test at The Oval. Ted Peate, the last man in, managed only two before being bowled, and the crowd fell into a stunned silence. The Australians had pulled off a stunning nine‑run victory on English soil – a first for them – and the English press erupted with disbelief."
+      ]
+    },
+    {
+      "heading": "A Satirical Death Notice",
+      "paragraphs": [
+        "The very next day, The Sporting Times ran a mock obituary: “In affectionate remembrance of English cricket, which died at The Oval, 29 August. The body will be cremated and the ashes taken to Australia.” The piece was meant as a joke, but the phrase “the ashes” caught the imagination of both nations. It turned a single loss into a narrative of death and rebirth, giving the series a dramatic backstory that fans could rally around."
+      ]
+    },
+    {
+      "heading": "Ivo Bligh’s Quest and the First Urn",
+      "paragraphs": [
+        "When England’s captain Ivo Bligh set sail for Australia later that year, he vowed to “regain those ashes”. After winning two of the three Tests, the English team was presented with a tiny silver urn, said to contain the ashes of a wooden bail. The exact origin of the urn is murky – some say it was a gift from Victorian ladies after a Christmas match at Rupertswood, others claim it came later from Bligh’s fiancée. Regardless, the urn became the physical symbol of the rivalry, even though it never became the official trophy.",
+        "The urn stayed in England, eventually finding a home at the MCC Museum at Lord’s. It has only been taken to Australia three times – for the Bicentenary in 1988, the 2006‑07 series, and a 2019 exhibition in Melbourne – each trip turning the modest urn into a travelling relic that fans line up to see, much like a treasured family heirloom displayed at a braai."
+      ]
+    },
+    {
+      "heading": "From Mockery to Myth: The Ashes Today",
+      "paragraphs": [
+        "Since the 1998‑99 series, the winners receive a Waterford Crystal trophy modelled on the original urn. Yet the real ash‑filled urn remains in the museum, a reminder that the rivalry’s roots lie in satire, not silverware. The series now usually consists of five Test matches, alternating between England and Australia every two years. If the series ends in a draw, the current holder retains the Ashes – a rule that adds extra tension to every match, because the challenger must win outright to claim the prize.",
+        "The Ashes have grown beyond sport; they’re a cultural touchstone. Pubs fill with debates, schoolchildren learn the story, and even load‑shedding schedules are joked about in terms of “how long until the Ashes are back”. The legend endures because it blends history, humor, and the raw drama of cricket into a single, unforgettable narrative."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What sparked the term ‘the Ashes’ in cricket?",
+    "options": [
+      "A serious trophy presentation after a match",
+      "A satirical obituary in a newspaper",
+      "A royal decree from the British monarch"
+    ],
+    "answer": 1,
+    "explain": "The phrase originated from a mock obituary published in The Sporting Times after England’s 1882 loss at The Oval."
+  },
+  "bigNumber": {
+    "value": "9 runs",
+    "label": "The margin by which Australia won the 1882 Oval Test, igniting the Ashes legend."
+  },
+  "mythFact": {
+    "myth": "The Ashes urn is the official trophy awarded to the series winner.",
+    "fact": "The original urn is a personal gift kept at Lord's; the official trophy is a crystal replica introduced in 1998."
+  },
+  "didYouKnow": "The Ashes urn has only been displayed in Australia three times: during the 1988 Bicentenary, the 2006‑07 series, and a 2019 exhibition at the State Library of Victoria.",
+  "rememberIt": "A tongue‑in‑cheek obituary turned a single loss into cricket’s most enduring rivalry.",
+  "recall": [
+    {
+      "q": "Who vowed to ‘regain those ashes’ after the 1882 defeat?",
+      "a": "England captain Ivo Bligh."
+    },
+    {
+      "q": "What happens to the Ashes if a series ends in a draw?",
+      "a": "The current holder retains the Ashes."
+    },
+    {
+      "q": "Where is the original Ashes urn kept?",
+      "a": "In the MCC Museum at Lord's Cricket Ground."
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ashes_Urn.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Ashes Urn",
+    "credit": "danielgreef/Dan",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ashes_Urn.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Trent_Bridge%2C_Flintoff_century%2C_26_Aug_2005.jpg/1920px-Trent_Bridge%2C_Flintoff_century%2C_26_Aug_2005.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Trent Bridge, Flintoff century, 26 Aug 2005",
+      "credit": "The original uploader was Toxicparty at English Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trent_Bridge,_Flintoff_century,_26_Aug_2005.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SCG_1883_01-3_SLNSW_FL1616387.jpg/1920px-SCG_1883_01-3_SLNSW_FL1616387.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "SCG 1883 01-3 SLNSW FL1616387",
+      "credit": "published by J.R. Clarke Pitt St, Sydney",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SCG_1883_01-3_SLNSW_FL1616387.jpg"
+    }
+  ],
+  "source": {
+    "title": "The Ashes",
+    "url": "https://en.wikipedia.org/wiki/The_Ashes"
+  }
+}
