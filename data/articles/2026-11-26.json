@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-26",
+  "section": "general",
+  "slug": "why-the-sahara-isn-t-just-endless-sand",
+  "category": "Places and the world",
+  "title": "Why the Sahara Isn’t Just Endless Sand",
+  "hook": "When you picture the Sahara, a sea of golden dunes probably comes to mind, but the desert is far more varied than a single grain of sand.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "A Vast Patchwork of Landforms",
+      "paragraphs": [
+        "The Sahara stretches from the Red Sea in the east to the Atlantic Ocean in the west, covering about 9.2 million square kilometres – roughly 31 % of Africa. That size makes it the largest hot desert on Earth and the third‑largest desert overall, after Antarctica and the Arctic. Imagine the whole of South Africa and then some; the Sahara is that huge.",
+        "Yet the landscape is a patchwork. In some places you’ll find hamada – flat, rocky plateaus that feel like a barren stone floor. Elsewhere, ergs dominate: vast seas of sand dunes that can rise over 180 metres, taller than a 60‑storey building. Between these extremes lie gravel plains, dry valleys called wadis, salt flats, and even volcanic uplands. The famous Richat Structure in Mauritania looks like a giant bullseye from space, showing how the desert can produce truly odd shapes."
+      ]
+    },
+    {
+      "heading": "Mountains Rising From the Sand",
+      "paragraphs": [
+        "When you think of deserts you don’t picture peaks, but the Sahara hides several mountain ranges. The Tibesti Mountains in northern Chad hold Emi Koussi, a shield volcano that tops the desert at over 3,400 metres – higher than many European Alps. The Ahaggar and Aïr ranges are also volcanic, their craggy silhouettes breaking the horizon.",
+        "These highlands create micro‑climates. In wadis that cut through the mountains, occasional rain collects, allowing trees and taller shrubs to grow. That’s why you can find oases with date palms right next to barren dunes, a contrast as striking as a cool drink at a braai on a scorching day."
+      ]
+    },
+    {
+      "heading": "Why It’s So Dry – The Subtropical High",
+      "paragraphs": [
+        "The Sahara sits under the subtropical ridge, a belt of high pressure that forces air to sink. As the air descends it warms, evaporating any moisture and preventing clouds from forming. The result is a sky that is almost always clear – the desert is so bright that, with current technology, it could be spotted from other stars as a distinct feature of Earth.",
+        "Because clouds are scarce, the ground heats up dramatically during the day and cools rapidly at night. Rainfall is virtually nonexistent; some interior spots go years without a drop. The eastern Libyan Desert is especially extreme, rivaling the Atacama in Chile for dryness."
+      ]
+    },
+    {
+      "heading": "A Desert That Moves With Time",
+      "paragraphs": [
+        "For hundreds of thousands of years the Sahara has not been a static desert. It cycles between dry desert and greener savanna every 20 000 years, driven by the precession of Earth’s axis – a slow wobble that changes the path of the North African monsoon. When the monsoon reaches farther north, the desert blossoms into grassland; when it retreats, the sands reclaim the land.",
+        "These cycles left behind ancient lake beds and fossilized plant remains, evidence that today’s endless dunes were once lakes teeming with life. It reminds us that even the harshest places on Earth are part of a larger, ever‑changing climate system."
+      ]
+    },
+    {
+      "heading": "Life at the Edge – People and Cities",
+      "paragraphs": [
+        "Despite the harshness, the Sahara hosts several cities and towns. Nouakchott, the capital of Mauritania, lies on the desert’s edge, while Timbuktu in Mali has been a historic centre of trade and learning for centuries. In Algeria, towns like Tamanrasset serve as gateways for nomadic Tuareg herders who navigate the dunes with camels and modern GPS alike.",
+        "These communities rely on oases, underground water, and trade routes that have existed since ancient caravan times. Their survival shows how human ingenuity can adapt to even the most extreme environments, turning scarcity into a way of life."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What proportion of Africa’s total land area does the Sahara cover?",
+    "options": [
+      "About one‑third",
+      "Around half",
+      "Less than ten percent"
+    ],
+    "answer": 0,
+    "explain": "The Sahara occupies roughly 31 % of the continent, which is close to one‑third."
+  },
+  "bigNumber": {
+    "value": "9.2 million km²",
+    "label": "Area of the Sahara – about the size of the United States and China combined."
+  },
+  "mythFact": {
+    "myth": "The Sahara is a sea of sand with no rocks.",
+    "fact": "Only a small part of the Sahara is sand; most of it is rocky plateaus, gravel plains, and mountains."
+  },
+  "didYouKnow": "The Sahara is so bright that, in theory, it could be detected from other stars as a distinct surface feature of Earth.",
+  "rememberIt": "The Sahara is a huge, varied desert, not just endless sand dunes.",
+  "recall": [
+    {
+      "q": "What major atmospheric feature keeps the Sahara dry?",
+      "a": "The subtropical high pressure ridge that forces air to sink and warm."
+    },
+    {
+      "q": "Name one type of landform found in the Sahara besides sand dunes.",
+      "a": "Rocky plateaus called hamada, or gravel plains known as reg."
+    },
+    {
+      "q": "How often does the Sahara’s climate cycle between desert and savanna?",
+      "a": "Approximately every 20,000 years."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/1920px-Sahara_real_color.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Sahara real color",
+    "credit": "Project Apollo Archive",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sahara_real_color.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Village_Telly_in_Mali.jpg/1920px-Village_Telly_in_Mali.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Village Telly in Mali",
+      "credit": "Ferdinand Reus from Arnhem, Holland",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Village_Telly_in_Mali.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Vegetation_Africa.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Vegetation Africa",
+      "credit": "Vegetation.png: Ville Koistinen (user Vzb83) derivative work: Ukabia (talk)",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetation_Africa.png"
+    }
+  ],
+  "source": {
+    "title": "Sahara",
+    "url": "https://en.wikipedia.org/wiki/Sahara"
+  }
+}
