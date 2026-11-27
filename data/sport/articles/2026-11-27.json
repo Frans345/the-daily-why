@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-27",
+  "section": "sport",
+  "slug": "how-a-tv-show-turned-snooker-into-a-global-spectacle",
+  "category": "Olympics and more",
+  "title": "How a TV Show Turned Snooker into a Global Spectacle",
+  "hook": "Imagine a sport that was once the preserve of British officers in India suddenly becoming a household name thanks to a colour TV experiment.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "A Quiet Table in the Raj",
+      "paragraphs": [
+        "In the late 1800s, British Army officers stationed in Jabalpur, India, would gather after a long day of drills to play a new version of billiards. They mixed the rules of two older games – pyramids, which used fifteen reds set in a triangle, and black pool, which required potting specific coloured balls. The result was a confusing but intriguing pastime that needed a name, and the slang term \"snooker\" – used for inexperienced soldiers – stuck.",
+        "The game’s first written rules appeared in 1882, thanks to Lieutenant Neville Chamberlain. He formalised how the cue ball should strike the reds, then the colours, and how points were awarded. Though the tables were shipped from England and covered in green baize, the real colour that mattered was the camaraderie among the officers, who used the game to pass the evenings during the heat of the Raj."
+      ]
+    },
+    {
+      "heading": "The Guessing Game",
+      "paragraphs": [
+        "Before we dive deeper, try this: Which television programme, launched to showcase the BBC’s new colour service, inadvertently sparked a snooker boom? \nA) Match of the Day \nB) Pot Black \nC) The Great British Bake Off"
+      ]
+    },
+    {
+      "heading": "Pot Black: A Colourful Experiment",
+      "paragraphs": [
+        "In 1969, David Attenborough – then controller of BBC2 – commissioned a short tournament called \"Pot Black\". The idea was simple: film a handful of frames in vivid colour to demonstrate the BBC’s new technology. The green baize and the rainbow of balls made perfect visual fodder, and the programme aired in a 30‑minute slot each week.",
+        "What happened next was unexpected. Viewers, many of whom had never seen a snooker table, were mesmerised by the precision of the players and the drama of a single frame deciding a match. The show’s popularity grew so quickly that it became the second‑most‑watched programme on BBC2, trailing only the comedy duo Morecambe and Wise. Suddenly, a game once confined to gentlemen’s clubs was being discussed in living rooms across the UK, and the term \"snooker\" entered everyday conversation."
+      ]
+    },
+    {
+      "heading": "From Niche Pastime to Triple Crown",
+      "paragraphs": [
+        "The television exposure paved the way for the modern professional circuit. By the 1970s, the World Snooker Championship was being broadcast in full, and the sport’s governing body – the World Professional Billiards and Snooker Association – began organising a series of ranking events. The most coveted titles – the World Championship, the UK Championship and the Masters – became known as the Triple Crown, each offering not just prize money but prestige that players chased like a South African braai chef chases the perfect flame.",
+        "The influx of TV money also attracted new talent. Players such as Ray Reardon, Steve Davis, Stephen Hendry and Ronnie O’Sullivan each dominated their eras, winning six or more world titles. Their personalities, from Reardon’s stoic calm to O’Sullivan’s flamboyant flair, gave fans characters to rally behind, much like a favourite taxi driver who always knows the quickest route through Johannesburg traffic."
+      ]
+    },
+    {
+      "heading": "Why Snooker Still Matters",
+      "paragraphs": [
+        "Today, snooker is a truly global sport. The World Snooker Tour travels from the UK to China, Qatar and beyond, featuring competitors of many nationalities. Even though the game never entered the Olympic programme, its presence on streaming platforms and social media keeps it in the public eye, and the sport has embraced inclusivity with a separate women’s tour and adaptations for seniors and players with disabilities.",
+        "The legacy of that modest TV experiment lives on every time a viewer watches a frame in crisp high definition. It reminds us that a simple visual showcase can transform a quiet pastime into a cultural phenomenon, proving that sometimes the biggest breakthroughs happen when technology meets tradition at the right moment."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which television programme, launched to showcase the BBC’s new colour service, inadvertently sparked a snooker boom?",
+    "options": [
+      "Match of the Day",
+      "Pot Black",
+      "The Great British Bake Off"
+    ],
+    "answer": 1,
+    "explain": "Pot Black was the 1969 BBC2 series designed to demonstrate colour TV, and it sparked snooker's rise in popularity."
+  },
+  "bigNumber": {
+    "value": "15",
+    "label": "Joe Davis won fifteen consecutive World Championships from 1927 to 1946."
+  },
+  "mythFact": {
+    "myth": "Snooker has always been an Olympic sport.",
+    "fact": "Snooker has never been part of the Olympic Games, despite its global reach."
+  },
+  "didYouKnow": "The word \"snooker\" originally meant a new or inexperienced soldier, and was used by Neville Chamberlain to tease a junior officer who missed an easy shot.",
+  "rememberIt": "A TV colour test turned a quiet billiard game into a worldwide spectacle.",
+  "recall": [
+    {
+      "q": "Who formalised the first written rules of snooker in 1882?",
+      "a": "Lieutenant Neville Chamberlain."
+    },
+    {
+      "q": "What three tournaments make up snooker's Triple Crown?",
+      "a": "The World Championship, the UK Championship and the Masters."
+    },
+    {
+      "q": "Which player matched Stephen Hendry's record of seven World titles in 2022?",
+      "a": "Ronnie O’Sullivan."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Snooker_table_selby.JPG/1920px-Snooker_table_selby.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Snooker table selby",
+    "credit": "DmitryYakunin",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snooker_table_selby.JPG"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/World_Snooker_Championship_Trophy_edited.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "World Snooker Championship Trophy edited",
+      "credit": "derivative work: User:Tmv23 (talk) 16:15, 1 December 2008 (UTC) World_Snooker_Chamionship_Trophy.JPG: Crazychip",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Snooker_Championship_Trophy_edited.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/To_pot_the_red.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "To pot the red",
+      "credit": "MichaelMaggs",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:To_pot_the_red.jpg"
+    }
+  ],
+  "source": {
+    "title": "Snooker",
+    "url": "https://en.wikipedia.org/wiki/Snooker"
+  }
+}

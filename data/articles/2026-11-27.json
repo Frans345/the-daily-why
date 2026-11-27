@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-27",
+  "section": "general",
+  "slug": "how-maps-became-our-everyday-guides",
+  "category": "History behind everyday things",
+  "title": "How Maps Became Our Everyday Guides",
+  "hook": "You glance at a map on your phone before a road trip, but the paper sheets that once filled libraries have a story that stretches back millennia.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "From Clay Tablets to Your Pocket",
+      "paragraphs": [
+        "The oldest map we still have is a clay tablet from the Akkadian Empire, dated to about 2300 BCE. It was a simple sketch of a region, yet it already showed the idea of turning real‑world places into a flat picture you could hold.",
+        "Fast forward to the 5th century BCE, and Greek scholars were drawing maps that covered the Mediterranean, Europe, North Africa and the Middle East. Their work turned maps into tools for explorers, a role that would explode during the Age of Discovery when sailors relied on them to find new lands.",
+        "Today, the same purpose lives on your smartphone. The difference is that modern maps are interactive – you can zoom, pan and turn layers on or off – thanks to computer cartography that began in the mid‑20th century."
+      ]
+    },
+    {
+      "heading": "Why Maps Look the Way They Do",
+      "paragraphs": [
+        "Designing a map is a balancing act. Cartographers must decide which details to show and which to leave out, a process called generalisation. The amount of detail you see depends on the map’s scale – a 1:50 000 map shows streets and rivers, while a 1:1 000 000 map might only show country borders.",
+        "Every map also needs a projection, which is a way of flattening the round Earth onto a flat sheet. No projection is perfect; each one stretches some parts and compresses others. That’s why a world map on a wall looks different from the one you see on a GPS screen.",
+        "To help you read the picture, designers add legends, scale bars and north arrows. These little symbols are the map’s vocabulary, turning a picture into a language you can understand."
+      ]
+    },
+    {
+      "heading": "Maps in Everyday Life",
+      "paragraphs": [
+        "We use maps for everything from finding the nearest petrol station to planning a holiday road trip. Governments rely on maps for census data, voting districts and property taxes, while utilities use them to lay water pipes and electricity lines.",
+        "Emergency services depend on up‑to‑date maps to dispatch fire trucks or police cars quickly, and disaster relief teams use them to coordinate evacuations. Even marketers use map data to decide where to open a new store, showing how maps have become a silent partner in many decisions.",
+        "Specialised maps, called charts, guide pilots through the sky and captains across the ocean. These charts are essentially maps with extra information like altitude limits or water depths."
+      ]
+    },
+    {
+      "heading": "A Word’s Journey",
+      "paragraphs": [
+        "The English word “map” first appeared around 1527 CE. It comes from the Late Latin mappa, meaning a napkin or cloth – the material early maps were drawn on. Some think it also derives from the French mappemonde or Latin mappa mundi, both meaning “map of the world”.",
+        "Cartographers have refined the definition over time. In 1938 Erwin Raisz called a map “a conventionalised picture of the Earth’s pattern as seen from above”. By the 1970s the definition broadened to include any graphic that helps us understand spatial relationships, even those that are not Earth‑based.",
+        "Today, the Oxford English Dictionary lists not only the traditional geographic sense but also a figurative one: a diagram showing the spatial distribution of anything, from disease outbreaks to internet connectivity."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which ancient civilization produced the earliest known map?",
+    "options": [
+      "Ancient Egypt",
+      "Akkadian Empire",
+      "Ancient China"
+    ],
+    "answer": 1,
+    "explain": "Archaeologists have uncovered a clay tablet map from the Akkadian Empire dated to about 2300 BCE, making it the oldest preserved map."
+  },
+  "bigNumber": {
+    "value": "2300 BCE",
+    "label": "Date of the oldest surviving map, a clay tablet from the Akkadian Empire."
+  },
+  "mythFact": {
+    "myth": "All old maps were hand‑drawn on parchment.",
+    "fact": "The earliest map was etched on a clay tablet, not on paper or parchment."
+  },
+  "didYouKnow": "The word “map” originally meant a napkin or cloth, because early maps were drawn on pieces of fabric before paper became common.",
+  "rememberIt": "Maps turn the world into a picture we can carry, read and interact with.",
+  "recall": [
+    {
+      "q": "What is the process called when cartographers decide which details to show on a map?",
+      "a": "Generalisation."
+    },
+    {
+      "q": "Why do all map projections distort the Earth’s surface?",
+      "a": "Because a round surface cannot be flattened without stretching or compressing some areas."
+    },
+    {
+      "q": "What special name is given to maps used by pilots and ship captains?",
+      "a": "Charts."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Moscow_SHM_asv2019-06_img17.jpg/1920px-Moscow_SHM_asv2019-06_img17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Moscow SHM asv2019-06 img17",
+    "credit": "A.Savin",
+    "license": "FAL",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moscow_SHM_asv2019-06_img17.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mars_topography_%28MOLA_dataset%29_HiRes.jpg/1920px-Mars_topography_%28MOLA_dataset%29_HiRes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Mars topography (MOLA dataset) HiRes",
+      "credit": "NASA",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mars_topography_(MOLA_dataset)_HiRes.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Map_of_Africa_%28physical%2C_political%2C_population%29_with_legend.jpg/1920px-Map_of_Africa_%28physical%2C_political%2C_population%29_with_legend.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Map of Africa (physical, political, population) with legend",
+      "credit": "Janwillemvanaalst",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Africa_(physical,_political,_population)_with_legend.jpg"
+    }
+  ],
+  "source": {
+    "title": "Map",
+    "url": "https://en.wikipedia.org/wiki/Map"
+  }
+}
