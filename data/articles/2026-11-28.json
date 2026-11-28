@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-28",
+  "section": "general",
+  "slug": "why-things-stay-on-the-ground",
+  "category": "Science in everyday life",
+  "title": "Why Things Stay on the Ground",
+  "hook": "The next time you drop your phone, it lands exactly where physics says it should—no magic involved.",
+  "readMinutes": 3,
+  "sections": [
+    {
+      "heading": "What Gravity Really Is",
+      "paragraphs": [
+        "Gravity is the invisible pull that any two pieces of matter exert on each other. The bigger the masses, the stronger the pull; the farther apart they are, the weaker it becomes. In everyday terms, think of it like a stretchy rubber band connecting everything—stretch it farther and the tension drops sharply. This relationship is captured by Newton’s formula F = G·m₁·m₂⁄r², where G is a tiny constant that makes the numbers work out.",
+        "We feel gravity most clearly on Earth because the planet’s huge mass creates a pull toward its centre. That pull gives us weight, keeps the oceans from spilling into space, and makes a ball you kick roll along the field instead of drifting away. Even tiny things like a coffee bean settle at the bottom of a mug because the Earth’s pull outweighs any other force acting on it."
+      ]
+    },
+    {
+      "heading": "From Falling Apples to Curved Space",
+      "paragraphs": [
+        "For centuries people described gravity as a force, but Einstein turned that idea on its head in 1915. He showed that massive objects bend the fabric of spacetime, and that what we call “gravity” is really objects following the curved paths in this stretched sheet. A good analogy is a heavy bowling ball placed on a trampoline; smaller marbles roll toward the ball not because they’re pulled directly, but because the surface itself is sloped toward the centre. The most extreme version of this curvature is a black hole, where the dip is so deep that even light cannot escape.",
+        "In everyday life we don’t need Einstein’s equations; Newton’s simpler law predicts how fast a dropped stone will hit the ground, how high a soccer ball will rise, or how a satellite stays in orbit. The two descriptions match almost perfectly for anything on Earth or within our solar system, so engineers design bridges, rockets, and roller‑coasters using the older, easier math."
+      ]
+    },
+    {
+      "heading": "Gravity’s Role in Nature and Our Bodies",
+      "paragraphs": [
+        "Gravity does more than keep our feet on the floor. It drives the tides by pulling on the oceans while the Moon’s own gravity tugs in the opposite direction, creating the rise and fall we see each month. It also shapes weather patterns; warm air rises, cool air sinks, and the whole cycle is guided by the pull toward Earth’s centre. Plants sense the direction of gravity—a process called gravitropism—to grow roots downwards and shoots upwards, ensuring they find water and sunlight.",
+        "Inside our bodies, gravity helps blood circulate. When you stand up, the heart must push blood against the pull of gravity to reach the brain; when you lie down, the effort is less. Even our sense of balance relies on tiny crystals in the inner ear that detect the direction of the pull, letting us walk without stumbling. Without gravity, life as we know it would look very different."
+      ]
+    },
+    {
+      "heading": "A History of Missteps and Discoveries",
+      "paragraphs": [
+        "Ancient thinkers had wild ideas about why things fall. Aristotle claimed heavier objects drop faster—a belief that lasted for centuries until the 16th‑century experiments of Simon Stevin and Galileo showed that, neglecting air resistance, all objects accelerate at the same rate. The Indian mathematician Brahmagupta even used a word for gravity (gurutvākarṣaṇ) as early as 628 CE, hinting that the concept travelled across cultures long before Newton.",
+        "The scientific revolution finally gave us a clear picture. Galileo’s inclined‑plane experiments measured the constant acceleration, and Newton packaged the result into his universal law of gravitation in 1687. Later, Einstein’s relativity added the idea of spacetime curvature, and today physicists are hunting for a quantum theory that would unite gravity with the other fundamental forces. Each step built on the mistakes and insights of those before, showing how our understanding evolves."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which ancient philosopher first suggested that gravity might act on more than just Earth?",
+    "options": [
+      "Aristotle",
+      "Plutarch",
+      "Al‑Biruni"
+    ],
+    "answer": 2,
+    "explain": "Al‑Biruni, a Persian scholar, argued that other heavenly bodies also exert gravitational attraction, anticipating a universal view of gravity."
+  },
+  "bigNumber": {
+    "value": "1915",
+    "label": "Year Einstein published his theory of general relativity, redefining gravity as spacetime curvature."
+  },
+  "mythFact": {
+    "myth": "Heavier objects fall faster than light ones.",
+    "fact": "All objects fall at the same acceleration when air resistance is negligible, regardless of weight."
+  },
+  "didYouKnow": "The ratio of the gravitational attraction between two electrons to their electrical repulsion is about 1 to 4 × 10⁴², meaning gravity is practically invisible at the atomic scale.",
+  "rememberIt": "Gravity is the universal pull that shapes everything from falling apples to the motion of galaxies.",
+  "recall": [
+    {
+      "q": "What does the gravitational constant G do in Newton’s formula?",
+      "a": "It scales the force so the equation matches the observed strength of gravity."
+    },
+    {
+      "q": "Why do plants grow roots downward?",
+      "a": "They sense gravity and direct growth toward the pull, a process called gravitropism."
+    },
+    {
+      "q": "Which scientist linked gravity to the curvature of spacetime?",
+      "a": "Albert Einstein introduced that idea in his general theory of relativity."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1920px-UGC_1810_and_UGC_1813_in_Arp_273_%28captured_by_the_Hubble_Space_Telescope%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "UGC 1810 and UGC 1813 in Arp 273 (captured by the Hubble Space Telescope)",
+    "credit": "NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UGC_1810_and_UGC_1813_in_Arp_273_(captured_by_the_Hubble_Space_Telescope).jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Solar_system.jpg/1920px-Solar_system.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Solar system",
+      "credit": "NASA/JPL",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solar_system.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/1920px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Portrait of Isaac Newton (1642-1727)label QS:Lde,\"Porträt des Isaac Newton (1642-1727)\"label QS:Len,\"Portrait of Isaac Newton (1642-1727)\"label QS:Lfr,\"Portrait de Isaac Newton (1642-1727)\"label QS:Lhe,\"דיוקן אייזק ניוטון\"label QS:Les,\"Retrato de Isaac Newton (1689)\"",
+      "credit": "Godfrey Kneller",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689.jpg"
+    }
+  ],
+  "source": {
+    "title": "Gravity",
+    "url": "https://en.wikipedia.org/wiki/Gravity"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-28",
+  "section": "sport",
+  "slug": "how-the-claret-jug-became-golf-s-most-iconic-trophy",
+  "category": "Golf",
+  "title": "How the Claret Jug Became Golf’s Most Iconic Trophy",
+  "hook": "Imagine a 19th‑century Scottish tournament where the prize was a red leather belt, then picture the gleam of a silver jug that still dazzles champions today.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "heading": "A Belt, Not a Cup",
+      "paragraphs": [
+        "The Open Championship began on a blustery October day in 1860 at Prestwick Golf Club, a twelve‑hole links course that stretched along the Ayrshire coast. Only eight men entered, all professional golfers hired by wealthy gentlemen to make a living from caddying, club‑making, and betting. The winner, Willie Park Sr., walked away with the Challenge Belt – a red leather strap with a silver buckle, worth about £25 at the time, which was as prized as a trophy in a medieval joust.",
+        "The belt was more than a prize; it was a symbol of who would inherit the mantle of “Champion Golfer of the Year” after the great Allan Robertson passed away the previous year. The original rule even stipulated that the belt stay with the club’s treasurer until the next meeting, ensuring it was safely guarded like a crown jewel. This tradition of a tangible token to mark supremacy set the tone for the Open’s future prestige."
+      ]
+    },
+    {
+      "heading": "Why the Belt Vanished",
+      "paragraphs": [
+        "The Challenge Belt worked fine until a young prodigy, Tom Morris Jr., won the Open three years in a row from 1868 to 1870. The rules said a three‑peat allowed the champion to keep the belt permanently, and Morris did just that. With no trophy left to award, the organisers were forced to cancel the 1871 Open – a rare break in what would become an unbroken annual tradition.",
+        "That gap sparked a debate among the three founding clubs – Prestwick, the Honourable Company of Edinburgh Golfers, and The Royal and Ancient Golf Club. They realised a more permanent, reusable trophy was needed to keep the tournament alive and to attract a wider field, including amateurs who were beginning to take up the sport."
+      ]
+    },
+    {
+      "heading": "The Birth of the Claret Jug",
+      "paragraphs": [
+        "On 11 September 1872, the three clubs each contributed £10 to commission a new silver trophy. The result was the “Claret Jug”, officially named The Golf Champion Trophy, a large, rounded cup with a shallow bowl and a sturdy base, reminiscent of the drinking vessels used at a traditional Scottish ceilidh. Though the trophy was ready in time for the 1872 Open, Young Tom Morris – who had just secured his third consecutive win – received a medal instead, because the jug had not yet been presented.",
+        "Morris’s name was still the first engraved on the jug, ensuring his legacy would be forever linked to the new prize. From that moment on, every Open champion received a medal to keep and the Claret Jug to be displayed until the next tournament. The jug’s deep, reddish hue earned it the nickname “Claret”, a nod to the colour of fine red wine often enjoyed after a day on the links."
+      ]
+    },
+    {
+      "heading": "Rotating Courses and Growing Prestige",
+      "paragraphs": [
+        "With a permanent trophy in place, the Open could expand beyond Prestwick. The clubs agreed to rotate the venue among a select group of coastal links courses, each offering wind‑swept fairways and firm, fast greens that tested a player’s skill and imagination. By the 1890s, courses like Muirfield, St George’s, and Royal Liverpool had joined the rotation, turning the Open into a travelling showcase of the United Kingdom’s most challenging seaside layouts.",
+        "The rotating format also meant the tournament could accommodate larger fields. In 1911, 226 players entered – a record that forced the competition to stretch over up to four days. This growth mirrored the sport’s rising popularity, especially after the Great Triumvirate – Harry Vardon, John Henry Taylor, and James Braid – captured the public’s imagination with their rivalries and six‑time record set by Vardon, a record that still stands."
+      ]
+    },
+    {
+      "heading": "Why the Claret Jug Still Matters",
+      "paragraphs": [
+        "Fast‑forward to 2026, and the Open remains the final major of the golf calendar, held in mid‑July on a windy, rain‑soaked links course. The reigning champion, New Zealand’s Ryan Fox, lifted the same silver jug that was first commissioned over 150 years ago, posting a score of 270 (10 under par) at Royal Birkdale. The continuity of the trophy links every modern champion to the very first professionals who battled for a simple leather belt on the dunes of Prestwick.",
+        "Beyond the metal, the jug represents the Open’s core ethos: an event open in theory to anyone who can qualify, whether a seasoned pro or a talented amateur. That openness has inspired countless “open” tournaments worldwide, from the U.S. Open to the Australian Open, each echoing the original spirit of a competition that began with a handful of Scotsmen and a red belt."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "What was the original prize for winning the first Open Championship?",
+    "options": [
+      "A silver cup",
+      "A red leather belt",
+      "A gold medal"
+    ],
+    "answer": 1,
+    "explain": "The inaugural Open awarded the Challenge Belt, a red leather strap with a silver buckle, not a cup or medal."
+  },
+  "bigNumber": {
+    "value": "226",
+    "label": "The largest field ever entered for the Open, in 1911, showing how quickly the tournament grew."
+  },
+  "mythFact": {
+    "myth": "The Open has always been played on the same course.",
+    "fact": "Since 1872 the venue rotates among a select group of coastal links courses."
+  },
+  "didYouKnow": "The Challenge Belt was donated by the Earl of Eglinton, who was fascinated by medieval pageantry and chose a belt because similar trophies were used in archery and jousting contests.",
+  "rememberIt": "The Claret Jug turned a simple belt competition into a global golf tradition.",
+  "recall": [
+    {
+      "q": "Why was the Open cancelled in 1871?",
+      "a": "Because Young Tom Morris kept the Challenge Belt after winning three times in a row."
+    },
+    {
+      "q": "Which three clubs agreed to fund the Claret Jug?",
+      "a": "Prestwick, the Honourable Company of Edinburgh Golfers, and The Royal and Ancient Golf Club."
+    },
+    {
+      "q": "What is the official name of the Claret Jug?",
+      "a": "The Golf Champion Trophy."
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Henry_Cotton_1937.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "alt": "Henry Cotton 1937",
+    "credit": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_Cotton_1937.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Braid-James-with-Harry-Varden-c-1907.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Braid-James-with-Harry-Varden-c-1907",
+      "credit": "Bill the Brit",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braid-James-with-Harry-Varden-c-1907.jpg"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Blackpool_Transport_bus_370_%28F370_AFR%29%2C_15_July_2012.jpg/1920px-Blackpool_Transport_bus_370_%28F370_AFR%29%2C_15_July_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Blackpool Transport bus 370 (F370 AFR), 15 July 2012",
+      "credit": "calflier001",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackpool_Transport_bus_370_(F370_AFR),_15_July_2012.jpg"
+    }
+  ],
+  "source": {
+    "title": "The Open Championship",
+    "url": "https://en.wikipedia.org/wiki/The_Open_Championship"
+  }
+}

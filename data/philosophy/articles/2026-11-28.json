@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-28",
+  "section": "philosophy",
+  "slug": "why-words-matter-wittgenstein-s-two-stage-puzzle",
+  "category": "20th century",
+  "title": "Why Words Matter: Wittgenstein’s Two‑Stage Puzzle",
+  "hook": "Imagine trying to explain a braai recipe to a friend who only knows how to make a potjie. Wittgenstein showed us why the meaning of that recipe depends on the whole cooking game, not just the list of ingredients.",
+  "readMinutes": 4,
+  "sections": [
+    {
+      "heading": "A Viennese Birth and a War‑Time Turn",
+      "paragraphs": [
+        "Ludwig Josef Johann Wittgenstein was born on 26 April 1889 in a luxurious villa on the outskirts of Vienna. His family was one of the richest in the Austro‑Hungarian Empire; his father, Karl Wittgenstein, ran a steel empire that rivalled the Rothschilds. Though raised Catholic, Ludwig’s ancestry was largely Jewish, a mix that reflected the complex cultural tapestry of early‑20th‑century Central Europe.",
+        "Wittgenstein’s early adulthood was anything but academic. After studying engineering in Berlin, he went to Cambridge in 1911 to learn philosophy under Bertrand Russell. He quickly impressed his teachers, but the outbreak of World War I pulled him away from the university. He enlisted in the Austro‑Hungarian army, was captured in Italy, and spent years in a prisoner‑of‑war camp. The experience left him deeply depressed, especially after the suicides of three older brothers and the death of his close friend David Pinsent."
+      ]
+    },
+    {
+      "heading": "The Tractatus: Building a Logical House",
+      "paragraphs": [
+        "When the war ended, Wittgenstein returned to civilian life as a schoolteacher in rural Austria. In his spare time he wrote the *Tractatus Logico‑Philosophicus*, published in 1921. The book proposes a simple picture: language consists of propositions that picture facts in the world, and the logical structure of those propositions mirrors the structure of reality. In everyday terms, think of a map: the lines on the map correspond to roads, rivers, and hills; the map works because its layout follows the same pattern as the terrain it represents.",
+        "The *Tractatus* ends with a famous, though brief, claim that what can be said must be said clearly, and everything else must be shown. Wittgenstein believed that once we had the right logical picture, all philosophical puzzles would dissolve. This early view earned him a reputation as a genius who had “solved” philosophy, and his ideas spread quickly through the English‑speaking world thanks to a translation aided by Frank Ramsey."
+      ]
+    },
+    {
+      "heading": "A Turn to Language Games",
+      "paragraphs": [
+        "Wittgenstein did not stay satisfied with his early success. Returning to Cambridge in 1930, he taught and argued with students, gradually noticing that everyday language did not behave like a perfect map. In his later work, especially the posthumously published *Philosophical Investigations* (1953), he introduced the notion of “language games”. He argued that the meaning of a word is shaped by the specific activities—games, trades, jokes—in which it is used.",
+        "To see this, picture a taxi driver in Johannesburg shouting “stop!” to a passenger. The word “stop” can mean “halt the vehicle”, “pause the conversation”, or even “stop the music” depending on the context. Wittgenstein would say the word’s meaning is not a hidden essence but the rule governing its use in that particular game. This shift from a fixed logical picture to a fluid use‑based view sparked a revolution in how philosophers think about meaning, mind, and even how we understand each other."
+      ]
+    },
+    {
+      "heading": "Controversy, Teaching, and the Later Years",
+      "paragraphs": [
+        "Wittgenstein’s personal life was as turbulent as his ideas. While teaching in a small Austrian village in the 1920s, he was accused of using harsh corporal punishment on pupils—a scandal known as the Haidbauer incident. During World II he left academia again, working as a hospital porter in London and later in Newcastle, where he continued to write notes that would fill many volumes after his death.",
+        "He never published another book while alive, but his notebooks were edited by his students and friends. The *Philosophical Investigations* presented a stark contrast to the *Tractatus*: instead of a single logical scaffolding, it offered a mosaic of ordinary language use. This later phase cemented his reputation as one of the most influential 20th‑century philosophers, inspiring fields as diverse as linguistics, psychology, and artificial intelligence."
+      ]
+    },
+    {
+      "heading": "Why Wittgenstein Still Matters",
+      "paragraphs": [
+        "Today, Wittgenstein’s ideas pop up whenever we talk about “meaning”. In software design, programmers speak of “interfaces” that behave like language games—different parts of a program must agree on how to use a command. In everyday disputes, we often discover that arguments fail because participants are playing different language games, not because anyone is “wrong”.",
+        "Even South Africans feel his influence when they negotiate load‑shedding schedules. The word “load‑shedding” can mean a technical process, a political promise, or a shared frustration, depending on who is speaking and when. Recognising the game being played helps us avoid talking past each other. Wittgenstein’s legacy, therefore, is a reminder to look beyond the words themselves and attend to the practices that give them life."
+      ]
+    }
+  ],
+  "guess": {
+    "q": "Which of Wittgenstein’s works introduced the idea of “language games”?",
+    "options": [
+      "Tractatus Logico‑Philosophicus",
+      "Philosophical Investigations",
+      "The Blue and Brown Books"
+    ],
+    "answer": 1,
+    "explain": "The concept appears in the later work *Philosophical Investigations*, not in his early *Tractatus*."
+  },
+  "bigNumber": {
+    "value": "1890s",
+    "label": "Karl Wittgenstein was among the world’s wealthiest men by the 1890s"
+  },
+  "mythFact": {
+    "myth": "Wittgenstein solved all philosophical problems with the *Tractatus*.",
+    "fact": "He later rejected that claim, arguing many problems arise from misuse of language."
+  },
+  "didYouKnow": "Wittgenstein had absolute pitch and kept a lifelong devotion to music, even though he disliked contemporary classical styles.",
+  "rememberIt": "Words get meaning from the games we play with them.",
+  "recall": [
+    {
+      "q": "Where was Wittgenstein born?",
+      "a": "In a villa near Vienna, Austria."
+    },
+    {
+      "q": "What major shift did Wittgenstein make in his later philosophy?",
+      "a": "He moved from a logical picture of language to meaning as use in language games."
+    },
+    {
+      "q": "Which book of his was published after his death?",
+      "a": "Philosophical Investigations."
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Ludwig_Wittgenstein_1929.jpg/1920px-Ludwig_Wittgenstein_1929.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Ludwig Wittgenstein 1929",
+    "credit": "Moritz Nähr",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_Wittgenstein_1929.jpg"
+  },
+  "gallery": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Puchberg_am_Schneeberg-view.jpg/1920px-Puchberg_am_Schneeberg-view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Puchberg am Schneeberg-view",
+      "credit": "Beyond silence",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puchberg_am_Schneeberg-view.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Palais_Wittgenstein_03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Palais Wittgenstein 03",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_Wittgenstein_03.jpg"
+    }
+  ],
+  "source": {
+    "title": "Ludwig Wittgenstein",
+    "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+  }
+}
